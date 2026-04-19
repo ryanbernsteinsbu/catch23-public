@@ -2,6 +2,7 @@ const express = require('express');
 import sequelize from './config/database';
 import requireAuth from './middleware/requireAuth';
 import publicRoutes from './routes/publicRoutes'
+import frontendRoutes from './routes/frontendRoutes'
 import Team from './models/team';
 import Player from './models/player';
 import DraftPick from './models/draftPick';
@@ -27,6 +28,7 @@ app.use(express.json());
 app.use('/api/', requireAuth);
 app.use('/api/public', publicRoutes); //Think about naming this smthn different
 app.use('/api/ranking', rankingRoutes);
+app.use('/', frontendRoutes)
 
 const PORT = process.env.PORT || 8000;
 // console.log(Object.keys(sequelize.models));
