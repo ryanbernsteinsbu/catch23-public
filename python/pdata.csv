@@ -1,0 +1,1328 @@
+Name,Age,mlbID,Lev,Tm,Age,G,GS,W,SV,IP,H,ER,BB,SO,HR,ERA,WHIP,BF,SO/W,SB,PO,team_abbr
+Fernando Abad,37,472551,Maj-NL,Colorado,37,6,0,1.0,,6.1,11,3,3,2,2,4.26,2.211,32,0.67,1,0,COL
+Andrew Abbott,27,671096,Maj-NL,Cincinnati,27,78,78,28.0,,430.2,393,163,145,394,61,3.41,1.249,1801,2.72,34,8,CIN
+Cory Abbott,27,676265,Maj-NL,Washington,27,22,0,1.0,,39.1,48,29,19,40,9,6.64,1.703,183,2.11,5,0,WSN
+Mick Abel,24,690953,"Maj-AL,Maj-NL","Minnesota,Philadelphia",24,13,10,3.0,,52.1,61,36,26,52,8,6.19,1.662,241,2.0,3,0,
+Philip Abner,23,691769,Maj-NL,Arizona,23,5,0,,,3.2,5,2,3,5,0,4.91,2.182,18,1.67,0,0,ARI
+Albert Abreu,27,656061,Maj-AL,New York,27,45,0,2.0,,59.0,52,31,35,61,9,4.73,1.475,268,1.74,7,2,NYY
+Bryan Abreu,29,650556,Maj-AL,Houston,29,234,0,9.0,14.0,233.0,165,72,107,329,23,2.78,1.167,968,3.07,29,3,HOU
+Domingo Acevedo,29,642758,Maj-AL,Oakland,29,8,0,,,8.1,16,11,2,5,2,11.88,2.16,44,2.5,2,0,OAK
+Garrett Acton,28,670183,Maj-AL,"Minnesota,Oakland,Tampa Bay",28,8,0,1.0,,8.2,10,9,7,7,3,9.35,1.962,45,1.0,0,0,
+Jason Adam,34,592094,"Maj-AL,Maj-NL","San Diego,Tampa Bay",34,201,0,19.0,17.0,198.1,129,50,67,226,17,2.27,0.988,792,3.37,45,2,
+Austin Adams,33,613534,"Maj-AL,Maj-NL","Arizona,Oakland",33,80,0,1.0,,58.2,54,29,31,75,5,4.45,1.449,272,2.42,9,0,
+Travis Adams,25,701519,Maj-AL,Minnesota,25,18,2,1.0,,33.2,39,28,17,31,6,7.49,1.663,158,1.82,3,0,MIN
+Ty Adcock,28,686654,"Maj-AL,Maj-NL","New York,Seattle",28,18,0,,,23.0,20,14,4,19,9,5.48,1.043,93,4.75,1,1,
+Joan Adon,25,672851,Maj-NL,Washington,25,20,11,2.0,,62.1,72,45,28,54,10,6.5,1.604,288,1.93,10,1,WSN
+Zach Agnos,25,688642,Maj-NL,Colorado,25,35,0,1.0,5.0,39.2,44,30,22,26,5,6.81,1.664,180,1.18,0,1,COL
+Julian Aguiar,23,687924,Maj-NL,Cincinnati,23,7,7,2.0,,31.2,30,22,12,19,8,6.25,1.326,140,1.58,1,0,CIN
+Keegan Akin,30,669211,Maj-AL,Baltimore,30,154,4,10.0,9.0,165.1,143,71,60,181,21,3.86,1.228,692,3.02,3,3,BAL
+Hanser Alberto,30,593643,Maj-AL,Chicago,30,2,0,,,1.2,6,4,1,1,1,21.6,4.2,12,1.0,0,0,CWS
+Jorge Alcala,29,660896,"Maj-AL,Maj-NL","Boston,Minnesota,St. Louis",29,121,0,4.0,,130.2,120,71,60,135,26,4.89,1.378,567,2.25,20,0,
+Sandy Alcantara,30,645261,Maj-NL,Miami,30,61,61,20.0,,378.0,348,188,105,309,44,4.48,1.198,1570,2.94,53,4,MIA
+Sam Aldegheri,23,691951,Maj-AL,Los Angeles,23,7,5,1.0,,26.2,35,19,20,22,5,6.41,2.063,140,1.1,3,1,LAA
+Jason Alexander,32,669920,Maj-AL,"Athletics,Houston",32,18,13,4.0,1.0,77.1,80,41,26,65,15,4.77,1.371,336,2.5,6,1,
+Scott Alexander,35,518397,"Maj-AL,Maj-NL","Colorado,Oakland,San Francisco",35,121,8,9.0,1.0,104.2,109,48,35,70,10,4.13,1.376,449,2.0,11,0,
+Tyler Alexander,31,641302,"Maj-AL,Maj-NL","Chicago,Detroit,Milwaukee,Tampa Bay,Texas",31,107,15,13.0,3.0,257.1,268,138,62,223,40,4.83,1.282,1093,3.6,18,5,
+Kolby Allard,28,663465,"Maj-AL,Maj-NL","Atlanta,Cleveland,Philadelphia",28,47,9,4.0,,110.0,122,48,28,86,14,3.93,1.364,466,3.07,6,1,
+Logan Allen,27,663531,Maj-NL,Arizona,27,12,0,,1.0,28.0,32,17,10,21,3,5.46,1.5,128,2.1,3,0,ARI
+Logan Allen,26,671106,Maj-AL,Cleveland,26,74,73,23.0,,379.1,397,188,151,320,56,4.46,1.445,1645,2.12,11,8,CLE
+Yency Almonte,30,622075,Maj-NL,"Chicago,Los Angeles",30,65,0,4.0,1.0,62.2,52,33,32,69,7,4.74,1.34,272,2.16,5,0,
+Dan Altavilla,32,656186,Maj-AL,"Chicago,Kansas City",32,33,1,,2.0,32.2,24,14,18,26,5,3.86,1.286,141,1.44,2,1,
+Elvis Alvarado,27,665660,Maj-AL,Athletics,27,44,0,3.0,,49.1,42,20,26,56,6,3.65,1.378,214,2.15,3,0,
+Jos\xc3\xa9 Alvarado,31,621237,Maj-NL,Philadelphia,31,152,0,6.0,30.0,142.1,121,55,61,173,13,3.48,1.279,607,2.84,13,0,PHI
+Andrew Alvarez,26,674841,Maj-NL,Washington,26,5,5,1.0,,23.1,16,6,10,20,1,2.31,1.114,98,2.0,1,0,WSN
+Eddy Alvarez,34,657193,Maj-NL,New York,34,1,0,,,1.0,1,0,0,1,0,0.0,1.0,5,,0,0,NYM
+Adbert Alzolay,29,640470,Maj-NL,Chicago,29,76,0,3.0,26.0,81.1,71,28,19,80,11,3.1,1.107,328,4.21,10,3,CHC
+Jacob Amaya,26,676070,Maj-AL,Chicago,26,1,0,,,1.0,0,0,0,0,0,0.0,0.0,3,,0,0,CWS
+Chase Anderson,36,502624,"Maj-AL,Maj-NL","Boston,Colorado,Tampa Bay,Texas",36,48,18,1.0,4.0,144.2,145,87,54,106,29,5.41,1.376,627,1.96,11,0,
+Drew Anderson,32,623454,Maj-AL,Detroit,32,5,0,,1.0,9.2,7,5,6,9,2,4.66,1.345,43,1.5,0,0,DET
+Grant Anderson,29,681982,"Maj-AL,Maj-NL","Milwaukee,Texas",29,125,0,4.0,1.0,143.1,135,71,57,144,24,4.46,1.34,614,2.53,16,2,
+Ian Anderson,27,666120,Maj-AL,Los Angeles,27,7,0,,,9.1,17,12,7,8,2,11.57,2.571,51,1.14,1,0,LAA
+Justin Anderson,31,605121,Maj-AL,Chicago,31,56,0,1.0,1.0,53.1,48,26,32,57,5,4.39,1.5,242,1.78,8,0,CWS
+Nick Anderson,34,623433,"Maj-AL,Maj-NL","Atlanta,Colorado,Kansas City",34,84,0,7.0,2.0,85.2,82,38,26,75,12,3.99,1.261,355,2.88,4,0,
+Shaun Anderson,31,641312,"Maj-AL,Maj-NL","Los Angeles,Miami,Texas",31,16,2,2.0,,35.2,61,32,8,27,10,8.07,1.935,175,3.38,2,0,
+Tyler Anderson,35,542881,Maj-AL,Los Angeles,35,84,82,18.0,,456.2,439,230,194,365,72,4.53,1.386,1993,1.88,31,1,LAA
+Clayton Andrews,27,677076,"Maj-AL,Maj-NL","Milwaukee,New York",27,5,0,,,3.2,11,11,2,5,4,27.0,3.545,25,2.5,0,0,
+Matt Andriese,34,542882,Maj-NL,Miami,34,4,0,,,6.0,7,4,1,7,2,6.0,1.333,26,7.0,1,0,MIA
+Tejay Antone,30,622088,Maj-NL,Cincinnati,30,8,1,,,7.2,5,2,6,9,0,2.35,1.435,32,1.5,0,0,CIN
+Luarbert Arias,24,678215,Maj-NL,Miami,24,7,0,,,10.1,17,13,5,10,2,11.32,2.129,55,2.0,2,0,MIA
+Shawn Armstrong,35,542888,"Maj-AL,Maj-NL","Chicago,Cleveland,St. Louis,Tampa Bay,Texas",35,176,15,9.0,10.0,201.1,161,65,61,206,15,2.91,1.103,824,3.38,17,0,
+Spencer Arrighetti,25,681293,Maj-AL,Houston,25,36,35,8.0,,180.1,169,94,85,202,27,4.69,1.409,788,2.38,27,1,HOU
+Aaron Ashby,28,676879,Maj-NL,Milwaukee,28,73,7,9.0,3.0,113.2,95,36,47,134,7,2.85,1.249,479,2.85,16,3,MIL
+Braxton Ashcraft,26,677952,Maj-NL,Pittsburgh,26,29,11,5.0,,86.2,75,25,29,91,3,2.6,1.2,358,3.14,5,0,PIT
+Graham Ashcraft,28,668933,Maj-NL,Cincinnati,28,112,41,20.0,,297.1,313,153,107,243,36,4.63,1.413,1295,2.27,18,2,CIN
+Javier Assad,28,665871,Maj-NL,Chicago,28,70,47,17.0,,299.0,270,113,118,244,36,3.4,1.298,1259,2.07,23,4,CHC
+Luinder Avila,24,679883,Maj-AL,Kansas City,24,15,1,1.0,,20.0,21,8,10,22,1,3.6,1.55,89,2.2,1,1,KC
+Nick Avila,26,687014,Maj-NL,San Francisco,26,8,0,1.0,,11.2,17,11,3,14,2,8.49,1.714,55,4.67,1,0,SF
+Pedro Avila,27,658648,"Maj-AL,Maj-NL","Cleveland,San Diego",27,71,6,9.0,1.0,137.0,116,53,63,139,11,3.48,1.307,586,2.21,3,0,
+Lake Bachar,31,669199,Maj-NL,Miami,31,67,1,8.0,3.0,87.1,69,38,37,96,12,3.92,1.214,364,2.59,7,0,MIA
+Sam Bachman,26,696147,Maj-AL,Los Angeles,26,39,0,3.0,1.0,44.0,42,21,26,40,1,4.3,1.545,198,1.54,2,0,LAA
+Kyle Backhus,28,679775,Maj-NL,"Arizona,Philadelphia",28,36,0,,2.0,28.1,32,16,9,26,4,5.08,1.447,129,2.89,0,0,
+Bryan Baker,31,641329,Maj-AL,"Baltimore,Tampa Bay",31,144,0,10.0,5.0,142.2,115,65,51,163,21,4.1,1.164,575,3.2,13,1,
+Jordan Balazovic,24,666364,Maj-AL,Minnesota,24,18,0,1.0,,24.1,26,12,12,17,5,4.44,1.562,108,1.42,0,0,MIN
+Anthony Banda,32,607455,"Maj-AL,Maj-NL","Los Angeles,Minnesota,Washington",32,154,3,9.0,2.0,143.0,121,60,67,138,17,3.78,1.315,613,2.06,19,4,
+Tanner Banks,34,621383,"Maj-AL,Maj-NL","Chicago,Philadelphia",34,172,6,9.0,4.0,208.2,192,87,53,198,25,3.75,1.174,863,3.74,26,4,
+Hunter Barco,25,682995,Maj-NL,Pittsburgh,25,5,0,1.0,,8.1,10,4,5,7,3,4.32,1.8,41,1.4,1,0,PIT
+Daniel Bard,38,453268,Maj-NL,Colorado,38,50,0,4.0,1.0,49.1,35,25,49,47,5,4.56,1.703,232,0.96,2,2,COL
+Joe Barlow,27,669618,Maj-AL,Texas,27,13,0,1.0,,9.2,13,5,2,6,2,4.66,1.552,44,3.0,1,0,TEX
+Scott Barlow,33,605130,"Maj-AL,Maj-NL","Athletics,Cincinnati,Cleveland,Kansas City,San Diego",33,208,1,11.0,16.0,199.0,159,95,113,232,19,4.3,1.367,873,2.05,36,1,
+Jacob Barnes,35,606930,"Maj-AL,Maj-NL","St. Louis,Toronto,Washington",35,82,0,8.0,,87.2,95,49,26,68,12,5.03,1.38,374,2.62,9,1,
+Matt Barnes,34,598264,Maj-NL,"Miami,Washington",34,38,1,1.0,,34.2,41,23,14,30,3,5.97,1.587,159,2.14,9,0,
+Mason Barnett,24,686930,Maj-AL,Athletics,24,5,5,1.0,,22.1,26,17,11,18,3,6.85,1.657,104,1.64,2,0,
+Tucker Barnhart,34,571466,"Maj-AL,Maj-NL","Arizona,Chicago,Texas",34,6,0,,,7.0,16,6,0,0,1,7.71,2.286,37,,0,0,
+Kyle Barraclough,33,607457,Maj-AL,Boston,33,3,0,1.0,,7.2,14,11,6,4,3,12.91,2.609,46,0.67,1,0,BOS
+Jaime Barria,26,642545,Maj-AL,Los Angeles,26,34,6,2.0,,82.1,91,52,30,62,20,5.68,1.47,362,2.07,0,2,LAA
+Anthony Bass,35,542914,Maj-AL,Toronto,35,21,0,,,19.2,18,10,8,19,3,4.58,1.322,85,2.38,1,1,TOR
+Chris Bassitt,37,605135,Maj-AL,"Baltimore,Toronto",37,106,98,37.0,,561.0,552,246,190,535,69,3.95,1.323,2411,2.82,42,5,
+Brady Basso,27,669620,Maj-AL,"Athletics,Oakland",27,18,5,2.0,,34.0,35,13,14,27,3,3.44,1.441,149,1.93,2,1,
+Peyton Battenfield,25,685410,Maj-AL,Cleveland,25,7,6,,,34.2,34,20,12,27,7,5.19,1.327,146,2.25,2,0,CLE
+Jake Bauers,29,641343,Maj-NL,Milwaukee,29,9,0,,,9.0,13,4,7,2,0,4.0,2.222,49,0.29,0,0,MIL
+Mike Baumann,28,657508,"Maj-AL,Maj-NL","Baltimore,Los Angeles,Miami,San Francisco,Seattle",28,117,0,13.0,,123.0,111,63,61,119,16,4.61,1.398,537,1.95,17,3,
+Carter Baumler,24,691945,Maj-AL,Texas,24,4,0,,,5.2,4,2,6,6,1,3.18,1.765,27,1.0,0,0,TEX
+F\xc3\xa9lix Bautista,30,642585,Maj-AL,Baltimore,30,90,0,9.0,51.0,94.2,44,19,48,158,7,1.81,0.972,373,3.29,20,0,BAL
+Shane Baz,27,669358,Maj-AL,"Baltimore,Tampa Bay",27,48,48,14.0,,261.2,235,125,96,258,36,4.3,1.265,1101,2.69,23,3,
+Eduard Bazardo,30,660825,Maj-AL,"Baltimore,Seattle",30,124,0,8.0,,140.2,104,51,44,149,16,3.26,1.052,561,3.39,11,1,
+Matt Beaty,30,607461,Maj-NL,San Francisco,30,1,0,,,1.0,3,3,1,1,0,27.0,4.0,7,1.0,0,0,SF
+Tristan Beck,29,663941,Maj-NL,San Francisco,29,71,5,4.0,4.0,157.2,144,69,41,123,19,3.94,1.173,653,3.0,5,0,SF
+David Bednar,31,670280,"Maj-AL,Maj-NL","New York,Pittsburgh",31,203,0,12.0,95.0,199.1,166,73,73,239,16,3.3,1.199,843,3.27,24,0,
+Tyler Beede,31,595881,Maj-AL,Cleveland,31,13,0,1.0,,14.0,16,13,9,18,2,8.36,1.786,68,2.0,5,0,CLE
+Jalen Beeks,32,656222,"Maj-AL,Maj-NL","Arizona,Colorado,Pittsburgh,Tampa Bay,Texas",32,169,10,15.0,12.0,176.1,167,87,69,153,16,4.44,1.338,761,2.22,10,0,
+Clayton Beeter,27,690925,"Maj-AL,Maj-NL","New York,Washington",27,36,0,,3.0,36.2,20,17,25,44,5,4.17,1.227,152,1.76,4,0,
+Andrew Bellatti,31,571479,Maj-NL,Philadelphia,31,26,0,1.0,,23.2,25,14,11,23,4,5.32,1.521,109,2.09,3,0,PHI
+Brayan Bello,27,678394,Maj-AL,Boston,27,90,89,37.0,,496.1,486,227,176,416,61,4.12,1.334,2126,2.36,38,6,BOS
+Valente Bellozo,26,678368,Maj-NL,"Colorado,Miami",26,47,19,4.0,,156.1,156,74,47,105,32,4.26,1.299,667,2.23,3,1,
+Anthony Bender,31,669622,Maj-NL,Miami,31,117,0,9.0,6.0,109.0,88,41,45,108,6,3.39,1.22,463,2.4,22,1,MIA
+Ryan Bergert,25,686701,"Maj-AL,Maj-NL","Kansas City,San Diego",25,19,15,2.0,,76.1,61,31,35,73,8,3.66,1.258,323,2.09,2,0,
+Jonathan Berm\xc3\xbadez,28,642834,Maj-NL,Miami,28,3,1,,,6.2,11,6,2,4,2,8.1,1.95,33,2.0,1,0,MIA
+Brennan Bernardino,34,657514,"Maj-AL,Maj-NL","Boston,Colorado",34,175,13,11.0,1.0,159.2,143,60,69,162,11,3.38,1.328,694,2.35,10,9,
+Jos\xc3\xa9 Berr\xc3\xados,31,621244,Maj-AL,Toronto,31,96,95,36.0,,551.0,504,232,163,480,82,3.79,1.211,2278,2.94,37,11,TOR
+Prelander Berroa,24,672860,Maj-AL,"Chicago,Seattle",24,19,0,1.0,,20.2,15,7,16,29,2,3.05,1.5,91,1.81,2,2,
+Jon Berti,35,542932,Maj-NL,Chicago,35,4,0,,,3.2,4,3,4,0,0,7.36,2.182,19,0.0,0,0,CHC
+Christian Bethancourt,31,542194,Maj-AL,Tampa Bay,31,1,0,,,0.1,3,3,0,0,1,81.0,9.0,4,,0,0,TB
+Tanner Bibee,27,676440,Maj-AL,Cleveland,27,95,95,34.0,,532.0,479,212,155,526,67,3.59,1.192,2205,3.39,32,13,CLE
+Phil Bickford,28,641360,"Maj-AL,Maj-NL","Los Angeles,New York",28,68,0,5.0,1.0,74.2,69,45,40,81,9,5.42,1.46,340,2.03,20,0,
+Osvaldo Bido,30,674370,"Maj-AL,Maj-NL","Athletics,Atlanta,Oakland,Pittsburgh",30,63,28,10.0,2.0,203.1,195,113,86,185,26,5.0,1.382,894,2.15,22,2,
+Shane Bieber,30,669456,Maj-AL,"Cleveland,Toronto",30,34,33,14.0,,193.0,183,78,48,179,25,3.64,1.197,797,3.73,11,2,
+Brandon Bielak,28,656232,Maj-AL,"Houston,Oakland",28,31,13,6.0,,109.2,125,51,49,76,17,4.19,1.587,493,1.55,6,1,
+Hunter Bigge,28,685801,"Maj-AL,Maj-NL","Chicago,Tampa Bay",28,36,1,,1.0,36.2,29,10,13,38,7,2.45,1.145,150,2.92,3,1,
+Jake Bird,30,656234,"Maj-AL,Maj-NL","Colorado,New York",30,159,3,10.0,1.0,189.2,202,100,77,182,18,4.75,1.471,835,2.36,11,0,
+Hayden Birdsong,23,806185,Maj-NL,San Francisco,23,37,26,9.0,,137.2,118,73,80,156,21,4.77,1.438,613,1.95,5,3,SF
+Spencer Bivens,31,702352,Maj-NL,San Francisco,31,81,2,7.0,4.0,129.2,130,53,36,98,15,3.68,1.28,545,2.72,8,1,SF
+Ty Blach,33,621389,Maj-NL,Colorado,33,40,25,6.0,,149.1,207,103,42,86,32,6.21,1.667,682,2.05,3,1,COL
+Mason Black,25,696131,Maj-NL,San Francisco,25,10,8,1.0,,40.1,51,29,15,36,9,6.47,1.636,188,2.4,2,0,SF
+Paul Blackburn,32,621112,"Maj-AL,Maj-NL","New York,Oakland",32,54,38,9.0,1.0,223.1,253,122,77,200,30,4.92,1.478,985,2.6,20,4,
+Bradley Blalock,24,687134,Maj-NL,"Colorado,Milwaukee",24,21,18,3.0,,89.1,120,81,43,47,21,8.16,1.825,422,1.09,12,1,
+Ronel Blanco,31,669854,Maj-AL,Houston,31,57,45,18.0,,269.2,201,100,119,270,41,3.34,1.187,1111,2.27,14,2,HOU
+Richard Bleier,36,542947,Maj-AL,Boston,36,27,0,1.0,,30.2,37,18,5,16,5,5.28,1.37,132,3.2,1,0,BOS
+Scott Blewett,29,656240,"Maj-AL,Maj-NL","Atlanta,Baltimore,Minnesota",29,38,2,4.0,,64.2,62,31,26,53,11,4.31,1.361,279,2.04,7,0,
+Jake Bloss,23,814005,Maj-AL,Houston,23,3,3,,,11.2,16,9,3,11,5,6.94,1.629,55,3.67,5,0,HOU
+AJ Blubaugh,25,805123,Maj-AL,Houston,25,17,3,4.0,,41.1,28,16,16,42,8,3.48,1.065,168,2.63,4,0,HOU
+Cody Bolton,28,675989,"Maj-AL,Maj-NL","Cleveland,Houston,Pittsburgh,Seattle",28,36,1,1.0,1.0,49.1,58,30,27,50,7,5.47,1.723,230,1.85,2,1,
+Cam Booser,33,592155,Maj-AL,"Boston,Chicago",33,82,0,4.0,2.0,73.2,69,35,35,78,13,4.28,1.412,326,2.23,1,1,
+Ryan Borucki,32,621366,"Maj-AL,Maj-NL","Pittsburgh,San Francisco,Toronto",32,97,2,5.0,,91.2,78,43,26,83,12,4.22,1.135,374,3.19,8,0,
+David Bote,31,623520,Maj-NL,Chicago,31,1,0,,,1.0,1,0,1,0,0,0.0,2.0,5,0.0,0,0,CHC
+Caleb Boushley,31,676961,"Maj-AL,Maj-NL","Milwaukee,Minnesota,Texas",31,28,1,1.0,1.0,49.2,61,32,18,47,6,5.8,1.591,223,2.61,2,0,
+Ben Bowden,30,641386,Maj-AL,Athletics,30,11,0,,,10.2,9,5,5,7,2,4.22,1.313,47,1.4,2,0,
+Jonathan Bowlan,29,680742,"Maj-AL,Maj-NL","Kansas City,Philadelphia",29,43,3,2.0,,56.1,55,27,20,58,10,4.31,1.331,236,2.9,4,1,
+Matt Bowman,34,621199,"Maj-AL,Maj-NL","Arizona,Baltimore,Minnesota,New York,Seattle",34,48,1,1.0,,59.1,63,36,21,45,10,5.46,1.416,266,2.14,6,0,
+Brad Boxberger,35,502202,Maj-NL,Chicago,35,21,0,,2.0,19.0,15,11,10,16,3,5.21,1.316,81,1.6,4,0,CHC
+Matthew Boyd,35,571510,"Maj-AL,Maj-NL","Chicago,Cleveland,Detroit",35,62,62,22.0,,321.0,280,130,94,313,35,3.64,1.165,1316,3.33,12,19,
+Joe Boyle,26,671212,Maj-AL,"Oakland,Tampa Bay",26,32,25,6.0,,131.1,104,73,79,145,12,5.0,1.393,578,1.84,26,5,
+Silvino Bracho,30,611093,Maj-NL,Cincinnati,30,5,0,,,7.1,5,3,6,6,0,3.68,1.5,31,1.0,1,0,CIN
+Cody Bradford,26,674003,Maj-AL,Texas,26,39,21,11.0,,140.0,124,64,25,126,22,4.11,1.064,569,5.04,11,0,TEX
+Kyle Bradish,29,680694,Maj-AL,Baltimore,29,48,48,16.0,,258.1,203,84,79,294,20,2.93,1.092,1043,3.72,4,2,BAL
+Archie Bradley,30,605151,Maj-NL,Miami,30,4,0,,,7.1,13,9,3,7,2,11.05,2.182,39,2.33,1,0,MIA
+Taj Bradley,25,671737,Maj-AL,"Minnesota,Tampa Bay",25,78,76,21.0,,402.0,373,210,146,432,64,4.7,1.291,1713,2.96,13,0,
+Matt Brash,28,666374,Maj-AL,Seattle,28,144,0,12.0,8.0,131.2,111,39,53,177,7,2.67,1.246,560,3.34,9,0,SEA
+Ryan Brasier,37,518489,"Maj-AL,Maj-NL","Boston,Chicago,Los Angeles",37,124,7,5.0,2.0,124.0,98,47,30,111,13,3.41,1.032,489,3.7,11,1,
+Huascar Brazob\xc3\xa1n,36,623211,Maj-NL,"Miami,New York",36,148,3,12.0,2.0,180.2,145,74,84,178,13,3.69,1.268,760,2.12,19,2,
+John Brebbia,35,605154,"Maj-AL,Maj-NL","Atlanta,Chicago,Detroit,San Francisco",35,120,10,4.0,2.0,116.0,112,72,45,137,22,5.59,1.353,512,3.04,10,1,
+Colten Brewer,31,605155,"Maj-AL,Maj-NL","Chicago,New York",31,19,0,,1.0,29.0,30,17,12,26,4,5.28,1.448,129,2.17,7,0,
+Jonah Bride,29,681146,Maj-AL,Minnesota,29,4,0,,,6.0,14,10,3,2,1,15.0,2.833,37,0.67,0,0,MIN
+Beau Brieske,27,689225,Maj-AL,Detroit,27,99,14,7.0,6.0,130.2,116,58,56,122,15,3.99,1.316,557,2.18,10,0,DET
+Jeff Brigham,33,656257,Maj-NL,"Arizona,New York",33,41,0,1.0,,41.0,33,25,19,45,10,5.49,1.268,178,2.37,3,1,
+Braden Bristo,28,668754,Maj-AL,"Detroit,Tampa Bay",28,3,0,,1.0,7.0,5,2,4,5,0,2.57,1.286,30,1.25,1,0,
+Jhony Brito,26,666745,"Maj-AL,Maj-NL","New York,San Diego",26,51,13,10.0,1.0,134.0,131,63,38,101,18,4.23,1.261,557,2.66,13,4,
+Connor Brogdon,31,641401,"Maj-AL,Maj-NL","Cleveland,Los Angeles,Philadelphia",31,79,1,7.0,1.0,83.2,79,50,38,83,20,5.38,1.398,362,2.18,9,2,
+Aaron Brooks,34,605156,Maj-AL,Oakland,34,5,4,,,26.2,33,15,8,12,4,5.06,1.538,119,1.5,2,0,OAK
+Mike Brosseau,29,670712,Maj-NL,Milwaukee,29,3,0,,,2.1,1,1,1,0,1,3.86,0.857,9,0.0,0,0,MIL
+Ben Brown,26,676962,Maj-NL,Chicago,26,46,23,6.0,1.0,176.1,173,97,58,202,24,4.95,1.31,754,3.48,15,1,CHC
+Hunter Brown,27,686613,Maj-AL,Houston,27,100,93,35.0,,534.1,459,208,181,595,63,3.5,1.198,2197,3.29,58,3,HOU
+McCade Brown,24,685326,Maj-NL,Colorado,24,7,7,,,25.2,30,21,17,23,6,7.36,1.831,126,1.35,5,0,COL
+JT Brubaker,32,664141,"Maj-AL,Maj-NL","New York,San Francisco",32,23,1,,,36.0,30,15,18,28,1,3.75,1.333,149,1.56,2,0,
+Justin Bruihl,29,677865,"Maj-AL,Maj-NL","Colorado,Los Angeles,Pittsburgh,St. Louis,Toronto",29,58,0,1.0,,55.0,64,37,25,49,6,6.05,1.618,250,1.96,6,0,
+Vidal Bruj\xc3\xa1n,27,660644,Maj-NL,"Atlanta,Miami",27,4,0,,,3.2,11,11,4,1,3,27.0,4.091,27,0.25,0,0,
+Zach Brzykcy,25,694350,Maj-NL,Washington,25,32,0,,,28.2,37,32,15,28,8,10.05,1.814,138,1.87,2,0,WSN
+Kris Bubic,28,663460,Maj-AL,Kansas City,28,57,26,11.0,1.0,185.1,156,55,56,197,12,2.67,1.144,754,3.52,5,2,KC
+David Buchanan,35,571527,Maj-NL,Cincinnati,35,1,0,,,3.1,2,1,2,1,0,2.7,1.2,14,0.5,0,0,CIN
+Walker Buehler,31,621111,"Maj-AL,Maj-NL","Boston,Los Angeles,Philadelphia,San Diego",31,49,46,12.0,1.0,229.0,242,127,99,180,40,4.99,1.489,1025,1.82,34,3,
+JB Bukauskas,27,656266,"Maj-AL,Maj-NL","Milwaukee,Seattle",27,12,0,,,13.0,9,2,4,13,1,1.38,1.0,52,3.25,2,0,
+Madison Bumgarner,33,518516,Maj-NL,Arizona,33,4,4,,,16.2,25,19,15,10,4,10.26,2.4,90,0.67,3,0,ARI
+Aaron Bummer,32,607481,"Maj-AL,Maj-NL","Atlanta,Chicago",32,165,2,12.0,,174.0,166,89,74,200,9,4.6,1.379,768,2.7,42,4,
+Nick Burdi,32,595897,"Maj-AL,Maj-NL","Boston,Chicago,New York",32,19,0,1.0,,18.0,13,5,14,21,1,2.5,1.5,81,1.5,1,0,
+Zack Burdi,28,641420,Maj-AL,Tampa Bay,28,3,0,,,4.0,6,5,2,5,0,11.25,2.0,20,2.5,2,0,TB
+Juan Burgos,25,686228,"Maj-AL,Maj-NL","Arizona,Seattle",25,13,0,1.0,,13.1,17,9,8,14,2,6.08,1.875,65,1.75,1,0,
+Raymond Burgos,25,670103,Maj-NL,San Francisco,25,1,0,,,1.0,3,1,1,1,0,9.0,4.0,7,1.0,0,0,SF
+Brock Burke,29,656271,"Maj-AL,Maj-NL","Cincinnati,Los Angeles,Texas",29,163,2,15.0,1.0,160.0,162,78,46,149,25,4.39,1.3,679,3.24,7,1,
+Sean Burke,26,680732,Maj-AL,Chicago,26,35,27,6.0,,168.1,156,72,73,170,25,3.85,1.36,734,2.33,22,7,CWS
+Alec Burleson,26,676475,Maj-NL,St. Louis,26,3,0,,,2.2,9,4,0,1,1,13.5,3.375,17,,0,0,STL
+Corbin Burnes,30,669203,"Maj-AL,Maj-NL","Arizona,Baltimore,Milwaukee",30,76,76,28.0,,459.1,361,156,140,449,54,3.06,1.091,1856,3.21,56,8,
+Chase Burns,23,695505,Maj-NL,Cincinnati,23,17,11,1.0,,61.1,54,28,24,86,8,4.11,1.272,263,3.58,6,0,CIN
+Ryan Burr,31,621114,Maj-AL,Toronto,31,35,4,1.0,,33.1,30,15,12,47,4,4.05,1.26,143,3.92,3,1,TOR
+Mike Burrows,26,681347,"Maj-AL,Maj-NL","Houston,Pittsburgh",26,27,22,4.0,,115.1,112,53,40,114,17,4.14,1.318,489,2.85,8,0,
+Alan Busenitz,33,641427,Maj-NL,Cincinnati,33,9,0,,,11.0,17,8,1,8,1,6.55,1.636,50,8.0,1,0,CIN
+Ky Bush,24,681066,Maj-AL,Chicago,24,4,4,,,17.2,20,11,16,11,2,5.6,2.038,87,0.69,2,1,CWS
+Matt Bush,37,456713,Maj-NL,Milwaukee,37,12,0,,1.0,10.1,11,11,6,10,5,9.58,1.645,48,1.67,1,0,MIL
+Jos\xc3\xa9 Butt\xc3\xb3,28,676130,Maj-NL,"New York,San Francisco",28,103,14,13.0,4.0,192.0,148,77,100,188,17,3.61,1.292,805,1.88,18,1,
+Jos\xc3\xa9 Caballero,28,676609,Maj-AL,Tampa Bay,28,1,0,,,1.0,5,6,1,0,2,54.0,6.0,9,0.0,0,0,TB
+Edward Cabrera,28,665795,Maj-NL,"Chicago,Miami",28,71,69,20.0,,350.1,291,157,173,388,43,4.03,1.324,1499,2.24,75,2,
+G\xc3\xa9nesis Cabrera,28,650893,"Maj-AL,Maj-NL","Chicago,Minnesota,New York,Pittsburgh,St. Louis,Toronto",28,170,0,5.0,3.0,160.2,158,81,71,144,30,4.54,1.425,696,2.03,25,1,
+Oswaldo Cabrera,25,665828,Maj-AL,New York,25,1,0,,,0.1,0,0,2,0,0,0.0,6.0,3,0.0,0,0,NYY
+Kelvin C\xc3\xa1ceres,23,680983,Maj-AL,Los Angeles,23,2,0,,,1.1,2,1,2,1,0,6.75,3.0,8,0.5,0,0,LAA
+Blair Calvo,27,663971,Maj-NL,Colorado,27,1,0,,,1.0,0,0,0,0,0,0.0,0.0,3,,0,0,COL
+Noah Cameron,26,702070,Maj-AL,Kansas City,26,26,26,10.0,,149.0,119,48,45,124,18,2.9,1.101,600,2.76,2,2,KC
+Isaiah Campbell,27,663462,Maj-AL,"Boston,Seattle",27,41,0,4.0,1.0,43.0,49,27,16,42,6,5.65,1.512,192,2.63,6,0,
+Griffin Canning,29,656288,"Maj-AL,Maj-NL","Los Angeles,New York",29,72,69,20.0,,375.0,365,192,137,339,61,4.61,1.339,1603,2.47,11,8,
+Jonathan Cannon,24,686563,Maj-AL,Chicago,24,45,38,9.0,1.0,228.0,241,129,78,177,37,5.09,1.399,988,2.27,22,3,CWS
+Yennier Cano,32,666974,Maj-AL,Baltimore,32,217,0,9.0,15.0,197.2,183,73,63,189,17,3.32,1.245,812,3.0,26,4,BAL
+Joey Cantillo,26,676282,Maj-AL,Cleveland,26,50,24,8.0,1.0,153.2,126,61,70,178,17,3.57,1.275,645,2.54,7,0,CLE
+Vinny Capra,28,681962,Maj-AL,Chicago,28,3,0,,,3.0,5,2,0,1,1,6.0,1.667,15,,0,0,CWS
+Matt Carasiti,32,571539,Maj-NL,Colorado,32,23,0,1.0,1.0,33.0,44,27,14,23,5,7.36,1.758,153,1.64,1,0,COL
+Drew Carlton,27,656290,Maj-NL,San Diego,27,11,0,2.0,,20.2,18,10,6,18,2,4.35,1.161,85,3.0,0,0,
+Carlos Carrasco,38,471911,"Maj-AL,Maj-NL","Atlanta,Cleveland,New York",38,52,50,8.0,,239.1,288,169,88,189,47,6.36,1.571,1076,2.15,23,7,
+Alex Carrillo,28,692024,Maj-NL,New York,28,3,0,,,4.2,6,7,2,4,4,13.5,1.714,22,2.0,0,1,NYM
+Ben Casparius,27,676508,Maj-NL,Los Angeles,27,57,4,10.0,2.0,96.0,94,46,32,91,9,4.31,1.313,414,2.84,12,1,LAD
+Blas Castano,26,680604,Maj-AL,Seattle,26,1,0,,,3.0,4,3,2,1,1,9.0,2.0,16,0.5,1,0,SEA
+Daniel Castano,28,641447,Maj-NL,Miami,28,2,0,,,3.0,7,7,3,4,2,21.0,3.333,20,1.33,0,0,MIA
+Humberto Castellanos,26,528748,Maj-NL,Arizona,26,7,0,,1.0,10.1,11,6,4,7,0,5.23,1.452,48,1.75,1,0,ARI
+Diego Castillo,30,650895,Maj-AL,"Minnesota,Seattle",30,15,0,,,18.2,15,9,15,13,2,4.34,1.607,84,0.87,1,0,
+Jos\xc3\xa9 Castillo,29,620454,"Maj-AL,Maj-NL","Arizona,Baltimore,New York,San Diego,Seattle",29,30,0,2.0,,32.1,42,18,16,30,4,5.01,1.794,155,1.88,4,0,
+Luis Castillo,30,622379,Maj-AL,Seattle,30,2,2,,,7.0,12,6,7,5,0,7.71,2.714,41,0.71,2,0,SEA
+Luis Castillo,33,622491,Maj-AL,Seattle,33,100,99,37.0,,568.1,510,228,158,569,78,3.61,1.175,2345,3.6,33,3,SEA
+Max Castillo,24,666721,Maj-AL,Kansas City,24,7,0,,,20.1,20,10,9,10,2,4.43,1.426,89,1.11,3,0,KC
+Harold Castro,29,605612,Maj-NL,Colorado,29,2,0,,,2.0,4,2,1,0,0,9.0,2.5,11,0.0,0,0,COL
+Miguel Castro,30,612434,"Maj-AL,Maj-NL","Arizona,Chicago",30,100,0,6.0,7.0,90.1,83,52,38,76,13,5.18,1.339,390,2.0,11,0,
+Willi Castro,28,650489,Maj-AL,Minnesota,28,6,0,,,4.2,4,3,2,0,0,5.79,1.286,19,0.0,0,0,MIN
+Cade Cavalli,27,676917,Maj-NL,Washington,27,13,13,3.0,,63.0,69,27,24,51,7,3.86,1.476,281,2.13,8,2,WSN
+Dylan Cease,30,656302,"Maj-AL,Maj-NL","Chicago,San Diego,Toronto",30,103,103,29.0,,551.1,484,259,228,680,60,4.23,1.291,2356,2.98,35,3,
+Slade Cecconi,27,677944,"Maj-AL,Maj-NL","Arizona,Cleveland",27,56,44,9.0,,256.0,262,144,59,211,47,5.06,1.254,1078,3.58,10,5,
+Luis Cessa,31,570666,Maj-NL,Cincinnati,31,7,6,1.0,,26.0,46,26,12,11,3,9.0,2.231,132,0.92,0,0,CIN
+Andrew Chafin,35,605177,"Maj-AL,Maj-NL","Arizona,Detroit,Los Angeles,Milwaukee,Texas,Washington",35,166,0,8.0,8.0,140.1,126,58,78,169,13,3.72,1.454,610,2.17,11,3,
+Bubba Chandler,23,696149,Maj-NL,Pittsburgh,23,9,6,4.0,1.0,40.0,30,17,14,41,2,3.83,1.1,164,2.93,3,0,PIT
+Aroldis Chapman,38,547973,"Maj-AL,Maj-NL","Boston,Kansas City,Pittsburgh,Texas",38,212,0,16.0,56.0,196.2,122,57,97,300,13,2.61,1.114,805,3.09,30,6,
+JT Chargois,33,608638,"Maj-AL,Maj-NL","Miami,Seattle",33,81,5,4.0,1.0,77.1,60,26,32,64,9,3.03,1.19,318,2.0,8,1,
+Jesse Chavez,41,445926,Maj-NL,Atlanta,41,86,1,3.0,1.0,106.2,98,36,36,102,16,3.04,1.256,451,2.83,12,0,ATL
+Yonny Chirinos,30,630023,"Maj-AL,Maj-NL","Atlanta,Miami,Tampa Bay",30,26,15,5.0,,115.0,134,72,40,78,22,5.63,1.513,511,1.95,10,1,
+Angel Chivilli,22,683409,Maj-NL,Colorado,22,73,0,3.0,1.0,90.1,107,62,33,71,20,6.18,1.55,408,2.15,5,0,COL
+Marc Church,24,687847,Maj-AL,Texas,24,6,0,,,5.2,5,2,6,6,0,3.18,1.941,27,1.0,1,0,TEX
+Adam Cimber,33,643256,Maj-AL,"Los Angeles,Toronto",33,49,0,3.0,1.0,44.0,45,36,20,31,7,7.36,1.477,198,1.55,4,1,
+Jos\xc3\xa9 Cisnero,35,542585,Maj-AL,"Detroit,Los Angeles",35,78,0,3.0,2.0,75.0,81,47,33,87,14,5.64,1.52,341,2.64,5,0,
+Aaron Civale,31,650644,"Maj-AL,Maj-NL","Athletics,Chicago,Cleveland,Milwaukee,Tampa Bay",31,81,74,20.0,1.0,402.2,372,183,124,367,59,4.09,1.232,1695,2.96,11,1,
+Taylor Clarke,33,664199,"Maj-AL,Maj-NL","Arizona,Kansas City",33,116,2,4.0,4.0,121.0,115,63,33,114,21,4.69,1.223,498,3.45,3,9,
+Emmanuel Clase,27,661403,Maj-AL,Cleveland,27,203,0,12.0,117.0,201.1,165,56,39,183,11,2.5,1.013,808,4.69,21,1,CLE
+Alex Claudio,31,592222,Maj-NL,Milwaukee,31,1,0,,,0.1,2,0,0,0,0,0.0,6.0,3,,0,0,MIL
+Garrett Cleavinger,32,664076,Maj-AL,Tampa Bay,32,153,0,11.0,8.0,135.2,101,47,59,170,17,3.12,1.179,571,2.88,18,3,TB
+Kody Clemens,29,665019,"Maj-AL,Maj-NL","Minnesota,Philadelphia",29,6,0,,,4.2,9,4,4,1,3,7.71,2.786,27,0.25,0,0,
+Ernie Clement,28,676391,Maj-AL,Toronto,28,2,0,,,2.0,5,2,0,0,0,9.0,2.5,12,,0,0,TOR
+Mike Clevinger,34,605182,Maj-AL,Chicago,34,36,28,9.0,,153.0,148,72,57,128,20,4.24,1.34,658,2.25,32,5,CWS
+Alex Cobb,36,502171,"Maj-AL,Maj-NL","Cleveland,San Francisco",36,33,33,9.0,,173.1,185,75,44,146,21,3.89,1.321,737,3.32,14,4,
+Gerrit Cole,33,543037,Maj-AL,New York,33,54,54,23.0,,327.0,259,104,85,332,32,2.86,1.052,1313,3.91,22,2,NYY
+Dylan Coleman,27,669395,Maj-AL,"Houston,Kansas City",27,23,1,,,18.1,17,18,18,22,3,8.84,1.909,94,1.22,4,0,
+Alex Colom\xc3\xa9,34,517008,Maj-AL,Chicago,34,4,0,,,3.0,2,2,3,2,1,6.0,1.667,15,0.67,0,0,CWS
+Luis Contreras,29,664351,Maj-AL,Houston,29,14,0,,,18.0,18,15,10,19,2,7.5,1.556,80,1.9,0,0,HOU
+Roansy Contreras,25,672710,"Maj-AL,Maj-NL","Baltimore,Colorado,Los Angeles,Pittsburgh",25,73,14,5.0,3.0,149.1,150,91,65,117,25,5.48,1.44,651,1.8,24,3,
+Sam Coonrod,30,656322,Maj-NL,New York,30,10,0,,,6.2,5,7,8,6,0,9.45,1.95,34,0.75,1,0,NYM
+Patrick Corbin,36,571578,"Maj-AL,Maj-NL","Texas,Toronto,Washington",36,95,94,23.0,,511.0,578,291,160,394,81,5.13,1.444,2218,2.46,78,13,
+Jimmy Cordero,31,622772,Maj-AL,New York,31,31,1,3.0,,32.2,25,14,10,34,2,3.86,1.071,132,3.4,6,0,NYY
+Jose Corniell,22,692030,Maj-AL,Texas,22,1,0,,,1.2,3,3,1,1,1,16.2,2.4,9,1.0,1,0,TEX
+Nestor Cortes,30,641482,"Maj-AL,Maj-NL","Milwaukee,New York,San Diego",30,53,50,16.0,,274.0,258,134,80,259,49,4.4,1.234,1141,3.24,12,8,
+Tom Cosgrove,29,676680,Maj-NL,"Chicago,San Diego",29,74,0,1.0,1.0,70.0,57,30,26,62,6,3.86,1.186,297,2.38,2,0,
+Danny Coulombe,36,543056,Maj-AL,"Baltimore,Boston,Minnesota,Texas",36,158,1,8.0,5.0,129.1,97,35,38,137,11,2.44,1.044,516,3.61,18,1,
+Jake Cousins,29,664776,"Maj-AL,Maj-NL","Milwaukee,New York",29,52,0,2.0,1.0,52.1,36,20,34,67,6,3.44,1.338,226,1.97,7,3,
+Dylan Covey,31,592229,Maj-NL,"Los Angeles,Philadelphia",31,29,1,1.0,,43.0,48,18,17,30,5,3.77,1.512,191,1.76,1,1,
+Austin Cox,28,680735,"Maj-AL,Maj-NL","Atlanta,Kansas City",28,37,4,,1.0,57.0,58,39,24,55,11,6.16,1.439,251,2.29,3,2,
+Brandon Crawford,37,543063,Maj-NL,"San Francisco,St. Louis",37,2,0,,,2.1,4,4,3,0,0,15.43,3.0,15,0.0,0,0,
+Kutter Crawford,28,676710,Maj-AL,Boston,28,64,56,15.0,,313.0,262,147,87,310,51,4.23,1.115,1286,3.56,15,2,BOS
+Nabil Crismatt,30,622503,Maj-NL,"Arizona,Los Angeles,San Diego",30,20,5,4.0,,52.1,62,26,16,41,9,4.47,1.49,235,2.56,7,0,
+Cooper Criswell,29,681867,Maj-AL,"Boston,Seattle,Tampa Bay",29,47,19,8.0,2.0,157.0,171,75,50,116,21,4.3,1.408,681,2.32,6,2,
+Jeff Criswell,25,676105,Maj-NL,Colorado,25,13,0,1.0,,19.2,20,6,9,27,4,2.75,1.475,87,3.0,5,0,COL
+Garrett Crochet,27,676979,Maj-AL,"Boston,Chicago",27,80,67,27.0,,389.0,318,129,96,509,45,2.98,1.064,1573,5.3,32,2,
+Declan Cronin,26,686539,"Maj-AL,Maj-NL","Chicago,Miami",26,65,0,3.0,,81.1,86,45,32,80,4,4.98,1.451,357,2.5,9,0,
+Hans Crouse,25,668968,Maj-AL,Los Angeles,25,25,0,4.0,,25.1,14,8,17,34,2,2.84,1.224,107,2.0,4,0,LAA
+Wil Crowe,28,640444,Maj-NL,Pittsburgh,28,5,0,,1.0,9.2,9,5,9,9,1,4.66,1.862,47,1.0,0,0,PIT
+Fernando Cruz,36,518585,"Maj-AL,Maj-NL","Cincinnati,New York",36,186,5,8.0,2.0,189.1,143,92,90,291,20,4.37,1.231,800,3.23,20,0,
+Omar Cruz,26,678316,Maj-NL,San Diego,26,2,0,,,3.2,4,2,3,5,0,4.91,1.909,18,1.67,0,0,
+Steven Cruz,27,674444,Maj-AL,Kansas City,27,67,4,3.0,,69.0,55,33,33,64,10,4.3,1.275,295,1.94,3,0,KC
+Jose Cuas,30,621016,"Maj-AL,Maj-NL","Chicago,Kansas City,Toronto",30,84,2,3.0,1.0,80.2,82,43,45,85,12,4.8,1.574,372,1.89,4,0,
+Johnny Cueto,38,456501,"Maj-AL,Maj-NL","Los Angeles,Miami",38,15,12,1.0,,63.2,65,44,18,45,21,6.22,1.304,268,2.5,0,1,
+Xzavion Curry,26,675540,"Maj-AL,Maj-NL","Cleveland,Miami",26,60,14,5.0,,140.2,140,67,40,96,20,4.29,1.28,592,2.4,13,1,
+John Curtiss,32,595928,Maj-NL,"Arizona,Colorado,New York",32,47,0,3.0,1.0,57.2,51,29,13,41,9,4.53,1.11,230,3.15,3,0,
+Luis Curvelo,25,681168,Maj-AL,Texas,25,19,0,1.0,,22.0,21,14,11,22,4,5.73,1.455,97,2.0,1,0,TEX
+Tyler Cyr,30,664202,Maj-NL,Los Angeles,30,2,0,,,1.2,1,0,0,2,0,0.0,0.6,6,,0,0,LAD
+Caden Dana,21,702674,Maj-AL,Los Angeles,21,10,8,1.0,,42.2,44,34,25,41,14,7.17,1.617,193,1.64,8,0,LAA
+Davis Daniel,28,669721,"Maj-AL,Maj-NL","Atlanta,Los Angeles",28,12,8,2.0,,52.1,55,30,22,46,7,5.16,1.471,232,2.09,8,0,
+Hagen Danner,24,668470,Maj-AL,Toronto,24,1,0,,,0.1,0,0,0,0,0,0.0,0.0,1,,0,0,TOR
+Dugan Darnell,28,699911,Maj-NL,Colorado,28,9,0,1.0,,11.2,10,5,7,5,1,3.86,1.457,48,0.71,5,0,COL
+Michael Darrell-Hicks,27,690382,"Maj-AL,Maj-NL","Los Angeles,Pittsburgh",27,7,0,1.0,,9.2,10,8,4,8,1,7.45,1.448,43,2.0,2,0,
+Yu Darvish,38,506433,Maj-NL,San Diego,38,58,58,21.0,,304.2,275,147,87,295,46,4.34,1.188,1256,3.39,42,3,
+Logan Davidson,27,669722,Maj-AL,Los Angeles,27,1,0,,,1.0,0,0,0,1,0,0.0,0.0,3,,0,0,LAA
+Tucker Davidson,28,656353,Maj-AL,"Baltimore,Kansas City,Los Angeles",28,39,1,2.0,2.0,56.0,68,34,21,47,6,5.46,1.589,255,2.24,10,0,
+Zach Davies,30,605200,Maj-NL,Arizona,30,18,18,2.0,,82.1,98,64,39,72,10,7.0,1.664,377,1.85,8,0,ARI
+Austin Davis,31,656354,Maj-NL,San Diego,31,7,0,,,7.0,6,7,5,6,0,9.0,1.571,33,1.2,0,0,
+Noah Davis,28,663562,"Maj-AL,Maj-NL","Colorado,Los Angeles,Minnesota",28,26,6,,,61.1,96,64,28,56,16,9.39,2.022,307,2.0,4,2,
+Duncan Davitt,26,701474,Maj-AL,Chicago,26,1,0,,,1.0,0,0,1,0,0,0.0,1.0,3,0.0,0,0,CWS
+Brett de Geus,27,676969,"Maj-AL,Maj-NL","Miami,Philadelphia,Seattle,Toronto",27,14,0,,,13.1,15,10,7,7,0,6.75,1.65,62,1.0,1,3,
+Enmanuel De Jesus,29,646241,"Maj-AL,Maj-NL","Detroit,Miami",29,6,0,1.0,,12.0,16,12,8,12,0,9.0,2.0,63,1.5,1,1,
+Chase De Jong,29,608328,Maj-NL,Pittsburgh,29,6,0,,,11.1,18,17,6,7,6,13.5,2.118,60,1.17,0,0,PIT
+Jos\xc3\xa9 De Le\xc3\xb3n,32,592254,Maj-AL,"Boston,Minnesota",32,13,2,1.0,,24.0,24,12,8,25,3,4.5,1.333,98,3.13,2,0,
+Enyel De Los Santos,30,660853,"Maj-AL,Maj-NL","Atlanta,Chicago,Cleveland,Houston,New York,San Diego",30,200,0,12.0,2.0,198.0,180,94,74,191,29,4.27,1.283,831,2.58,13,7,
+Yerry de los Santos,27,660787,"Maj-AL,Maj-NL","New York,Pittsburgh",27,47,0,1.0,,60.0,54,22,30,46,2,3.3,1.4,264,1.53,5,0,
+Jacob deGrom,38,594798,Maj-AL,Texas,38,40,40,14.0,,219.2,153,67,43,250,30,2.75,0.892,848,5.81,18,0,TEX
+Matt Dermody,32,571616,Maj-AL,Boston,32,1,1,,,4.0,4,3,1,1,2,6.75,1.25,17,1.0,0,0,BOS
+Anthony DeSclafani,35,543101,Maj-NL,"Arizona,San Francisco",35,32,22,5.0,2.0,138.1,142,76,32,115,26,4.94,1.258,588,3.59,15,2,
+Reid Detmers,26,672282,Maj-AL,Los Angeles,26,109,48,13.0,3.0,315.1,311,175,129,374,44,4.99,1.395,1370,2.9,35,5,LAA
+Chris Devenski,34,606965,"Maj-AL,Maj-NL","Los Angeles,New York,Tampa Bay",34,71,1,8.0,,87.2,75,45,30,80,16,4.62,1.198,367,2.67,18,0,
+Alexis D\xc3\xadaz,28,664747,Maj-NL,"Atlanta,Cincinnati,Los Angeles",28,149,0,12.0,65.0,141.1,101,64,79,158,16,4.08,1.274,613,2.0,26,3,
+Edwin D\xc3\xadaz,32,621242,Maj-NL,"Los Angeles,New York",32,128,0,14.0,54.0,134.2,83,40,52,205,12,2.67,1.002,540,3.94,45,0,
+Jhonathan D\xc3\xadaz,28,646242,Maj-AL,"Los Angeles,Seattle",28,10,2,,,18.0,28,13,10,13,2,6.5,2.111,94,1.3,2,1,
+Miguel D\xc3\xadaz,29,622766,Maj-AL,"Detroit,Houston",29,13,3,1.0,,15.0,8,1,5,16,0,0.6,0.867,57,3.2,1,0,
+Yilber D\xc3\xadaz,24,700270,Maj-NL,Arizona,24,8,4,1.0,,31.1,31,15,15,20,3,4.31,1.468,134,1.33,2,1,ARI
+Jake Diekman,37,518617,"Maj-AL,Maj-NL","Chicago,New York,Tampa Bay",37,106,0,2.0,4.0,89.1,60,40,62,106,10,4.03,1.366,390,1.71,13,2,
+Brandon Dixon,31,641525,Maj-NL,San Diego,31,1,0,,,1.0,0,0,0,0,0,0.0,0.0,3,,0,0,
+Hunter Dobbins,25,690928,Maj-AL,Boston,25,13,11,4.0,,61.0,61,28,17,45,6,4.13,1.279,256,2.65,1,1,BOS
+Randy Dobnak,30,677976,Maj-AL,Minnesota,30,6,0,,,15.0,13,7,7,8,2,4.2,1.333,64,1.14,1,0,MIN
+Dylan Dodd,27,689266,Maj-NL,Atlanta,27,36,7,3.0,,71.1,85,45,18,47,14,5.68,1.444,309,2.61,3,1,ATL
+Chase Dollander,24,801403,Maj-NL,Colorado,24,24,21,3.0,,110.2,116,77,53,96,21,6.26,1.527,498,1.81,18,4,COL
+Seranthony Dom\xc3\xadnguez,31,622554,"Maj-AL,Maj-NL","Baltimore,Chicago,Philadelphia,Toronto",31,212,0,15.0,17.0,194.1,159,78,96,219,27,3.61,1.312,843,2.28,38,2,
+Josh Donaldson,37,518626,Maj-AL,New York,37,1,0,,,1.0,0,0,0,0,0,0.0,0.0,3,,0,0,NYY
+Camilo Doval,28,666808,"Maj-AL,Maj-NL","New York,San Francisco",28,210,0,15.0,78.0,200.1,165,85,101,244,12,3.82,1.328,868,2.42,37,1,
+Tommy Doyle,27,656382,Maj-NL,Colorado,27,15,0,,,23.2,23,18,13,18,5,6.85,1.521,103,1.38,1,0,COL
+Jack Dreyer,27,676263,Maj-NL,Los Angeles,27,77,5,4.0,4.0,85.2,63,27,30,85,4,2.84,1.086,349,2.83,6,2,LAD
+Shane Drohan,27,675660,Maj-NL,Milwaukee,27,1,1,,,2.2,3,3,4,2,0,10.13,2.625,15,0.5,0,0,MIL
+Daniel Duarte,27,650960,"Maj-AL,Maj-NL","Cincinnati,Minnesota",27,33,0,4.0,1.0,35.2,26,14,21,26,6,3.53,1.318,151,1.24,2,1,
+Shawn Dubin,29,681869,Maj-AL,"Baltimore,Houston",29,64,3,3.0,2.0,88.0,94,47,40,88,10,4.81,1.523,394,2.2,3,1,
+Tyler Duffey,33,608648,"Maj-AL,Maj-NL","Chicago,Kansas City",33,10,0,1.0,,11.0,8,6,8,13,1,4.91,1.455,49,1.63,0,0,
+Matt Duffy,32,622110,Maj-AL,Kansas City,32,2,0,,,2.0,3,1,0,0,1,4.5,1.5,10,,0,0,KC
+Dane Dunning,30,641540,"Maj-AL,Maj-NL","Atlanta,Texas",30,78,41,18.0,2.0,295.1,292,147,107,257,43,4.48,1.351,1270,2.4,17,0,
+Parker Dunshee,29,670161,Maj-NL,Atlanta,29,1,0,,,2.1,4,5,2,3,2,19.29,2.571,14,1.5,0,0,ATL
+Carlos Duran,23,679922,Maj-AL,Athletics,23,1,0,,,0.1,1,3,3,0,0,81.0,12.0,5,0.0,0,0,
+Ezequiel Duran,26,677649,Maj-AL,Texas,26,4,0,,,3.1,1,0,0,0,0,0.0,0.3,11,,0,0,TEX
+Jhoan Duran,28,661395,"Maj-AL,Maj-NL","Minnesota,Philadelphia",28,202,0,17.0,88.0,201.0,160,56,63,250,13,2.51,1.109,824,3.97,28,1,
+Connelly Early,24,813349,Maj-AL,Boston,24,8,8,1.0,,36.2,36,12,13,50,0,2.95,1.336,159,3.85,1,1,BOS
+Nate Eaton,28,681987,Maj-AL,"Boston,Kansas City",28,2,0,,,2.0,4,0,0,1,0,0.0,2.0,9,,0,0,
+Jake Eder,26,671109,Maj-AL,"Chicago,Los Angeles",26,9,0,,,20.1,17,11,10,16,3,4.87,1.328,87,1.6,1,0,
+Carl Edwards Jr.,33,605218,"Maj-AL,Maj-NL","Los Angeles,San Diego,Texas,Washington",33,37,0,1.0,2.0,37.2,36,16,22,30,2,3.82,1.54,169,1.36,3,0,
+Scott Effross,31,664123,Maj-AL,New York,31,14,0,,,14.0,19,12,5,8,2,7.71,1.714,65,1.6,1,0,NYY
+Zach Eflin,32,621107,Maj-AL,"Baltimore,Tampa Bay",32,76,76,32.0,,427.0,429,189,66,383,62,3.98,1.159,1755,5.8,15,4,
+Brandon Eisert,27,685126,Maj-AL,"Chicago,Toronto",27,75,3,3.0,2.0,76.1,80,37,29,76,12,4.36,1.428,332,2.62,9,1,
+Bryce Elder,27,693821,Maj-NL,Atlanta,27,73,73,23.0,,401.0,409,210,137,325,54,4.71,1.362,1719,2.37,36,1,ATL
+Fraser Ellard,27,686642,Maj-AL,Chicago,27,43,3,3.0,1.0,41.0,26,18,31,48,4,3.95,1.39,175,1.55,2,1,CWS
+Kent Emanuel,32,592288,Maj-NL,Miami,32,12,0,,,17.2,20,13,7,12,4,6.62,1.528,82,1.71,0,0,MIA
+Mason Englert,26,669438,Maj-AL,"Detroit,Tampa Bay",26,75,3,5.0,,128.0,144,72,34,105,21,5.06,1.391,560,3.09,12,0,
+Dietrich Enns,35,608650,Maj-AL,"Baltimore,Detroit",35,27,3,3.0,2.0,50.2,52,23,20,56,6,4.09,1.421,220,2.8,7,1,
+Nic Enright,28,663671,Maj-AL,Cleveland,28,27,0,2.0,1.0,31.0,24,7,12,30,3,2.03,1.161,127,2.5,3,1,CLE
+Nathan Eovaldi,36,543135,Maj-AL,Texas,36,85,85,41.0,,496.0,407,180,125,487,55,3.27,1.073,1993,3.9,31,3,TEX
+Lucas Erceg,31,668674,Maj-AL,"Kansas City,Oakland",31,184,0,14.0,24.0,190.2,163,74,75,198,9,3.49,1.248,801,2.64,3,7,
+Eduardo Escobar,34,500871,Maj-AL,Los Angeles,34,3,0,,,3.2,2,1,1,0,0,2.45,0.818,16,0.0,0,0,LAA
+Jose Espada,28,664744,"Maj-AL,Maj-NL","Baltimore,San Diego",28,2,0,,,4.0,1,0,2,6,0,0.0,0.75,14,3.0,0,0,
+Paolo Espino,37,502179,"Maj-AL,Maj-NL","Toronto,Washington",37,6,1,,,12.2,28,19,8,6,4,13.5,2.842,72,0.75,1,0,
+Joey Estes,23,683155,Maj-AL,"Athletics,Oakland",23,30,28,7.0,,148.2,158,91,35,105,31,5.51,1.298,645,3.0,6,0,
+Carlos Est\xc3\xa9vez,33,608032,"Maj-AL,Maj-NL","Kansas City,Los Angeles,Philadelphia",33,188,0,13.0,99.0,186.1,154,67,68,186,19,3.24,1.191,781,2.74,5,1,
+Jeremiah Estrada,27,669093,Maj-NL,"Chicago,San Diego",27,164,0,11.0,4.0,158.2,124,61,70,230,20,3.46,1.223,672,3.29,7,0,
+Lazaro Estrada,27,681751,Maj-AL,Toronto,27,3,0,,,11.1,10,7,3,13,2,5.56,1.147,49,4.33,1,0,TOR
+Logan Evans,24,688138,Maj-AL,Seattle,24,16,15,6.0,,81.1,82,39,31,59,13,4.32,1.389,350,1.9,4,1,SEA
+Alex Faedo,28,656412,Maj-AL,Detroit,28,52,18,7.0,,122.0,97,55,48,113,21,4.06,1.189,508,2.35,3,3,DET
+Pete Fairbanks,32,664126,"Maj-AL,Maj-NL","Miami,Tampa Bay",32,159,1,9.0,77.0,154.0,110,53,56,177,15,3.1,1.078,626,3.16,20,3,
+Bailey Falter,29,663559,"Maj-AL,Maj-NL","Kansas City,Philadelphia,Pittsburgh",29,74,66,17.0,,351.2,355,185,113,242,54,4.73,1.331,1474,2.14,39,5,
+Jeurys Familia,33,544727,Maj-AL,Oakland,33,14,0,,2.0,12.2,13,9,13,9,2,6.39,2.053,64,0.69,0,0,OAK
+Jake Faria,29,607188,Maj-AL,Boston,29,1,0,,,2.0,4,5,4,3,0,22.5,4.0,14,0.75,0,0,BOS
+Buck Farmer,33,571656,Maj-NL,Cincinnati,33,131,1,7.0,4.0,145.0,114,58,57,139,18,3.6,1.179,604,2.44,23,0,CIN
+Kyle Farmer,34,571657,"Maj-AL,Maj-NL","Colorado,Minnesota",34,4,0,,,5.0,10,4,1,0,1,7.2,2.2,24,0.0,0,0,
+Mitch Farris,25,815083,Maj-AL,Los Angeles,25,7,5,1.0,,27.1,27,19,13,26,5,6.26,1.463,120,2.0,2,2,LAA
+Calvin Faucher,30,676534,"Maj-AL,Maj-NL","Miami,Tampa Bay",30,140,4,8.0,21.0,144.0,136,64,66,154,12,4.0,1.403,630,2.33,14,2,
+Erick Fedde,33,607200,"Maj-AL,Maj-NL","Atlanta,Chicago,Milwaukee,St. Louis",33,66,57,13.0,,334.1,315,157,122,249,41,4.23,1.307,1413,2.04,40,3,
+Brady Feigl,33,621399,Maj-NL,Pittsburgh,33,1,0,,,1.2,7,6,0,0,1,32.4,4.2,11,,0,0,PIT
+Angel Felipe,25,665734,Maj-AL,Oakland,25,14,0,1.0,,15.0,6,7,13,19,0,4.2,1.267,64,1.46,0,0,OAK
+Ryan Feltner,29,663372,Maj-NL,Colorado,29,49,49,6.0,,248.1,258,135,98,210,29,4.89,1.434,1084,2.14,43,2,COL
+Caleb Ferguson,28,657571,"Maj-AL,Maj-NL","Houston,Los Angeles,New York,Pittsburgh,Seattle",28,205,7,13.0,4.0,184.1,179,82,74,191,13,4.0,1.373,810,2.58,15,1,
+Tyler Ferguson,31,621053,Maj-AL,"Athletics,Oakland",31,104,0,8.0,4.0,109.1,75,51,58,116,8,4.2,1.216,453,2.0,6,3,
+Jos\xc3\xa9 Fermin,23,820862,Maj-AL,Los Angeles,23,40,0,3.0,,34.1,25,17,23,39,8,4.46,1.398,152,1.7,1,0,LAA
+Julian Fern\xc3\xa1ndez,29,642759,Maj-NL,"Los Angeles,Washington",29,4,0,1.0,,5.0,3,3,2,5,2,5.4,1.0,20,2.5,0,0,
+Ryan Fernandez,27,681676,Maj-NL,St. Louis,27,94,0,1.0,3.0,97.0,94,51,48,105,10,4.73,1.464,425,2.19,14,2,STL
+Jose A. Ferrer,26,678606,"Maj-AL,Maj-NL","Seattle,Washington",26,149,0,8.0,12.0,148.1,153,71,36,127,10,4.31,1.274,622,3.53,9,1,
+David Festa,25,701581,Maj-AL,Minnesota,25,25,23,5.0,,117.2,111,67,42,130,19,5.12,1.3,506,3.1,15,2,MIN
+Matt Festa,33,670036,"Maj-AL,Maj-NL","Cleveland,New York,Seattle,Texas",33,97,0,11.0,1.0,94.2,78,50,37,99,9,4.75,1.215,402,2.68,16,4,
+J.P. Feyereisen,32,656420,Maj-NL,"Arizona,Los Angeles",32,14,0,,1.0,15.0,22,15,6,13,5,9.0,1.867,71,2.17,0,0,
+Kyle Finnegan,34,640448,"Maj-AL,Maj-NL","Detroit,Washington",34,199,0,15.0,90.0,201.2,179,78,73,184,24,3.48,1.25,834,2.52,29,1,
+Braydon Fisher,25,680755,Maj-AL,Toronto,25,66,1,7.0,,65.1,46,20,24,82,6,2.76,1.071,262,3.42,6,2,TOR
+Richard Fitts,25,690916,Maj-AL,Boston,25,15,14,2.0,,65.2,62,29,23,49,11,3.97,1.294,280,2.13,3,1,BOS
+Ryan Fitzgerald,31,680837,Maj-AL,Minnesota,31,2,0,,,2.0,2,0,0,0,0,0.0,1.0,8,,0,0,MIN
+Tyler Fitzgerald,26,666149,Maj-NL,San Francisco,26,3,0,,,3.0,6,3,0,0,0,9.0,2.0,14,,0,0,SF
+Jack Flaherty,30,656427,"Maj-AL,Maj-NL","Baltimore,Detroit,Los Angeles,St. Louis",30,100,96,30.0,,515.1,489,251,194,572,72,4.38,1.325,2195,2.95,25,1,
+Josh Fleming,30,676596,"Maj-AL,Maj-NL","Pittsburgh,Tampa Bay,Toronto",30,38,6,3.0,1.0,86.0,96,45,35,43,13,4.71,1.523,377,1.23,3,1,
+Chris Flexen,30,623167,"Maj-AL,Maj-NL","Chicago,Colorado,Seattle",30,82,48,10.0,1.0,302.0,347,180,110,218,56,5.36,1.513,1333,1.98,12,2,
+Dylan Floro,33,571670,"Maj-AL,Maj-NL","Arizona,Miami,Minnesota,Washington",33,127,0,11.0,7.0,124.1,134,59,34,106,8,4.27,1.351,523,3.12,16,0,
+Mason Fluharty,24,689254,Maj-AL,Toronto,24,73,1,5.0,1.0,63.1,51,34,30,71,7,4.83,1.279,268,2.37,0,1,TOR
+Jason Foley,28,671345,Maj-AL,Detroit,28,139,0,6.0,35.0,128.2,117,42,35,101,7,2.94,1.181,527,2.89,12,0,DET
+Mike Ford,30,645801,Maj-AL,Seattle,30,2,0,,,2.0,5,4,1,0,2,18.0,3.0,12,0.0,0,0,SEA
+Matt Foster,29,641582,Maj-AL,Chicago,29,6,1,,,6.2,5,2,5,4,1,2.7,1.5,30,0.8,1,0,CWS
+J.P. France,31,641585,Maj-AL,Houston,31,34,28,12.0,,171.1,180,88,67,133,24,4.62,1.442,749,1.99,10,3,HOU
+Bowden Francis,29,670102,Maj-AL,Toronto,29,61,27,11.0,1.0,204.0,167,88,57,181,41,3.88,1.098,832,3.18,2,1,TOR
+Jose Franco,25,683742,Maj-NL,Cincinnati,25,3,0,,,5.2,7,2,5,4,0,3.18,2.118,27,0.8,3,0,CIN
+Kyle Freeland,33,607536,Maj-NL,Colorado,33,83,83,16.0,,441.1,524,247,109,315,74,5.04,1.434,1922,2.89,28,11,COL
+Caleb Freeman,27,673965,Maj-AL,Chicago,27,5,0,,,3.1,5,2,1,3,1,5.4,1.8,16,3.0,1,0,CWS
+Luis Fr\xc3\xadas,26,666818,"Maj-AL,Maj-NL","Arizona,Toronto",26,47,0,1.0,,47.1,52,30,27,46,7,5.7,1.669,219,1.7,3,2,
+Max Fried,32,608331,"Maj-AL,Maj-NL","Atlanta,New York",32,82,82,40.0,,487.1,418,167,140,465,37,3.08,1.145,1998,3.32,25,16,
+David Fry,27,681807,Maj-AL,Cleveland,27,2,0,,,5.0,10,7,1,0,3,12.6,2.2,26,0.0,0,0,CLE
+Didier Fuentes,21,800311,Maj-NL,Atlanta,21,5,4,,,17.0,25,21,7,16,6,11.12,1.882,84,2.29,0,0,ATL
+Shintaro Fujinami,29,660261,Maj-AL,"Baltimore,Oakland",29,64,7,7.0,2.0,79.0,73,63,45,83,9,7.18,1.494,357,1.84,7,0,
+Carson Fulmer,31,608334,Maj-AL,Los Angeles,31,53,9,1.0,,126.0,112,62,55,113,17,4.43,1.325,541,2.05,8,4,LAA
+Michael Fulmer,32,605242,"Maj-AL,Maj-NL","Boston,Chicago",32,60,1,3.0,2.0,61.2,53,31,30,66,8,4.52,1.346,256,2.2,1,0,
+Kody Funderburk,29,681892,Maj-AL,Minnesota,29,86,0,8.0,3.0,94.1,97,44,45,97,8,4.2,1.505,424,2.16,10,3,MIN
+Hunter Gaddis,27,683769,Maj-AL,Cleveland,27,172,6,11.0,3.0,189.2,150,59,54,174,20,2.8,1.076,767,3.22,10,4,CLE
+Matt Gage,33,657424,"Maj-AL,Maj-NL","Detroit,Houston,San Francisco",33,45,2,1.0,,44.1,44,13,18,40,1,2.64,1.398,188,2.22,3,0,
+Giovanny Gallegos,32,606149,Maj-NL,St. Louis,32,77,0,4.0,11.0,75.2,78,42,22,80,17,5.0,1.322,323,3.64,6,0,STL
+Zac Gallen,30,668678,Maj-NL,Arizona,30,103,103,47.0,,594.0,536,261,184,577,73,3.95,1.212,2461,3.14,40,1,ARI
+Gerson Garabito,29,642520,Maj-AL,Texas,29,21,2,,,34.1,38,22,13,30,5,5.77,1.485,156,2.31,4,0,TEX
+Brandyn Garcia,25,805299,"Maj-AL,Maj-NL","Arizona,Seattle",25,14,0,,,14.1,18,9,8,14,0,5.65,1.814,66,1.75,1,0,
+Deivi Garc\xc3\xada,25,665620,Maj-AL,"Chicago,New York",25,22,0,1.0,2.0,29.0,25,15,23,25,4,4.66,1.655,135,1.09,1,0,
+Luis Garcia,39,472610,"Maj-AL,Maj-NL","Boston,Los Angeles,New York,San Diego,Washington",39,183,0,9.0,6.0,178.2,183,84,66,155,16,4.23,1.394,777,2.35,25,2,
+Luis Garcia,28,677651,Maj-AL,Houston,28,8,8,3.0,,34.2,28,15,11,38,5,3.89,1.125,143,3.45,0,0,HOU
+Rico Garcia,32,670329,"Maj-AL,Maj-NL","Baltimore,New York,Oakland,Washington",32,46,1,1.0,1.0,52.2,50,24,19,56,10,4.1,1.31,225,2.95,1,0,
+Robert Garcia,30,676395,"Maj-AL,Maj-NL","Miami,Texas,Washington",30,175,0,9.0,9.0,161.2,144,65,56,179,15,3.62,1.237,674,3.2,13,5,
+Yimi Garc\xc3\xada,34,554340,Maj-AL,"Seattle,Toronto",34,134,0,6.0,11.0,126.1,101,52,38,156,16,3.7,1.1,523,4.11,14,2,
+Amir Garrett,32,607237,Maj-AL,"Kansas City,Los Angeles",32,32,0,,,29.0,24,12,24,38,5,3.72,1.655,131,1.58,7,0,
+Braxton Garrett,26,666129,Maj-NL,Miami,26,39,38,11.0,,199.2,197,89,34,195,25,4.01,1.157,833,5.74,17,3,MIA
+Reed Garrett,32,657585,"Maj-AL,Maj-NL","Baltimore,New York",32,129,1,13.0,7.0,140.2,124,67,65,173,16,4.29,1.344,603,2.66,14,5,
+Justin Garza,31,621057,"Maj-AL,Maj-NL","Boston,New York",31,22,1,,,25.0,30,19,13,20,4,6.84,1.72,119,1.54,0,0,
+Robert Gasser,26,688107,Maj-NL,Milwaukee,26,9,7,2.0,,36.1,39,12,7,23,5,2.97,1.266,160,3.29,2,0,MIL
+Kevin Gausman,35,592332,Maj-AL,Toronto,35,104,103,38.0,,611.0,512,236,177,645,67,3.48,1.128,2494,3.64,59,9,TOR
+Joey Gerber,28,680702,Maj-AL,Tampa Bay,28,2,0,,,4.1,3,1,0,4,1,2.08,0.692,15,,0,0,TB
+Domingo Germ\xc3\xa1n,31,593334,"Maj-AL,Maj-NL","New York,Pittsburgh",31,27,21,5.0,,129.1,108,73,47,132,24,5.08,1.198,544,2.81,19,1,
+Paul Gervase,25,801434,"Maj-AL,Maj-NL","Los Angeles,Tampa Bay",25,6,0,,,8.1,8,4,6,8,3,4.32,1.68,39,1.33,0,0,
+Ian Gibaut,31,664139,Maj-NL,Cincinnati,31,100,0,8.0,3.0,102.0,98,42,36,85,11,3.71,1.314,434,2.36,13,4,CIN
+Cade Gibson,27,806188,Maj-NL,Miami,27,44,1,4.0,,54.2,44,16,21,43,3,2.63,1.189,230,2.05,2,1,MIA
+Kyle Gibson,37,502043,"Maj-AL,Maj-NL","Baltimore,St. Louis",37,67,66,22.0,,372.0,383,201,130,316,54,4.86,1.379,1591,2.43,15,1,
+Luis Gil,28,661563,Maj-AL,New York,28,44,44,19.0,,223.1,166,91,118,220,28,3.67,1.272,948,1.86,9,8,NYY
+Logan Gilbert,29,669302,Maj-AL,Seattle,29,97,96,29.0,,562.0,458,221,110,614,78,3.54,1.011,2244,5.58,39,3,SEA
+Tyler Gilbert,32,656457,"Maj-AL,Maj-NL","Arizona,Chicago,Philadelphia",32,64,5,4.0,1.0,77.2,73,37,32,72,9,4.29,1.352,331,2.25,11,2,
+Lucas Gilbreath,29,656458,Maj-NL,Colorado,29,4,0,,,2.0,8,7,1,2,2,31.5,4.5,16,2.0,0,0,COL
+Logan Gillaspie,28,670810,"Maj-AL,Maj-NL","Baltimore,San Diego",28,22,0,,,27.0,36,17,9,18,5,5.67,1.667,125,2.0,0,0,
+Connor Gillispie,27,687362,"Maj-AL,Maj-NL","Cleveland,Miami",27,9,6,,,34.0,36,27,16,31,6,7.15,1.529,155,1.94,8,1,
+Kevin Ginkel,32,656464,Maj-NL,Arizona,32,176,0,19.0,12.0,177.1,153,68,58,195,11,3.45,1.19,734,3.36,10,0,ARI
+J.T. Ginn,27,669372,Maj-AL,"Athletics,Oakland",27,35,23,5.0,,135.1,135,71,43,136,22,4.72,1.315,576,3.16,10,2,
+Lucas Giolito,30,608337,Maj-AL,"Boston,Chicago,Cleveland,Los Angeles",30,59,59,18.0,,329.1,300,155,129,325,58,4.24,1.303,1407,2.52,25,3,
+Sawyer Gipson-Long,27,687830,Maj-AL,Detroit,27,12,7,1.0,,51.1,48,31,14,52,10,5.44,1.208,215,3.71,7,1,DET
+Mychal Givens,33,571710,Maj-AL,Baltimore,33,6,0,,,4.0,4,5,6,2,0,11.25,2.5,22,0.33,1,0,BAL
+Tyler Glasnow,32,607192,"Maj-AL,Maj-NL","Los Angeles,Tampa Bay",32,71,68,24.0,1.0,388.2,275,146,135,491,41,3.38,1.055,1560,3.64,52,2,
+Austin Gomber,31,596295,Maj-NL,Colorado,31,69,69,14.0,,361.2,424,220,98,237,72,5.47,1.443,1571,2.42,26,2,COL
+Yoendrys G\xc3\xb3mez,26,672782,"Maj-AL,Maj-NL","Chicago,Los Angeles,New York,Tampa Bay",26,31,9,3.0,1.0,84.2,82,47,38,77,18,5.0,1.417,379,2.03,8,0,
+Tony Gonsolin,31,664062,Maj-NL,Los Angeles,31,27,27,11.0,,139.0,119,77,58,120,28,4.99,1.273,592,2.07,10,0,LAD
+Marco Gonzales,32,594835,"Maj-AL,Maj-NL","Pittsburgh,Seattle",32,17,17,5.0,,83.2,98,46,29,57,10,4.95,1.518,366,1.97,3,0,
+Chi Chi Gonz\xc3\xa1lez,31,592346,Maj-NL,Miami,31,3,0,,,3.2,7,3,1,3,1,7.36,2.182,19,3.0,1,0,MIA
+Victor Gonz\xc3\xa1lez,28,624647,"Maj-AL,Maj-NL","Los Angeles,New York",28,61,1,5.0,2.0,57.0,40,25,23,41,5,3.95,1.105,232,1.78,2,2,
+Wikelman Gonz\xc3\xa1lez,23,682790,Maj-AL,Chicago,23,16,0,1.0,,20.1,13,6,12,25,1,2.66,1.23,87,2.08,2,0,CWS
+Colton Gordon,26,676467,Maj-AL,Houston,26,20,14,6.0,1.0,86.0,103,51,19,72,21,5.34,1.419,379,3.79,3,0,HOU
+Tanner Gordon,27,685299,Maj-NL,Colorado,27,23,23,6.0,,109.2,149,86,23,88,26,7.06,1.568,497,3.83,6,1,COL
+MacKenzie Gore,27,669022,"Maj-AL,Maj-NL","Texas,Washington",27,92,92,24.0,,478.2,466,218,191,542,64,4.1,1.373,2056,2.84,49,6,
+Anthony Gose,33,543238,Maj-AL,Cleveland,33,3,0,,,4.1,9,5,1,4,2,10.38,2.308,22,4.0,0,0,CLE
+Trevor Gott,30,641627,"Maj-AL,Maj-NL","New York,Seattle",30,63,0,,1.0,56.2,59,27,19,62,4,4.29,1.376,252,3.26,11,2,
+Gordon Graceffo,26,700669,Maj-NL,St. Louis,26,33,1,4.0,1.0,57.2,59,35,20,50,3,5.46,1.37,251,2.5,4,0,STL
+Andre Granillo,26,701552,Maj-NL,"St. Louis,Washington",26,19,0,1.0,1.0,25.1,28,17,12,19,4,6.04,1.579,114,1.58,1,0,
+Brusdar Graterol,25,660813,Maj-NL,Los Angeles,25,80,1,4.0,7.0,80.0,59,12,19,58,3,1.35,0.975,307,3.05,5,0,LAD
+Kendall Graveman,34,608665,"Maj-AL,Maj-NL","Arizona,Chicago,Houston",34,85,0,5.0,8.0,82.1,71,34,46,75,11,3.72,1.421,356,1.63,9,1,
+Jon Gray,33,592351,Maj-AL,Texas,33,61,48,16.0,,279.2,275,136,89,248,38,4.38,1.302,1180,2.79,23,5,TEX
+Josiah Gray,26,680686,Maj-NL,Washington,26,32,32,8.0,,167.1,167,82,85,152,24,4.41,1.506,742,1.79,22,4,WSN
+Sonny Gray,36,543243,"Maj-AL,Maj-NL","Boston,Minnesota,St. Louis",36,97,97,38.0,,556.1,509,223,138,609,57,3.61,1.163,2287,4.41,47,10,
+Chad Green,34,643338,Maj-AL,Toronto,34,110,0,10.0,17.0,109.1,103,53,31,95,23,4.36,1.226,452,3.06,11,1,TOR
+Hunter Greene,25,668881,Maj-NL,Cincinnati,25,67,67,20.0,,369.2,283,141,130,449,48,3.43,1.117,1528,3.45,38,4,CIN
+Shane Greene,34,572888,Maj-NL,Chicago,34,2,0,,,3.0,2,0,2,3,0,0.0,1.333,12,1.5,0,0,CHC
+Zack Greinke,39,425844,Maj-AL,Kansas City,39,29,26,2.0,,137.0,151,78,22,93,25,5.12,1.263,570,4.23,2,5,KC
+Foster Griffin,30,656492,Maj-NL,Washington,30,3,3,2.0,,15.1,11,3,6,12,2,1.76,1.109,63,2.0,0,0,WSN
+Michael Grove,27,675627,Maj-NL,Los Angeles,27,60,14,6.0,,122.1,131,78,37,130,20,5.74,1.373,529,3.51,12,3,LAD
+Sean Guenther,29,674944,Maj-AL,Detroit,29,30,1,4.0,,34.1,21,9,8,20,0,2.36,0.845,127,2.5,0,0,DET
+Javy Guerra,27,642770,"Maj-AL,Maj-NL","Milwaukee,Tampa Bay",27,16,2,,,18.1,17,13,22,13,2,6.38,2.127,94,0.59,2,0,
+Luis Guerrero,24,692285,Maj-AL,Boston,24,22,0,,,27.1,15,8,16,19,0,2.63,1.134,108,1.19,3,0,BOS
+Luis Guillorme,29,641645,"Maj-AL,Maj-NL","Atlanta,Los Angeles,New York",29,4,0,,,4.0,5,4,2,0,1,9.0,1.75,19,0.0,0,0,
+Ryan Gusto,27,687473,"Maj-AL,Maj-NL","Houston,Miami",27,28,17,7.0,,102.2,114,64,36,98,17,5.61,1.461,456,2.72,8,0,
+Vladimir Gutierrez,28,661269,Maj-NL,Miami,28,1,0,,,4.0,3,3,2,4,1,6.75,1.25,17,2.0,1,0,MIA
+Josh Hader,31,623352,"Maj-AL,Maj-NL","Houston,San Diego",31,182,0,16.0,95.0,182.1,108,51,73,266,23,2.52,0.993,727,3.64,10,2,
+Justin Hagenman,28,663795,Maj-NL,New York,28,9,1,,1.0,23.2,24,12,2,23,4,4.56,1.099,99,11.5,1,0,NYM
+Jesse Hahn,35,534910,Maj-AL,Seattle,35,3,0,,,5.0,6,3,5,3,1,5.4,2.2,25,0.6,0,0,SEA
+DL Hall,27,669084,"Maj-AL,Maj-NL","Baltimore,Milwaukee",27,59,10,5.0,,112.0,95,46,50,110,10,3.7,1.295,477,2.2,3,2,
+Seth Halvorsen,25,678020,Maj-NL,Colorado,25,54,0,3.0,13.0,52.0,49,24,23,49,9,4.15,1.385,219,2.13,6,1,COL
+Dom Hamel,26,687589,Maj-NL,New York,26,1,0,,,1.0,3,0,0,0,0,0.0,3.0,6,,0,0,NYM
+Ian Hamilton,30,641656,Maj-AL,New York,30,112,4,5.0,3.0,137.1,111,53,63,155,9,3.47,1.267,574,2.46,5,2,NYY
+Garrett Hampson,30,641658,"Maj-AL,Maj-NL","Kansas City,St. Louis",30,2,0,,,2.0,0,0,0,0,0,0.0,0.0,7,,0,0,
+Emerson Hancock,27,676106,Maj-AL,Seattle,27,42,34,10.0,,184.1,180,93,61,131,29,4.54,1.307,780,2.15,11,1,SEA
+Brad Hand,33,543272,Maj-NL,"Atlanta,Colorado",33,60,0,5.0,1.0,53.2,54,33,22,60,7,5.53,1.416,236,2.73,13,1,
+Brenan Hanifee,27,669724,Maj-AL,Detroit,27,80,3,4.0,,97.0,103,31,21,68,7,2.88,1.278,415,3.24,8,1,DET
+Tom Harrington,23,802419,Maj-NL,Pittsburgh,23,3,1,,1.0,8.2,18,15,7,7,3,15.58,2.885,50,1.0,1,0,PIT
+Hayden Harris,26,802686,Maj-NL,Atlanta,26,3,0,,,2.2,3,1,2,0,0,3.38,1.875,12,0.0,0,0,ATL
+Hobie Harris,30,665048,Maj-NL,Washington,30,16,0,,,19.1,21,11,13,9,2,5.12,1.759,91,0.69,3,0,WSN
+Hogan Harris,29,663687,Maj-AL,"Athletics,Oakland",29,91,15,9.0,5.0,209.0,193,99,104,190,22,4.26,1.421,910,1.83,14,5,
+Josh Harrison,35,543281,Maj-NL,Philadelphia,35,2,0,,,1.2,8,5,2,0,0,27.0,6.0,15,0.0,0,0,PHI
+Kyle Harrison,24,690986,"Maj-AL,Maj-NL","Boston,Milwaukee,San Francisco",24,45,40,10.0,,209.1,200,100,71,206,32,4.3,1.295,895,2.9,25,4,
+Kyle Hart,33,606996,Maj-NL,San Diego,33,25,6,3.0,,51.2,45,32,17,42,9,5.57,1.2,214,2.47,1,1,
+Geoff Hartlieb,31,664129,"Maj-AL,Maj-NL","Colorado,Detroit,Miami,New York",31,11,0,,,16.1,23,18,13,15,4,9.92,2.204,84,1.15,2,0,
+Grant Hartwig,26,701643,Maj-NL,New York,26,32,0,5.0,,42.0,40,24,19,34,4,5.14,1.405,189,1.79,1,2,NYM
+Hunter Harvey,31,640451,"Maj-AL,Maj-NL","Chicago,Kansas City,Washington",31,121,0,7.0,11.0,125.0,105,47,31,137,14,3.38,1.088,507,4.42,20,1,
+Thomas Hatch,30,641672,"Maj-AL,Maj-NL","Kansas City,Minnesota,Pittsburgh,Toronto",30,30,3,3.0,,62.2,73,35,29,48,9,5.03,1.628,281,1.66,8,1,
+Brent Headrick,28,687396,Maj-AL,"Minnesota,New York",28,41,0,4.0,1.0,59.0,54,28,23,77,12,4.27,1.305,257,3.35,2,1,
+Andrew Heaney,34,571760,"Maj-AL,Maj-NL","Los Angeles,Pittsburgh,Texas",34,98,85,21.0,,440.2,442,224,145,400,71,4.57,1.332,1917,2.76,26,0,
+Taylor Hearn,28,621368,"Maj-AL,Maj-NL","Atlanta,Kansas City,Texas",28,13,0,,,15.0,23,19,8,15,4,11.4,2.067,76,1.88,3,0,
+Jonathan Heasley,27,669169,Maj-AL,"Baltimore,Kansas City",27,16,0,,,20.1,27,22,5,13,7,9.74,1.574,92,2.6,1,1,
+Austin Hedges,32,595978,Maj-AL,"Cleveland,Texas",32,8,0,,,8.2,11,4,2,2,1,4.15,1.5,38,1.0,0,0,
+Tyler Heineman,35,623168,Maj-AL,Toronto,35,6,0,,,7.1,23,17,1,0,2,20.86,3.273,48,0.0,0,0,TOR
+Ben Heller,32,621294,Maj-NL,"Atlanta,Pittsburgh",32,27,0,,,30.2,35,23,17,31,3,6.75,1.696,148,1.82,4,0,
+Ryan Helsley,31,664854,"Maj-AL,Maj-NL","Baltimore,New York,St. Louis",31,161,0,13.0,88.0,163.1,138,53,68,201,12,2.92,1.261,685,2.96,12,2,
+Heath Hembree,34,592390,Maj-AL,Tampa Bay,34,1,0,,,1.1,0,0,1,2,0,0.0,0.75,4,2.0,0,0,TB
+Logan Henderson,24,701656,Maj-NL,Milwaukee,24,6,6,3.0,,27.1,20,7,9,36,3,2.3,1.061,108,4.0,1,0,MIL
+Kyle Hendricks,35,543294,"Maj-AL,Maj-NL","Chicago,Los Angeles",35,84,79,18.0,,432.1,452,230,113,294,59,4.79,1.307,1840,2.6,61,3,
+Liam Hendriks,36,521230,Maj-AL,"Boston,Chicago",36,19,0,2.0,1.0,18.2,16,13,8,15,3,6.27,1.286,79,1.88,3,1,
+Blair Henley,27,668874,Maj-AL,Houston,27,1,1,,,0.1,4,5,3,0,0,135.0,21.0,9,0.0,0,0,HOU
+Edgardo Henriquez,24,683618,Maj-NL,Los Angeles,24,35,0,3.0,2.0,33.1,33,14,15,32,4,3.78,1.44,148,2.13,3,0,LAD
+Ronny Henriquez,25,678692,"Maj-AL,Maj-NL","Miami,Minnesota",25,85,1,8.0,7.0,92.1,73,25,32,113,10,2.44,1.137,385,3.53,18,2,
+Cole Henry,26,669371,Maj-NL,Washington,26,63,0,1.0,2.0,59.2,50,28,35,60,7,4.22,1.425,273,1.71,10,1,WSN
+Tommy Henry,27,674072,Maj-NL,Arizona,27,28,23,7.0,,134.0,141,74,54,102,24,4.97,1.455,589,1.89,11,2,ARI
+David Hensley,28,682073,Maj-NL,Miami,28,1,0,,,2.0,2,2,1,0,0,9.0,1.5,10,0.0,0,0,MIA
+Sam Hentges,27,656529,Maj-AL,Cleveland,27,81,0,3.0,,76.0,71,29,23,83,5,3.43,1.237,314,3.61,6,0,CLE
+Jimmy Herget,32,623474,"Maj-AL,Maj-NL","Atlanta,Colorado,Los Angeles",32,102,2,3.0,1.0,131.2,123,45,37,127,15,3.08,1.215,551,3.43,9,1,
+Kevin Herget,34,643361,Maj-NL,"Atlanta,Cincinnati,Milwaukee,New York",34,28,0,1.0,2.0,48.2,44,20,14,28,5,3.7,1.192,204,2.0,0,0,
+Carlos Hern\xc3\xa1ndez,28,672578,"Maj-AL,Maj-NL","Cleveland,Detroit,Kansas City,Philadelphia",28,134,4,2.0,4.0,142.1,135,82,69,142,15,5.19,1.433,628,2.06,20,0,
+Daysbel Hern\xc3\xa1ndez,28,678226,Maj-NL,Atlanta,28,61,0,8.0,,62.0,44,22,45,68,4,3.19,1.435,271,1.51,6,1,ATL
+Elieser Hern\xc3\xa1ndez,29,622694,Maj-NL,"Los Angeles,Milwaukee",29,9,1,,,15.2,14,11,5,8,5,6.32,1.213,64,1.6,0,0,
+Enrique Hern\xc3\xa1ndez,33,571771,Maj-NL,Los Angeles,33,9,0,,,9.2,16,11,8,1,1,10.24,2.483,55,0.13,0,0,LAD
+Jonathan Hern\xc3\xa1ndez,27,642546,Maj-AL,"Seattle,Texas",27,61,1,4.0,,73.0,75,44,43,71,10,5.42,1.616,332,1.65,6,0,
+Jose Hernandez,26,669796,Maj-NL,Pittsburgh,26,57,0,2.0,1.0,56.0,52,30,26,66,10,4.82,1.393,248,2.54,7,0,PIT
+Nick Hernandez,30,663321,"Maj-AL,Maj-NL","Houston,San Diego",30,17,0,,,21.2,25,17,13,26,8,7.06,1.754,104,2.0,1,0,
+Yonny Hern\xc3\xa1ndez,25,660634,Maj-NL,Los Angeles,25,1,0,,,1.0,1,0,0,0,0,0.0,1.0,4,,0,0,LAD
+Jos\xc3\xa9 Herrera,28,645444,Maj-NL,Arizona,28,4,0,,,4.0,8,3,0,0,0,6.75,2.0,20,,0,0,ARI
+Tim Herrin,29,682120,Maj-AL,Cleveland,29,167,0,12.0,,148.0,114,55,73,156,10,3.34,1.264,620,2.14,18,4,CLE
+DJ Herz,23,687792,Maj-NL,Washington,23,19,19,4.0,,88.2,76,41,36,106,11,4.16,1.263,382,2.94,2,0,WSN
+Codi Heuer,28,676051,Maj-AL,"Detroit,Texas",28,3,0,,,4.2,4,3,2,5,3,5.79,1.286,21,2.5,0,0,
+Aaron Hicks,34,543305,Maj-AL,Los Angeles,34,1,0,,,1.0,2,2,1,0,1,18.0,3.0,6,0.0,0,0,LAA
+Jordan Hicks,29,663855,"Maj-AL,Maj-NL","Boston,Chicago,San Francisco,St. Louis,Toronto",29,135,29,9.0,16.0,249.1,253,130,119,241,22,4.69,1.492,1110,2.03,16,1,
+P.J. Higgins,33,664731,Maj-NL,Cincinnati,33,1,0,,,1.0,0,0,0,1,0,0.0,0.0,3,,0,0,CIN
+Garrett Hill,27,682051,Maj-AL,Detroit,27,9,0,,1.0,15.2,19,16,14,14,4,9.19,2.106,80,1.0,1,0,DET
+Jaden Hill,26,677955,Maj-NL,Colorado,26,44,0,1.0,,46.1,38,18,18,43,4,3.5,1.209,198,2.39,14,0,COL
+Rich Hill,45,448179,"Maj-AL,Maj-NL","Boston,Kansas City,Pittsburgh,San Diego",45,38,29,8.0,,159.0,175,95,69,138,26,5.38,1.535,718,2.0,30,3,
+Tim Hill,36,657612,"Maj-AL,Maj-NL","Chicago,New York,San Diego",36,199,0,10.0,,195.0,202,76,51,100,17,3.51,1.297,819,1.96,3,1,
+Yaramil Hiraldo,30,682274,Maj-AL,Baltimore,30,21,0,,,21.1,20,14,13,23,6,5.91,1.547,96,1.77,3,1,BAL
+Sean Hjelle,28,663546,Maj-NL,San Francisco,28,85,1,6.0,,124.2,143,69,36,117,15,4.98,1.436,549,3.25,7,1,SF
+Porter Hodge,24,687863,Maj-NL,Chicago,24,75,0,5.0,11.0,76.0,53,32,37,92,11,3.79,1.184,311,2.49,4,1,CHC
+Bryan Hoeing,28,663773,Maj-NL,"Miami,San Diego",28,77,9,6.0,,135.0,128,62,43,103,19,4.13,1.267,564,2.4,14,1,
+Jeff Hoffman,33,656546,"Maj-AL,Maj-NL","Philadelphia,Toronto",33,221,0,20.0,48.0,214.0,153,75,71,285,27,3.15,1.047,876,4.01,21,1,
+Nolan Hoffman,27,676510,Maj-NL,Philadelphia,27,1,0,,,1.0,3,3,1,2,0,27.0,4.0,7,2.0,0,0,PHI
+Andrew Hoffmann,26,694851,"Maj-AL,Maj-NL","Arizona,Kansas City",26,15,0,2.0,,18.2,18,9,15,19,2,4.34,1.768,90,1.27,1,0,
+Gunnar Hoglund,25,680684,Maj-AL,Athletics,25,6,6,1.0,,32.1,38,23,11,23,10,6.4,1.515,139,2.09,2,0,
+Colin Holderman,30,670059,"Maj-AL,Maj-NL","Cleveland,Pittsburgh",30,138,0,3.0,3.0,135.0,132,64,63,134,15,4.27,1.444,599,2.13,20,0,
+Gavin Hollowell,27,668970,Maj-NL,"Chicago,Colorado",27,34,0,2.0,1.0,44.1,42,27,25,43,9,5.48,1.511,203,1.72,6,0,
+Grant Holman,25,680880,Maj-AL,"Athletics,Oakland",25,40,2,5.0,,38.2,43,20,18,33,4,4.66,1.578,176,1.83,0,1,
+Clay Holmes,33,605280,"Maj-AL,Maj-NL",New York,33,182,34,24.0,54.0,321.2,281,113,124,292,22,3.16,1.259,1361,2.35,15,1,
+Grant Holmes,30,656550,Maj-NL,Atlanta,30,51,31,7.0,,200.2,177,83,77,207,25,3.72,1.266,845,2.69,9,1,ATL
+Tyler Holton,30,663947,Maj-AL,Detroit,30,212,18,16.0,10.0,275.0,191,82,58,228,32,2.68,0.905,1057,3.93,7,0,DET
+Brent Honeywell Jr.,29,641703,"Maj-AL,Maj-NL","Chicago,Los Angeles,Pittsburgh,San Diego",29,63,1,3.0,1.0,98.2,97,48,37,65,14,4.38,1.358,426,1.76,13,4,
+Bailey Horn,27,690544,Maj-AL,"Boston,Detroit",27,28,0,1.0,,29.1,33,15,17,23,6,4.6,1.705,138,1.35,2,0,
+Cade Horton,24,690990,Maj-NL,Chicago,24,25,24,12.0,,125.1,99,37,35,101,11,2.66,1.069,502,2.89,8,3,CHC
+Tanner Houck,29,656557,Maj-AL,Boston,29,60,60,15.0,,328.1,317,160,106,285,35,4.39,1.288,1409,2.69,21,0,BOS
+Adrian Houser,33,605288,"Maj-AL,Maj-NL","Chicago,Milwaukee,New York,San Francisco,Tampa Bay",33,69,51,17.0,1.0,317.0,332,147,107,240,31,4.17,1.385,1361,2.24,19,8,
+Spencer Howard,27,675921,"Maj-AL,Maj-NL","Cleveland,San Francisco,Texas",27,12,3,1.0,,32.1,48,24,17,29,6,6.68,2.01,162,1.71,5,0,
+Bryan Hudson,29,663542,"Maj-AL,Maj-NL","Chicago,Los Angeles,Milwaukee",29,70,0,6.0,,90.2,60,29,38,92,10,2.88,1.081,374,2.42,10,3,
+Dakota Hudson,29,641712,Maj-NL,"Colorado,St. Louis",29,36,30,8.0,,170.1,187,106,84,94,20,5.6,1.591,758,1.12,8,1,
+Daniel Hudson,37,543339,Maj-NL,Los Angeles,37,75,0,6.0,11.0,72.0,55,26,24,74,11,3.25,1.097,295,3.08,3,0,LAD
+Brandon Hughes,28,676714,Maj-NL,"Arizona,Chicago",28,32,2,,,31.1,38,27,18,38,10,7.76,1.787,152,2.11,5,0,
+Cooper Hummel,30,669450,Maj-AL,Houston,30,1,0,,,1.0,5,4,0,0,1,36.0,5.0,9,,0,0,HOU
+Tommy Hunter,36,488984,Maj-NL,New York,36,13,0,,,21.2,27,18,5,20,6,7.48,1.477,99,4.0,1,0,NYM
+Kyle Hurt,26,669165,Maj-NL,Los Angeles,26,4,1,,,8.2,8,1,1,6,0,1.04,1.038,33,6.0,2,0,LAD
+Brant Hurter,27,676428,Maj-AL,Detroit,27,65,5,12.0,2.0,123.0,105,34,38,112,11,2.49,1.163,514,2.95,10,2,DET
+Raisel Iglesias,36,628452,Maj-NL,Atlanta,36,202,0,15.0,99.0,200.1,143,56,44,216,19,2.52,0.933,781,4.91,7,0,ATL
+Tatsuya Imai,28,837227,Maj-AL,Houston,28,3,3,1.0,,8.2,7,7,11,13,0,7.27,2.077,44,1.18,0,0,HOU
+Shota Imanaga,32,684007,Maj-NL,Chicago,32,59,58,24.0,,340.2,283,127,60,317,62,3.36,1.007,1351,5.28,5,8,CHC
+Kolton Ingram,26,688427,Maj-AL,Los Angeles,26,5,0,,,5.1,8,5,5,7,2,8.44,2.438,30,1.4,0,0,LAA
+Jairo Iriarte,22,683568,Maj-AL,Chicago,22,6,0,,,6.0,3,1,8,6,0,1.5,1.833,30,0.75,0,0,CWS
+Cole Irvin,30,608344,Maj-AL,"Baltimore,Minnesota",30,53,28,7.0,1.0,188.1,210,101,50,146,29,4.83,1.381,828,2.92,2,0,
+Jake Irvin,29,663623,Maj-NL,Washington,29,93,93,23.0,,502.2,499,279,176,395,90,5.0,1.343,2150,2.24,23,5,WSN
+Alex Jackson,29,656577,Maj-AL,Baltimore,29,1,0,,,1.0,3,3,2,0,0,27.0,5.0,8,0.0,0,0,BAL
+Andre Jackson,27,656578,Maj-NL,"Los Angeles,Pittsburgh",27,19,7,1.0,2.0,61.1,52,34,22,57,11,4.99,1.207,257,2.59,4,2,
+Jay Jackson,36,543351,Maj-AL,"Minnesota,Toronto",36,45,0,4.0,,56.0,46,29,18,56,11,4.66,1.143,230,3.11,3,0,
+Luke Jackson,33,592426,"Maj-AL,Maj-NL","Atlanta,Detroit,San Francisco,Seattle,Texas",33,140,0,8.0,9.0,142.1,123,66,69,143,16,4.17,1.349,616,2.07,17,1,
+Zach Jackson,28,667427,Maj-AL,Oakland,28,18,0,2.0,1.0,17.0,18,5,9,22,1,2.65,1.588,76,2.44,2,1,OAK
+Alek Jacob,27,689690,Maj-NL,San Diego,27,41,0,1.0,,53.0,46,24,18,49,8,4.08,1.208,230,2.72,6,0,
+Joe Jacques,29,682175,"Maj-AL,Maj-NL","Arizona,Boston",29,25,1,2.0,1.0,29.2,38,18,11,22,3,5.46,1.652,138,2.0,3,0,
+Drey Jameson,27,686753,Maj-NL,Arizona,27,17,3,2.0,2.0,39.2,42,15,18,32,5,3.4,1.513,170,1.78,0,1,ARI
+Travis Jankowski,34,608671,Maj-NL,New York,34,1,0,,,1.0,2,2,1,0,0,18.0,3.0,6,0.0,0,0,NYM
+Kenley Jansen,38,445276,Maj-AL,"Boston,Detroit,Los Angeles",38,170,0,12.0,87.0,161.0,116,56,57,177,18,3.13,1.075,650,3.11,37,1,
+Bryce Jarvis,27,686826,Maj-NL,Arizona,27,67,1,3.0,1.0,105.0,89,43,52,71,12,3.69,1.343,448,1.37,3,0,ARI
+Cristian Javier,29,664299,Maj-AL,Houston,29,51,51,17.0,,249.0,218,131,111,230,36,4.73,1.321,1068,2.07,34,6,HOU
+Griffin Jax,31,643377,Maj-AL,"Minnesota,Tampa Bay",31,226,2,12.0,14.0,210.1,177,80,58,271,17,3.42,1.117,869,4.67,19,3,
+Tyler Jay,30,664079,Maj-NL,"Milwaukee,New York",30,5,0,,,7.2,9,4,6,6,0,4.7,1.957,36,1.0,2,0,
+Daulton Jefferies,28,641726,Maj-NL,"Pittsburgh,San Francisco",28,6,1,,,14.2,24,16,4,12,4,9.82,1.909,73,3.0,1,0,
+Dany Jim\xc3\xa9nez,30,666204,Maj-AL,Oakland,30,49,1,1.0,1.0,48.0,32,23,32,45,9,4.31,1.333,207,1.41,3,2,OAK
+Joe Jim\xc3\xa9nez,29,641729,Maj-NL,Atlanta,29,130,0,1.0,3.0,127.0,97,39,39,157,11,2.76,1.071,524,4.03,12,0,ATL
+Jackson Jobe,22,695549,Maj-AL,Detroit,22,14,10,4.0,,54.2,52,26,28,41,7,4.28,1.463,246,1.46,5,1,DET
+Pierce Johnson,35,572955,Maj-NL,"Atlanta,Cincinnati,Colorado",35,201,0,12.0,15.0,187.0,172,74,77,225,25,3.56,1.332,791,2.92,18,4,
+Ryan Johnson,23,696270,Maj-AL,Los Angeles,23,15,1,1.0,1.0,18.0,31,18,9,18,5,9.0,2.222,93,2.0,0,0,LAA
+Seth Johnson,26,686751,Maj-NL,Philadelphia,26,11,1,1.0,,15.0,19,15,7,17,4,9.0,1.733,72,2.43,2,0,PHI
+Jared Jones,22,683003,Maj-NL,Pittsburgh,22,22,22,6.0,,121.2,106,56,39,132,18,4.14,1.192,504,3.38,5,2,PIT
+Ben Joyce,24,690829,Maj-AL,Los Angeles,24,48,1,4.0,4.0,49.0,40,17,24,44,3,3.12,1.306,210,1.83,1,1,LAA
+Jakob Junis,33,596001,"Maj-AL,Maj-NL","Cincinnati,Cleveland,Milwaukee,San Francisco,Texas",33,129,10,12.0,4.0,228.1,206,79,48,206,25,3.11,1.112,924,4.29,16,1,
+Janson Junk,30,676083,"Maj-AL,Maj-NL","Miami,Milwaukee,Oakland",30,32,20,6.0,1.0,142.0,159,76,23,102,14,4.82,1.282,597,4.43,15,1,
+Evan Justice,25,687145,Maj-NL,Colorado,25,10,0,,,7.2,14,7,9,8,0,8.22,3.0,44,0.89,2,1,COL
+Tommy Kahnle,35,592454,Maj-AL,"Detroit,New York",35,171,0,3.0,13.0,157.1,118,56,78,153,18,3.2,1.246,665,1.96,2,0,
+James Kaprielian,29,621076,Maj-AL,Oakland,29,14,11,2.0,,61.0,66,43,31,57,9,6.34,1.59,280,1.84,10,0,OAK
+Ricky Karcher,25,676689,Maj-NL,Cincinnati,25,1,0,,1.0,1.0,0,0,1,0,0,0.0,1.0,4,0.0,2,0,CIN
+James Karinchak,27,675916,Maj-AL,Cleveland,27,43,0,2.0,,38.2,23,11,27,52,5,2.56,1.293,167,1.93,16,0,CLE
+Karl Kauffmann,25,666154,Maj-NL,Colorado,25,11,3,2.0,,35.0,42,32,16,16,5,8.23,1.657,158,1.0,4,0,COL
+Niko Kavadas,26,694359,Maj-AL,Los Angeles,26,1,0,,,1.2,3,0,1,1,0,0.0,2.4,9,1.0,0,0,LAA
+Anthony Kay,31,641743,"Maj-AL,Maj-NL","Chicago,New York",31,19,2,1.0,,29.1,22,14,17,22,4,4.3,1.33,130,1.29,3,0,
+Brad Keller,30,641745,"Maj-AL,Maj-NL","Boston,Chicago,Kansas City,Philadelphia",30,107,12,7.0,6.0,169.0,144,69,86,149,18,3.67,1.361,731,1.73,3,1,
+Mitch Keller,30,656605,Maj-NL,Pittsburgh,30,97,97,31.0,,562.0,547,255,157,529,68,4.08,1.253,2393,3.37,72,2,PIT
+Trevor Kelley,30,665001,Maj-AL,Tampa Bay,30,10,3,,,15.1,16,10,6,11,4,5.87,1.435,69,1.83,0,0,TB
+Carson Kelly,28,608348,"Maj-AL,Maj-NL","Arizona,Detroit",28,3,0,,,2.2,9,3,1,1,1,10.13,3.75,18,1.0,0,0,
+Casey Kelly,35,543391,Maj-NL,"Arizona,Cincinnati",35,4,0,,1.0,7.0,6,3,2,4,1,3.86,1.143,27,2.0,2,0,
+Joe Kelly,36,523260,"Maj-AL,Maj-NL","Chicago,Los Angeles",36,78,0,3.0,1.0,73.0,62,35,35,98,7,4.32,1.329,319,2.8,6,1,
+Kevin Kelly,28,687330,Maj-AL,Tampa Bay,28,172,0,13.0,4.0,181.1,160,75,35,159,20,3.72,1.075,744,4.54,18,2,TB
+Merrill Kelly,36,518876,"Maj-AL,Maj-NL","Arizona,Texas",36,78,78,32.0,,455.2,376,176,140,441,58,3.48,1.132,1844,3.15,33,10,
+Michael Kelly,33,547184,Maj-AL,"Athletics,Cleveland,Oakland",33,88,0,8.0,2.0,92.0,78,33,42,71,8,3.23,1.304,387,1.69,7,0,
+Zack Kelly,31,677161,Maj-AL,Boston,31,89,3,7.0,,104.1,89,50,46,102,13,4.31,1.294,447,2.22,11,1,BOS
+Brett Kennedy,28,664028,Maj-NL,Cincinnati,28,5,2,1.0,,18.0,19,13,7,9,1,6.5,1.444,83,1.29,4,0,CIN
+Ian Kennedy,38,453178,Maj-AL,Texas,38,16,0,,,16.1,16,13,7,21,4,7.16,1.408,75,3.0,1,0,TEX
+Zak Kent,28,687849,Maj-AL,"Cleveland,Minnesota",28,14,0,1.0,,21.1,21,11,13,18,3,4.64,1.594,96,1.38,2,0,
+Orion Kerkering,25,689147,Maj-NL,Philadelphia,25,154,2,14.0,4.0,140.2,123,44,54,159,9,2.82,1.258,606,2.94,15,0,PHI
+Ray Kerr,29,678061,Maj-NL,"Atlanta,San Diego",29,32,2,2.0,,49.1,54,27,16,62,9,4.93,1.419,217,3.88,5,1,
+Clayton Kershaw,37,477132,Maj-NL,Los Angeles,37,57,54,26.0,,277.0,250,103,88,245,32,3.35,1.22,1142,2.78,6,1,LAD
+Grae Kessinger,26,666197,Maj-AL,Houston,26,1,0,,,1.0,0,0,0,0,0,0.0,0.0,3,,0,0,HOU
+Dallas Keuchel,36,572971,"Maj-AL,Maj-NL","Milwaukee,Minnesota",36,14,10,2.0,,54.1,68,35,26,36,6,5.8,1.73,251,1.38,8,0,
+Yusei Kikuchi,35,579328,Maj-AL,"Houston,Los Angeles,Toronto",35,101,100,27.0,,538.0,535,242,173,577,77,4.05,1.316,2286,3.34,34,5,
+Caleb Kilian,29,668873,Maj-NL,"Chicago,San Francisco",29,12,2,,,22.0,25,16,11,21,3,6.55,1.636,104,1.91,3,0,
+Craig Kimbrel,38,518886,"Maj-AL,Maj-NL","Atlanta,Baltimore,Houston,New York,Philadelphia",38,150,0,15.0,49.0,140.1,101,63,71,191,20,4.04,1.226,592,2.69,33,4,
+Isiah Kiner-Falefa,30,643396,Maj-AL,"New York,Toronto",30,7,0,,,6.2,5,2,2,1,0,2.7,1.05,27,0.5,0,0,
+Bryan King,29,687911,Maj-AL,Houston,29,103,0,6.0,3.0,101.2,85,29,24,111,11,2.57,1.072,414,4.63,1,0,HOU
+John King,31,667463,"Maj-AL,Maj-NL","Miami,St. Louis,Texas",31,148,0,8.0,,150.1,168,59,41,91,15,3.53,1.39,645,2.22,17,1,
+Michael King,31,650633,"Maj-AL,Maj-NL","New York,San Diego",31,101,59,25.0,6.0,381.1,317,128,130,437,42,3.02,1.172,1584,3.36,12,6,
+Scott Kingery,31,664068,Maj-AL,Los Angeles,31,1,0,,,2.0,12,8,0,1,2,36.0,6.0,18,,0,0,LAA
+Tyler Kinley,35,641755,Maj-NL,"Atlanta,Colorado",35,165,0,14.0,20.0,159.0,138,88,74,167,20,4.98,1.333,692,2.26,31,2,
+George Kirby,28,669923,Maj-AL,Seattle,28,94,94,38.0,,545.2,515,225,80,525,66,3.71,1.09,2212,6.56,51,2,SEA
+Austin Kitchen,27,685116,Maj-NL,Miami,27,4,1,,,7.0,16,11,3,4,1,14.14,2.714,42,1.33,1,0,MIA
+Andrew Kittredge,35,552640,"Maj-AL,Maj-NL","Baltimore,Chicago,St. Louis,Tampa Bay",35,148,1,11.0,8.0,141.1,119,49,34,145,20,3.12,1.083,570,4.26,23,1,
+George Klassen,24,691946,Maj-AL,Los Angeles,24,2,2,,,4.2,8,7,10,6,1,13.5,3.857,32,0.6,2,0,LAA
+Will Klein,26,694361,"Maj-AL,Maj-NL","Kansas City,Los Angeles,Oakland",26,28,0,4.0,,33.1,32,14,20,38,0,3.78,1.56,149,1.9,2,1,
+Adam Kloffenstein,23,680572,Maj-NL,St. Louis,23,1,0,,,1.0,0,0,0,0,0,0.0,0.0,3,,0,0,STL
+Corey Kluber,37,446372,Maj-AL,Boston,37,14,8,3.0,1.0,51.2,63,38,17,38,15,6.62,1.548,238,2.24,2,0,BOS
+Landon Knack,27,689017,Maj-NL,Los Angeles,27,28,19,6.0,2.0,118.1,106,57,41,116,26,4.34,1.242,504,2.83,10,0,LAD
+Reiss Knehr,26,663753,Maj-NL,San Diego,26,4,1,,,5.2,10,10,5,4,3,15.88,2.647,32,0.8,0,0,
+Andrew Knizner,29,668800,Maj-AL,Texas,29,2,0,,,3.0,1,0,2,0,0,0.0,1.0,11,0.0,0,0,TEX
+Matt Koch,33,571863,Maj-NL,Colorado,33,41,1,3.0,1.0,39.0,44,25,10,27,8,5.77,1.385,168,2.7,1,0,COL
+Jack Kochanowicz,25,686799,Maj-AL,Los Angeles,25,37,37,7.0,,193.0,214,119,79,109,28,5.55,1.518,850,1.38,6,1,LAA
+Jared Koenig,32,657649,Maj-NL,Milwaukee,32,137,6,15.0,3.0,137.2,119,39,47,142,11,2.55,1.206,575,3.02,7,3,MIL
+Adam Kolarek,34,592473,Maj-NL,"Los Angeles,New York",34,5,0,,,6.0,2,0,1,7,0,0.0,0.5,22,7.0,1,0,
+Stephen Kolek,28,663568,"Maj-AL,Maj-NL","Kansas City,San Diego",28,61,19,8.0,,159.1,157,71,43,116,13,4.01,1.255,672,2.7,5,1,
+Michael Kopech,29,656629,"Maj-AL,Maj-NL","Chicago,Los Angeles",29,121,28,12.0,15.0,217.0,170,110,145,244,39,4.56,1.452,962,1.68,38,1,
+Christian Koss,28,683766,Maj-NL,San Francisco,28,5,0,,,5.0,4,0,0,0,0,0.0,0.8,19,,0,0,SF
+Jackson Kowar,28,663804,Maj-AL,"Kansas City,Seattle",28,38,0,4.0,,45.0,48,28,27,44,8,5.6,1.667,208,1.63,7,0,
+Max Kranick,27,668820,Maj-NL,New York,27,24,0,3.0,,37.0,34,15,5,25,5,3.65,1.054,148,5.0,1,1,NYM
+Evan Kravetz,27,667478,Maj-NL,Cincinnati,27,1,0,,,0.2,0,0,0,0,0,0.0,0.0,2,,0,0,CIN
+Joey Krehbiel,30,607216,Maj-AL,Baltimore,30,6,0,1.0,,5.0,2,1,2,5,1,1.8,0.8,19,2.5,1,0,BAL
+Dean Kremer,29,665152,Maj-AL,Baltimore,29,88,86,32.0,,475.2,451,224,152,422,69,4.24,1.268,2009,2.78,20,2,BAL
+Brooks Kriske,31,621139,"Maj-AL,Maj-NL","Chicago,Kansas City,Minnesota",31,20,0,,,24.2,23,18,19,24,3,6.57,1.703,113,1.26,2,0,
+Zac Kristofak,26,670219,Maj-AL,Los Angeles,26,1,0,,,2.0,3,0,2,2,0,0.0,2.5,11,1.0,2,0,LAA
+Matt Krook,30,640454,Maj-AL,"Athletics,Baltimore,New York",30,8,0,,,8.1,14,15,8,8,2,16.2,2.64,48,1.0,4,0,
+Chad Kuhl,31,641771,"Maj-AL,Maj-NL","Chicago,Washington",31,47,6,,2.0,91.2,103,66,53,85,13,6.48,1.702,427,1.6,10,2,
+Joel Kuhnel,31,669270,"Maj-AL,Maj-NL","Athletics,Cincinnati,Houston,Tampa Bay",31,18,0,,1.0,25.1,25,13,5,9,3,4.62,1.184,105,1.8,4,0,
+Joe La Sorsa,27,686747,"Maj-AL,Maj-NL","Cincinnati,Tampa Bay,Washington",27,46,0,1.0,,57.0,62,33,16,44,11,5.21,1.368,252,2.75,8,1,
+Jake Lamb,32,571875,Maj-AL,Los Angeles,32,1,0,,,1.0,1,0,0,0,0,0.0,1.0,4,,0,0,LAA
+Jimmy Lambert,28,669424,Maj-AL,Chicago,28,34,1,2.0,1.0,37.1,41,22,20,41,10,5.3,1.634,171,2.05,5,1,CWS
+Peter Lambert,27,663567,Maj-NL,Colorado,27,53,14,5.0,,148.2,166,91,57,121,25,5.51,1.5,655,2.12,10,8,COL
+Dinelson Lamet,31,659275,"Maj-AL,Maj-NL","Boston,Colorado,Los Angeles",31,19,4,1.0,1.0,31.0,42,37,25,33,8,10.74,2.161,158,1.32,5,1,
+Alex Lange,30,656638,Maj-AL,"Detroit,Kansas City",30,93,0,7.0,28.0,91.1,66,39,67,109,6,3.84,1.456,410,1.63,9,0,
+Sauryn Lao,25,666659,"Maj-AL,Maj-NL","Seattle,Washington",25,8,0,1.0,,11.0,14,6,2,9,2,4.91,1.455,49,4.5,0,0,
+Andry Lara,22,691251,Maj-NL,Washington,22,9,0,,,14.1,27,14,8,10,2,8.79,2.442,78,1.25,1,0,WSN
+Jacob Latz,30,656641,Maj-AL,Texas,30,88,9,4.0,1.0,145.1,110,46,69,131,14,2.85,1.232,595,1.9,11,1,TEX
+Eric Lauer,31,641778,"Maj-AL,Maj-NL","Milwaukee,Toronto",31,46,27,14.0,,172.2,161,85,65,165,34,4.43,1.309,732,2.54,12,6,
+Derek Law,33,571882,Maj-NL,"Cincinnati,Washington",33,128,3,11.0,3.0,143.1,131,48,50,120,13,3.01,1.263,599,2.4,12,0,
+Cody Laweryson,28,689520,Maj-AL,Minnesota,28,10,0,,1.0,14.0,7,4,2,15,0,2.57,0.643,52,7.5,0,0,MIN
+Casey Lawrence,37,596271,"Maj-AL,Maj-NL","Seattle,St. Louis,Toronto",37,21,0,2.0,,45.0,58,28,11,27,9,5.6,1.533,202,2.45,6,0,
+Justin Lawrence,31,664875,Maj-NL,"Colorado,Pittsburgh",31,148,0,9.0,13.0,157.2,155,82,80,153,17,4.68,1.49,702,1.91,17,2,
+Max Lazar,26,676661,Maj-NL,Philadelphia,26,47,0,1.0,1.0,55.0,54,29,14,35,9,4.75,1.236,224,2.5,1,2,PHI
+Kyle Leahy,29,681517,Maj-NL,St. Louis,29,101,4,6.0,2.0,152.1,140,64,51,122,11,3.78,1.254,633,2.39,3,3,STL
+Jordan Leasure,27,673929,Maj-AL,Chicago,27,108,1,5.0,9.0,103.1,87,54,50,116,20,4.7,1.326,441,2.32,7,2,CWS
+Jos\xc3\xa9 Leclerc,31,600917,Maj-AL,"Athletics,Texas",31,143,0,7.0,9.0,145.1,114,60,70,177,18,3.72,1.266,617,2.53,14,1,
+Chase Lee,26,695445,Maj-AL,Detroit,26,32,0,4.0,,37.1,32,17,9,36,7,4.1,1.098,148,4.0,2,0,DET
+Dylan Lee,31,669276,Maj-NL,Atlanta,31,157,1,7.0,2.0,159.1,132,51,38,181,24,2.88,1.067,635,4.76,6,2,ATL
+Korey Lee,26,686676,Maj-AL,Chicago,26,2,0,,,3.0,4,1,2,0,0,3.0,2.0,14,0.0,0,0,CWS
+Casey Legumina,29,668984,"Maj-AL,Maj-NL","Cincinnati,Seattle",29,70,1,5.0,,79.0,83,48,37,79,12,5.47,1.519,355,2.14,1,0,
+Brandon Leibrandt,31,605335,Maj-NL,Cincinnati,31,2,0,,,6.1,11,7,2,5,3,9.95,2.053,32,2.5,0,0,CIN
+Jack Leiter,26,683004,Maj-AL,Texas,26,41,38,11.0,,202.0,185,108,90,200,28,4.81,1.361,882,2.22,23,0,TEX
+Mark Leiter Jr.,35,643410,"Maj-AL,Maj-NL","Athletics,Chicago,New York",35,201,0,12.0,7.0,182.1,174,86,69,227,21,4.24,1.333,800,3.29,23,2,
+Sandy Le\xc3\xb3n,34,506702,Maj-AL,Texas,34,1,0,,,1.0,1,2,0,0,1,18.0,1.0,5,,0,0,TEX
+Dominic Leone,32,608678,"Maj-AL,Maj-NL","Chicago,Los Angeles,New York,Seattle",32,74,0,1.0,1.0,73.0,69,42,42,71,18,5.18,1.521,324,1.69,17,1,
+Josh Lester,28,623507,Maj-AL,Baltimore,28,1,0,,,1.0,1,0,1,1,0,0.0,2.0,5,1.0,0,0,BAL
+Matthew Liberatore,26,669461,Maj-NL,St. Louis,26,114,49,14.0,,315.1,324,155,98,254,39,4.42,1.338,1352,2.59,38,4,STL
+Jeff Lindgren,26,689167,Maj-NL,Miami,26,3,0,,,7.0,4,4,4,1,0,5.14,1.143,28,0.25,0,0,MIA
+Zack Littell,30,641793,"Maj-AL,Maj-NL","Boston,Cincinnati,Tampa Bay,Washington",30,93,77,21.0,,448.1,448,190,80,358,73,3.81,1.178,1863,4.48,24,2,
+Brendon Little,29,663893,Maj-AL,Toronto,29,139,0,5.0,2.0,121.2,106,57,72,136,14,4.22,1.463,536,1.89,10,3,TOR
+Jack Little,27,669193,Maj-NL,Los Angeles,27,2,0,,,3.0,4,2,1,2,0,6.0,1.667,14,2.0,0,0,LAD
+Luke Little,24,681432,Maj-NL,Chicago,24,38,1,3.0,,35.1,21,11,28,44,1,2.8,1.387,154,1.57,3,0,CHC
+Ben Lively,33,594902,"Maj-AL,Maj-NL","Cincinnati,Cleveland",33,58,50,19.0,,285.2,274,133,90,228,49,4.19,1.274,1199,2.53,26,3,
+Mauricio Llovera,27,661440,"Maj-AL,Maj-NL","Boston,San Francisco",27,30,0,2.0,,35.0,36,19,15,29,3,4.89,1.457,160,1.93,8,0,
+Jonathan Loaisiga,31,642528,"Maj-AL,Maj-NL","Arizona,New York",31,56,0,1.0,2.0,58.1,63,22,12,41,9,3.39,1.286,252,3.42,3,0,
+Nick Lodolo,27,666157,Maj-NL,Cincinnati,27,58,56,20.0,,308.0,290,143,78,325,45,4.18,1.195,1308,4.17,26,7,CIN
+Nick Loftin,25,679845,Maj-AL,Kansas City,25,1,0,,,1.0,1,0,0,0,0,0.0,1.0,3,,0,0,KC
+Zach Logue,28,656657,"Maj-AL,Maj-NL","Detroit,Los Angeles",28,5,0,,,13.0,19,13,2,14,4,9.0,1.615,61,7.0,1,0,
+Sam Long,29,669674,Maj-AL,"Kansas City,Oakland",29,127,1,5.0,3.0,132.0,132,68,64,111,17,4.64,1.485,581,1.73,2,4,
+Jacob Lopez,28,682052,Maj-AL,"Athletics,Tampa Bay",28,32,22,9.0,1.0,128.2,116,65,59,140,20,4.55,1.36,567,2.37,14,2,
+Jorge L\xc3\xb3pez,32,605347,"Maj-AL,Maj-NL","Baltimore,Chicago,Miami,Minnesota,New York,Washington",32,138,0,14.0,8.0,136.0,138,74,48,115,19,4.9,1.368,587,2.4,17,2,
+Jos\xc3\xa9 Lopez,24,673111,Maj-AL,Tampa Bay,24,1,0,,,2.0,3,1,1,2,0,4.5,2.0,10,2.0,0,0,TB
+Nicky Lopez,30,670032,"Maj-AL,Maj-NL","Atlanta,Los Angeles",30,3,0,,,2.2,4,2,3,0,1,6.75,2.625,15,0.0,0,0,
+Pablo L\xc3\xb3pez,29,641154,Maj-AL,Minnesota,29,79,79,32.0,,462.1,429,187,109,507,56,3.64,1.164,1916,4.65,29,6,MIN
+Reynaldo L\xc3\xb3pez,32,625643,"Maj-AL,Maj-NL","Atlanta,Chicago,Cleveland,Los Angeles",32,97,29,12.0,5.0,221.1,176,58,82,244,21,2.36,1.166,904,2.98,29,0,
+Brad Lord,26,695418,Maj-NL,Washington,26,53,19,6.0,,142.2,137,68,46,117,19,4.29,1.283,597,2.54,3,0,WSN
+Michael Lorenzen,34,547179,"Maj-AL,Maj-NL","Colorado,Detroit,Kansas City,Philadelphia,Texas",34,90,78,24.0,1.0,444.0,419,206,153,349,65,4.18,1.288,1864,2.28,19,4,
+Aaron Loup,35,571901,Maj-AL,Los Angeles,35,54,0,2.0,1.0,48.1,63,31,20,44,6,5.77,1.717,228,2.2,4,0,LAA
+Ryan Loutos,26,702795,Maj-NL,"Los Angeles,St. Louis,Washington",26,15,0,1.0,,14.1,22,17,9,8,4,10.67,2.163,78,0.89,3,0,
+Richard Lovelady,30,663992,"Maj-AL,Maj-NL","Chicago,New York,Oakland,Tampa Bay,Toronto",30,78,0,4.0,2.0,76.2,69,43,31,68,10,5.05,1.304,332,2.19,7,0,
+Rhett Lowder,24,695076,Maj-NL,Cincinnati,24,9,9,3.0,,47.0,39,10,20,33,1,1.91,1.255,197,1.65,5,1,CIN
+Easton Lucas,28,687922,Maj-AL,"Detroit,Oakland,Toronto",28,20,5,4.0,,42.2,52,38,25,40,7,8.02,1.805,204,1.6,2,0,
+Joey Lucchesi,33,664192,"Maj-AL,Maj-NL","Los Angeles,New York,San Francisco",33,52,11,4.0,,97.2,91,39,41,72,9,3.59,1.352,422,1.76,4,0,
+Lucas Luetge,36,476595,Maj-NL,Atlanta,36,11,0,,,12.2,15,10,7,14,2,7.11,1.737,60,2.0,2,0,ATL
+Seth Lugo,36,607625,"Maj-AL,Maj-NL","Kansas City,San Diego",36,90,90,33.0,,525.1,470,200,150,468,63,3.43,1.18,2162,3.12,16,5,
+Jordan Luplow,29,656669,Maj-AL,Minnesota,29,2,0,,,1.1,1,2,0,0,1,13.5,0.75,6,,1,0,MIN
+Jes\xc3\xbas Luzardo,28,666200,Maj-NL,"Miami,Philadelphia",28,81,80,28.0,,452.1,417,205,135,516,49,4.08,1.22,1871,3.82,38,13,
+Jordan Lyles,33,543475,Maj-AL,Kansas City,33,36,31,6.0,,182.2,178,124,47,123,39,6.11,1.232,767,2.62,9,1,KC
+Daniel Lynch IV,29,663738,Maj-AL,Kansas City,29,86,14,11.0,2.0,168.2,147,67,59,125,23,3.58,1.221,708,2.12,12,2,KC
+Lance Lynn,37,458681,"Maj-AL,Maj-NL","Chicago,Los Angeles,St. Louis",37,55,55,20.0,,298.0,305,169,107,295,63,5.1,1.383,1310,2.76,23,1,
+Andr\xc3\xa9s Machado,30,600921,Maj-NL,Washington,30,44,0,4.0,,50.0,53,29,13,43,12,5.22,1.32,207,3.31,11,0,WSN
+Josh Maciejewski,28,656671,Maj-AL,New York,28,4,0,,,7.0,4,2,2,7,1,2.57,0.857,27,3.5,0,0,NYY
+Willie MacIver,28,680862,Maj-AL,Athletics,28,2,0,,,2.0,4,0,0,0,0,0.0,2.0,10,,0,0,
+Ty Madden,24,680744,Maj-AL,Detroit,24,7,1,1.0,,23.2,26,13,11,18,2,4.94,1.563,107,1.64,4,0,DET
+Bligh Madris,27,676632,Maj-AL,Houston,27,1,0,,,1.0,1,1,1,0,1,9.0,2.0,4,0.0,0,0,HOU
+Kenta Maeda,37,628317,Maj-AL,"Detroit,Minnesota",37,58,36,9.0,,228.2,233,135,68,225,40,5.31,1.316,976,3.31,25,2,
+Tyler Mahle,31,641816,"Maj-AL,Maj-NL","Minnesota,San Francisco,Texas",31,27,27,7.0,,139.2,121,44,45,119,13,2.84,1.189,568,2.64,6,1,
+Luke Maile,34,571912,"Maj-AL,Maj-NL","Cincinnati,Kansas City",34,8,0,,,9.0,18,14,1,0,5,14.0,2.111,47,0.0,0,0,
+Anthony Maldonado,27,687424,"Maj-AL,Maj-NL","Athletics,Miami",27,22,1,1.0,1.0,25.0,31,20,12,18,4,7.2,1.72,115,1.5,3,0,
+Mart\xc3\xadn Maldonado,36,455117,Maj-AL,Houston,36,1,0,,,1.0,5,4,1,0,1,36.0,6.0,10,0.0,0,0,HOU
+Sean Manaea,34,640455,Maj-NL,"New York,San Francisco",34,91,58,23.0,1.0,388.0,327,179,131,412,52,4.15,1.18,1625,3.15,36,9,
+Matt Manning,26,666159,Maj-AL,Detroit,26,20,20,5.0,,105.2,91,46,33,73,14,3.92,1.174,439,2.21,2,4,DET
+Alek Manoah,26,666201,Maj-AL,Toronto,26,23,23,4.0,,108.1,101,62,65,102,18,5.15,1.532,497,1.57,17,2,TOR
+Joe Mantiply,35,573009,"Maj-AL,Maj-NL","Arizona,Toronto",35,132,7,11.0,1.0,119.0,120,70,36,102,11,5.29,1.311,503,2.83,12,2,
+Ron Marinaccio,30,676760,"Maj-AL,Maj-NL","New York,San Diego",30,73,0,5.0,2.0,88.2,65,35,41,98,11,3.55,1.195,372,2.39,20,2,
+Michael Mariot,34,592527,Maj-NL,Cincinnati,34,1,0,,,2.2,4,1,1,2,1,3.38,1.875,13,2.0,0,0,CIN
+Germ\xc3\xa1n M\xc3\xa1rquez,31,608566,Maj-NL,"Colorado,San Diego",31,33,33,6.0,,157.1,205,114,59,108,33,6.52,1.678,726,1.83,21,1,
+Alec Marsh,26,679525,Maj-AL,Kansas City,26,43,33,12.0,,203.1,200,112,78,208,35,4.96,1.367,890,2.67,20,8,KC
+Jos\xc3\xa9 Marte,28,665896,Maj-AL,Los Angeles,28,24,0,,,28.2,28,14,17,21,4,4.4,1.57,128,1.24,4,0,LAA
+Yunior Marte,29,628708,Maj-NL,Philadelphia,29,63,0,1.0,2.0,65.1,81,42,32,61,11,5.79,1.73,309,1.91,8,0,PHI
+Chris Martin,40,455119,Maj-AL,"Boston,Texas",40,154,0,10.0,7.0,143.0,144,42,18,145,14,2.64,1.133,576,8.06,19,2,
+Corbin Martin,29,656686,Maj-AL,Baltimore,29,17,0,1.0,2.0,18.0,22,12,9,23,4,6.0,1.722,89,2.56,0,1,BAL
+Davis Martin,29,663436,Maj-AL,Chicago,29,40,38,9.0,,210.2,202,94,75,166,27,4.02,1.315,891,2.21,16,1,CWS
+Riley Martin,28,702303,Maj-NL,Chicago,28,2,0,,,2.0,1,0,0,1,0,0.0,0.5,6,,0,0,CHC
+Adri\xc3\xa1n Martinez,26,661309,Maj-AL,Oakland,26,22,1,,,55.0,59,29,19,47,8,4.75,1.418,241,2.47,9,0,OAK
+Justin Martinez,23,679885,Maj-NL,Arizona,23,91,0,6.0,14.0,98.0,79,40,59,127,5,3.67,1.408,432,2.15,2,1,ARI
+Nick Martinez,35,607259,"Maj-AL,Maj-NL","Cincinnati,San Diego,Tampa Bay",35,148,53,27.0,1.0,428.1,395,176,103,344,49,3.7,1.163,1758,3.34,35,6,
+Seth Martinez,30,661527,"Maj-AL,Maj-NL","Houston,Miami",30,84,0,4.0,2.0,101.1,97,50,40,85,14,4.44,1.352,440,2.13,10,0,
+Miles Mastrobuoni,29,670156,"Maj-AL,Maj-NL","Chicago,Seattle",29,2,0,,,1.1,5,4,2,0,1,27.0,5.25,11,0.0,0,0,
+Jorge Mateo,30,622761,Maj-AL,Baltimore,30,1,0,,,1.0,5,5,2,0,1,45.0,7.0,11,0.0,0,0,BAL
+Phil Maton,33,664208,"Maj-AL,Maj-NL","Chicago,Houston,New York,St. Louis,Tampa Bay,Texas",33,218,0,11.0,9.0,206.2,156,79,81,232,21,3.44,1.147,860,2.86,15,1,
+Yuki Matsui,29,673513,Maj-NL,San Diego,29,126,0,7.0,1.0,127.0,100,54,60,131,18,3.83,1.26,533,2.18,7,0,
+Zebby Matthews,25,805673,Maj-AL,Minnesota,25,25,25,6.0,,117.0,145,77,35,131,23,5.92,1.538,531,3.74,6,0,MIN
+Isaac Mattson,30,676755,Maj-NL,Pittsburgh,30,56,0,3.0,,61.2,46,18,29,59,4,2.63,1.216,261,2.03,0,1,PIT
+Steven Matz,35,571927,"Maj-AL,Maj-NL","Boston,St. Louis,Tampa Bay",35,95,29,13.0,2.0,244.0,243,103,63,209,27,3.8,1.254,1020,3.32,17,1,
+Tyler Matzek,34,554431,"Maj-AL,Maj-NL","Atlanta,New York",34,18,0,,,16.1,27,14,8,17,3,7.71,2.143,83,2.13,2,0,
+Zach Maxwell,24,687209,Maj-NL,Cincinnati,24,8,0,,,10.0,10,5,4,13,3,4.5,1.4,43,3.25,1,0,CIN
+Dustin May,28,669160,"Maj-AL,Maj-NL","Boston,Los Angeles,St. Louis",28,36,34,12.0,,186.2,179,101,74,164,24,4.87,1.355,809,2.22,24,1,
+Trevor May,33,543507,Maj-AL,Oakland,33,48,0,3.0,21.0,45.2,34,17,28,39,4,3.35,1.358,200,1.39,5,1,OAK
+Mike Mayers,31,594577,Maj-AL,Kansas City,31,6,2,1.0,,26.1,34,18,10,17,4,6.15,1.671,119,1.7,0,0,KC
+Tim Mayza,34,641835,"Maj-AL,Maj-NL","New York,Philadelphia,Pittsburgh,Toronto",34,143,0,3.0,1.0,123.0,123,45,38,106,9,3.29,1.309,520,2.79,15,0,
+Adam Mazur,24,800049,Maj-NL,"Miami,San Diego",24,14,14,1.0,,63.2,73,44,33,41,10,6.22,1.665,297,1.24,4,1,
+Zach McAllister,35,502083,Maj-AL,New York,35,7,0,,,5.1,9,6,2,5,2,10.13,2.063,29,2.5,1,0,NYY
+James McArthur,27,663704,Maj-AL,Kansas City,27,75,2,6.0,22.0,80.0,88,43,16,72,10,4.84,1.3,337,4.5,3,1,KC
+James McCann,36,543510,"Maj-AL,Maj-NL","Arizona,Baltimore",36,3,0,,,3.0,11,7,0,0,2,21.0,3.667,20,,0,0,
+Darren McCaughan,29,670766,"Maj-AL,Maj-NL","Cleveland,Miami,Minnesota,Seattle",29,18,5,,2.0,52.1,65,33,19,44,10,5.68,1.605,245,2.32,5,1,
+Shane McClanahan,29,663556,Maj-AL,Tampa Bay,29,22,22,10.0,,117.2,94,46,47,124,15,3.52,1.198,483,2.64,7,0,TB
+Chas McCormick,30,676801,Maj-AL,Houston,30,3,0,,,3.0,3,2,2,1,0,6.0,1.667,15,0.5,0,0,HOU
+Lance McCullers Jr.,32,621121,Maj-AL,Houston,32,19,16,3.0,,70.2,75,50,45,78,11,6.37,1.698,335,1.73,10,1,HOU
+Garrett McDaniels,25,680729,Maj-AL,Los Angeles,25,10,0,,,10.2,13,7,8,6,2,5.91,1.969,50,0.75,4,0,LAA
+Chayce McDermott,26,694646,Maj-AL,Baltimore,26,5,2,,,12.2,17,18,14,12,4,12.79,2.447,69,0.86,0,0,BAL
+Trevor McDonald,24,686790,Maj-NL,San Francisco,24,4,2,1.0,,18.0,13,3,3,15,1,1.5,0.889,70,5.0,0,0,SF
+T.J. McFarland,36,519008,"Maj-AL,Maj-NL","Athletics,New York,Oakland",36,109,0,2.0,,74.0,83,37,21,48,6,4.5,1.405,320,2.29,6,0,
+Easton McGee,28,668834,"Maj-AL,Maj-NL","Milwaukee,Seattle",28,11,1,,,22.1,17,9,6,15,1,3.63,1.03,87,2.5,0,0,
+Scott McGough,35,543518,"Maj-AL,Maj-NL","Arizona,Athletics",35,101,3,3.0,9.0,118.2,112,76,56,127,24,5.76,1.416,523,2.27,5,0,
+Michael McGreevy,25,700241,Maj-NL,St. Louis,25,24,22,12.0,,135.1,127,56,24,86,14,3.72,1.116,548,3.58,1,0,STL
+Reese McGuire,30,624512,Maj-NL,Chicago,30,1,0,,,1.0,2,1,1,0,1,9.0,3.0,6,0.0,0,0,CHC
+Collin McHugh,36,543521,Maj-NL,Atlanta,36,40,1,4.0,,57.0,70,28,20,46,5,4.42,1.579,261,2.3,3,0,ATL
+Ryan McKenna,26,663630,Maj-AL,Baltimore,26,1,0,,,1.0,4,2,0,0,0,18.0,4.0,6,,0,0,BAL
+Triston McKenzie,27,663474,Maj-AL,Cleveland,27,24,20,3.0,,97.1,88,59,69,94,21,5.46,1.613,443,1.36,15,2,CLE
+Zach McKinstry,30,656716,Maj-AL,Detroit,30,5,0,,,3.1,4,4,1,0,2,10.8,1.5,15,0.0,0,0,DET
+Nolan McLean,24,690997,Maj-NL,New York,24,11,11,6.0,,64.2,42,16,22,77,5,2.23,0.99,252,3.5,0,0,NYM
+John McMillon,26,669111,"Maj-AL,Maj-NL","Kansas City,Miami",26,14,0,2.0,,16.0,8,3,5,21,2,1.69,0.813,60,4.2,1,0,
+John Means,31,607644,Maj-AL,Baltimore,31,8,8,3.0,,44.1,29,13,6,26,6,2.64,0.789,168,4.33,0,0,BAL
+Nick Mears,29,683232,"Maj-AL,Maj-NL","Colorado,Kansas City,Milwaukee",29,143,0,7.0,1.0,142.2,120,68,54,153,15,4.29,1.22,596,2.83,8,2,
+Victor Mederos,24,682989,Maj-AL,Los Angeles,24,12,3,,,25.1,30,24,21,22,5,8.53,2.013,125,1.05,1,0,LAA
+Luis Medina,27,665622,Maj-AL,"Athletics,Oakland",27,35,25,5.0,,155.0,156,90,80,145,19,5.23,1.523,698,1.81,8,4,
+James Meeker,29,703231,Maj-NL,Milwaukee,29,1,0,,,1.0,1,0,1,0,0,0.0,2.0,4,0.0,0,0,MIL
+Trevor Megill,32,656730,Maj-NL,Milwaukee,32,142,3,8.0,54.0,139.1,112,47,47,179,10,3.04,1.141,573,3.81,30,0,MIL
+Tylor Megill,29,656731,Maj-NL,New York,29,57,54,18.0,,277.0,277,136,128,290,34,4.42,1.462,1234,2.27,19,8,NYM
+J.C. Mej\xc3\xada,26,650496,Maj-NL,Milwaukee,26,9,0,1.0,,11.1,15,7,3,13,2,5.56,1.588,50,4.33,0,0,MIL
+Juan Mejia,25,675848,Maj-NL,Colorado,25,61,0,2.0,2.0,68.2,61,32,29,72,7,4.19,1.311,294,2.48,2,2,COL
+Troy Melton,24,675512,Maj-AL,Detroit,24,20,5,4.0,,54.0,39,19,19,44,9,3.17,1.074,216,2.32,4,1,DET
+Cristian Mena,22,691441,Maj-NL,Arizona,22,4,1,1.0,,9.2,7,5,6,10,3,4.66,1.345,41,1.67,0,0,ARI
+Danny Mendick,30,664901,"Maj-AL,Maj-NL","Chicago,New York",30,3,0,,,3.0,11,8,0,0,2,24.0,3.667,19,,0,0,
+Michael Mercado,26,675650,Maj-NL,Philadelphia,26,8,2,1.0,,16.0,23,21,13,14,10,11.81,2.25,84,1.08,1,0,PHI
+Julian Merryweather,33,657240,Maj-NL,Chicago,33,105,0,6.0,2.0,105.2,99,50,56,127,10,4.26,1.467,465,2.27,12,2,CHC
+Matt Mervis,26,670223,Maj-NL,Chicago,26,1,0,,,0.2,7,6,0,0,0,81.0,10.5,9,,0,0,CHC
+Parker Messick,25,800048,Maj-AL,Cleveland,25,10,10,5.0,,57.1,57,13,11,54,5,2.04,1.186,231,4.91,0,2,CLE
+Luis Mey,24,682825,Maj-NL,Cincinnati,24,23,0,2.0,,21.0,17,8,17,21,3,3.43,1.619,96,1.24,0,0,CIN
+Max Meyer,27,676974,Maj-NL,Miami,27,26,26,7.0,,136.1,146,76,47,129,28,5.02,1.416,600,2.74,6,1,MIA
+Keynan Middleton,29,641871,Maj-AL,"Chicago,New York",29,51,0,2.0,2.0,50.2,40,19,23,64,8,3.38,1.243,212,2.78,4,1,
+Miles Mikolas,37,571945,Maj-NL,"St. Louis,Washington",37,100,100,27.0,,538.1,601,305,108,364,86,5.1,1.317,2295,3.37,35,4,
+Spencer Miles,25,693686,Maj-AL,Toronto,25,5,0,1.0,,9.1,8,4,3,8,2,3.86,1.179,37,2.67,0,0,TOR
+Wade Miley,38,489119,Maj-NL,"Cincinnati,Milwaukee",38,28,27,10.0,,139.1,120,56,48,88,20,3.62,1.206,575,1.83,4,5,
+Bobby Miller,26,676272,Maj-NL,Los Angeles,26,38,37,13.0,,187.0,189,115,66,179,31,5.53,1.364,802,2.71,20,1,LAD
+Brad Miller,33,543543,Maj-AL,Texas,33,1,0,,,2.0,2,3,2,0,1,13.5,2.0,9,0.0,0,0,TEX
+Bryce Miller,26,682243,Maj-AL,Seattle,26,77,77,25.0,,416.1,358,183,110,373,57,3.96,1.124,1688,3.39,30,5,SEA
+Erik Miller,28,669062,Maj-NL,San Francisco,28,114,10,8.0,,101.1,80,38,60,115,7,3.38,1.382,432,1.92,12,3,SF
+Mason Miller,27,695243,"Maj-AL,Maj-NL","Athletics,Oakland,San Diego",27,134,6,4.0,54.0,170.0,89,50,66,273,13,2.65,0.912,655,4.14,11,0,
+Owen Miller,27,680911,Maj-NL,Milwaukee,27,1,0,,,2.0,5,4,1,0,1,18.0,3.0,12,0.0,0,0,MIL
+Ryan Miller,28,668943,Maj-AL,Los Angeles,28,13,0,,,13.0,13,6,8,11,2,4.15,1.615,58,1.38,1,0,LAA
+Shelby Miller,34,571946,"Maj-AL,Maj-NL","Arizona,Detroit,Los Angeles,Milwaukee",34,135,1,13.0,13.0,144.2,94,50,47,147,17,3.11,0.975,578,3.13,21,1,
+Tyson Miller,28,668338,"Maj-AL,Maj-NL","Chicago,Los Angeles,Milwaukee,New York,Seattle",28,68,0,6.0,1.0,77.1,52,24,17,64,9,2.79,0.892,299,3.76,4,1,
+Alec Mills,31,621219,Maj-NL,Cincinnati,31,1,0,,,1.0,4,2,1,0,1,18.0,5.0,10,0.0,0,0,CIN
+Hoby Milner,35,571948,"Maj-AL,Maj-NL","Chicago,Milwaukee,Texas",35,217,1,10.0,1.0,210.0,189,79,48,184,17,3.39,1.129,853,3.83,4,3,
+Tommy Milone,36,543548,Maj-AL,Seattle,36,2,2,,,9.0,7,2,6,3,1,2.0,1.444,40,0.5,0,0,SEA
+A.J. Minter,31,621345,Maj-NL,"Atlanta,New York",31,124,0,9.0,11.0,111.1,89,39,38,131,12,3.15,1.141,446,3.45,19,1,
+Anthony Misiewicz,30,664948,"Maj-AL,Maj-NL","Arizona,Detroit,Minnesota,New York",30,17,0,2.0,,16.2,24,14,11,14,4,7.56,2.1,84,1.27,0,0,
+Jacob Misiorowski,24,694819,Maj-NL,Milwaukee,24,21,17,8.0,,94.1,66,40,43,131,11,3.82,1.155,386,3.05,1,0,MIL
+Casey Mize,29,663554,Maj-AL,Detroit,29,55,53,17.0,,273.1,294,124,75,242,35,4.08,1.35,1175,3.23,23,2,DET
+Carmen Mlodzinski,27,669387,Maj-NL,Pittsburgh,27,112,20,13.0,1.0,200.0,188,71,70,184,14,3.2,1.29,844,2.63,11,0,PIT
+Anthony Molina,23,683627,Maj-NL,Colorado,23,52,2,2.0,,94.1,124,73,28,65,17,6.96,1.611,424,2.32,6,0,COL
+Sam Moll,34,594580,"Maj-AL,Maj-NL","Cincinnati,Oakland",34,148,1,7.0,1.0,125.1,90,50,57,134,9,3.59,1.173,527,2.35,19,2,
+Frankie Montas,32,593423,"Maj-AL,Maj-NL","Cincinnati,Milwaukee,New York",32,41,38,11.0,,194.1,196,109,82,184,32,5.05,1.431,858,2.24,22,1,
+Keider Montero,25,672456,Maj-AL,Detroit,25,46,31,12.0,1.0,207.2,202,98,66,164,35,4.25,1.291,869,2.48,8,2,DET
+Rafael Montero,34,606160,"Maj-AL,Maj-NL","Atlanta,Detroit,Houston",34,172,0,5.0,,169.0,153,90,89,166,23,4.79,1.432,731,1.87,22,2,
+Christian Montes De Oca,25,801216,Maj-NL,Arizona,25,1,0,,,2.2,0,0,1,2,0,0.0,0.375,9,2.0,0,0,ARI
+Patrick Monteverde,27,687287,Maj-NL,Miami,27,1,0,,,3.2,9,4,1,4,0,9.82,2.727,20,4.0,1,0,MIA
+Jordan Montgomery,31,656756,"Maj-AL,Maj-NL","Arizona,St. Louis,Texas",31,63,58,21.0,1.0,336.2,363,158,97,266,35,4.22,1.366,1444,2.74,29,5,
+Mason Montgomery,26,682254,"Maj-AL,Maj-NL","Pittsburgh,Tampa Bay",26,73,0,2.0,1.0,62.0,63,36,37,94,7,5.23,1.613,278,2.54,11,2,
+Dylan Moore,33,664238,Maj-NL,Philadelphia,33,1,0,,,0.2,1,0,0,0,0,0.0,1.5,3,,0,0,PHI
+Matt Moore,35,519043,"Maj-AL,Maj-NL","Cleveland,Los Angeles,Miami",35,101,0,10.0,1.0,101.0,85,42,41,101,18,3.74,1.248,428,2.46,14,1,
+McKinley Moore,24,686842,Maj-NL,Philadelphia,24,3,0,,,3.1,5,7,5,2,1,18.9,3.0,21,0.4,0,0,PHI
+Luis Morales,23,806960,Maj-AL,Athletics,23,12,11,4.0,,56.0,51,27,26,48,12,4.34,1.375,241,1.85,4,0,
+Jovani Mor\xc3\xa1n,29,663558,Maj-AL,"Boston,Minnesota",29,49,0,2.0,,54.1,44,30,33,63,4,4.97,1.417,235,1.91,3,0,
+Adri\xc3\xa1n Morej\xc3\xb3n,27,670970,Maj-NL,San Diego,27,154,1,18.0,5.0,159.2,145,53,46,157,7,2.99,1.196,662,3.41,20,0,
+Dauri Moreta,29,664294,Maj-NL,Pittsburgh,29,72,0,6.0,1.0,73.2,55,30,29,92,6,3.67,1.14,302,3.17,9,0,PIT
+David Morgan,26,688158,Maj-NL,San Diego,26,48,2,2.0,,57.0,41,14,29,58,4,2.21,1.228,232,2.0,5,0,
+Eli Morgan,30,669212,"Maj-AL,Maj-NL","Chicago,Cleveland,Kansas City",30,107,0,8.0,2.0,124.2,118,50,41,122,16,3.61,1.275,533,2.98,22,1,
+Juan Morillo,27,666661,Maj-NL,Arizona,27,50,0,,1.0,41.2,41,18,22,43,3,3.89,1.512,179,1.95,1,0,ARI
+Reyes Moronta,30,606625,Maj-AL,Los Angeles,30,2,0,,,1.1,4,1,3,2,1,6.75,5.25,11,0.67,0,0,LAA
+Cody Morris,26,663752,Maj-AL,Cleveland,26,6,0,,,8.0,10,6,6,9,3,6.75,2.0,38,1.5,1,0,CLE
+Charlie Morton,41,450203,"Maj-AL,Maj-NL","Atlanta,Baltimore,Detroit",41,93,87,31.0,,470.2,456,235,220,499,60,4.49,1.436,2071,2.27,38,19,
+Zach Muckenhirn,28,669105,Maj-NL,New York,28,3,0,,,6.0,11,4,2,3,0,6.0,2.167,31,1.5,0,0,NYM
+Kyle Muller,26,666205,Maj-AL,Oakland,26,41,12,1.0,,121.1,156,86,48,89,22,6.38,1.681,555,1.85,16,5,OAK
+Andr\xc3\xa9s Mu\xc3\xb1oz,27,662253,Maj-AL,Seattle,27,188,0,12.0,75.0,184.0,111,44,82,241,11,2.15,1.049,745,2.94,19,1,SEA
+Roddery Mu\xc3\xb1oz,26,682610,"Maj-AL,Maj-NL","Houston,Miami,St. Louis",26,30,17,2.0,,97.2,105,77,57,90,33,7.1,1.659,455,1.58,8,2,
+Rolddy Mu\xc3\xb1oz,25,691548,Maj-NL,Atlanta,25,3,0,,,3.2,4,5,5,5,1,12.27,2.455,21,1.0,0,0,ATL
+Noah Murdock,26,668716,Maj-AL,Athletics,26,14,0,1.0,,17.0,26,25,20,21,0,13.24,2.706,98,1.05,3,0,
+Penn Murfee,31,682171,Maj-AL,"Chicago,Seattle",31,30,0,1.0,,26.1,23,13,15,29,4,4.44,1.443,119,1.93,3,1,
+Chris Murphy,28,669684,Maj-AL,"Boston,Chicago",28,49,0,5.0,2.0,88.1,80,45,42,85,10,4.58,1.381,392,2.02,5,0,
+Jayden Murray,28,681151,Maj-AL,Houston,28,9,1,,,11.2,10,2,3,8,0,1.54,1.114,47,2.67,0,0,HOU
+Joe Musgrove,31,605397,Maj-NL,San Diego,31,37,37,16.0,,200.2,185,77,44,202,24,3.45,1.141,821,4.59,12,4,
+Parker Mushinski,28,656786,Maj-AL,Houston,28,24,0,,,25.2,30,17,9,18,6,5.96,1.519,119,2.0,3,0,HOU
+Tobias Myers,27,668964,Maj-NL,"Milwaukee,New York",27,56,32,10.0,,205.1,190,71,54,177,24,3.11,1.188,852,3.28,5,4,
+James Naile,30,664942,Maj-NL,St. Louis,30,10,0,,,15.1,27,15,9,7,1,8.8,2.348,80,0.78,0,0,STL
+Tommy Nance,35,667297,Maj-AL,Toronto,35,58,0,2.0,,61.0,57,24,19,59,3,3.54,1.246,258,3.11,13,1,TOR
+Andrew Nardi,27,677053,Maj-NL,Miami,27,127,0,11.0,3.0,112.0,92,48,43,151,15,3.86,1.205,469,3.51,7,1,MIA
+Nick Nastrini,24,680897,Maj-AL,Chicago,24,9,8,,,35.2,32,28,36,26,7,7.07,1.907,174,0.72,15,0,CWS
+Packy Naughton,27,676050,Maj-NL,St. Louis,27,4,0,,,5.0,2,0,1,5,0,0.0,0.6,17,5.0,0,0,STL
+Edgar Navarro,25,679346,Maj-AL,Chicago,25,8,0,,,8.2,11,7,2,9,2,7.27,1.5,39,4.5,0,0,CWS
+Zach Neal,34,594943,Maj-AL,Oakland,34,14,2,1.0,,27.0,30,20,14,25,8,6.67,1.63,124,1.79,0,0,OAK
+Jack Neely,24,680891,Maj-NL,Chicago,24,6,0,,,6.0,8,6,2,7,2,9.0,1.667,28,3.5,0,0,CHC
+Kyle Nelson,28,669459,Maj-NL,Arizona,28,86,2,7.0,1.0,72.2,72,35,24,76,17,4.33,1.321,309,3.17,1,0,ARI
+Nick Nelson,28,656793,Maj-NL,Philadelphia,28,5,0,1.0,,10.2,10,4,4,11,1,3.38,1.313,46,2.75,1,1,PHI
+Ryne Nelson,28,669194,Maj-NL,Arizona,28,96,78,26.0,2.0,470.0,458,225,128,373,63,4.31,1.247,1962,2.91,5,1,ARI
+Hector Neris,36,593576,"Maj-AL,Maj-NL","Atlanta,Chicago,Houston,Los Angeles",36,175,0,19.0,20.0,162.1,129,66,81,184,24,3.66,1.294,691,2.27,21,1,
+Sean Newcomb,33,656794,Maj-AL,"Athletics,Boston,Chicago,Oakland",33,69,7,4.0,2.0,127.2,121,44,52,125,8,3.1,1.355,541,2.4,12,1,
+Kevin Newman,31,621028,Maj-AL,Los Angeles,31,2,0,,,4.0,4,3,0,0,2,6.75,1.0,16,,0,0,LAA
+Kyle Nicolas,27,693312,Maj-NL,"Cincinnati,Pittsburgh",27,87,0,3.0,,98.2,94,54,55,97,9,4.93,1.51,442,1.76,3,0,
+Tom\xc3\xa1s Nido,31,621512,Maj-AL,Detroit,31,1,0,,,1.2,0,0,0,0,0,0.0,0.0,6,,0,0,DET
+Doug Nikhazy,25,680951,Maj-AL,Cleveland,25,2,1,,,4.0,5,6,6,5,0,13.5,2.75,23,0.83,1,0,CLE
+Vinny Nittoli,33,657697,"Maj-AL,Maj-NL","Baltimore,New York,Oakland",33,12,0,,,15.2,14,3,2,11,1,1.72,1.021,61,5.5,2,1,
+Stephen Nogosek,28,668665,Maj-NL,New York,28,13,0,,,25.2,28,16,14,25,6,5.61,1.636,118,1.79,2,0,NYM
+Aaron Nola,33,605400,Maj-NL,Philadelphia,33,90,90,35.0,,531.0,501,250,131,545,86,4.24,1.19,2189,4.16,40,5,PHI
+Austin Nola,35,543592,Maj-NL,Colorado,35,1,0,,,1.0,8,8,0,0,2,72.0,8.0,11,,0,0,COL
+Sean Nolin,33,543594,Maj-NL,Miami,33,1,0,,,3.0,7,6,2,2,2,18.0,3.0,18,1.0,0,0,MIA
+Daniel Norris,30,596057,Maj-AL,Cleveland,30,7,0,,,12.2,10,8,12,11,3,5.68,1.737,63,0.92,1,0,CLE
+Anthony Nunez,24,689296,Maj-AL,Baltimore,24,6,0,,,7.1,4,1,1,9,1,1.23,0.682,28,9.0,0,0,BAL
+Dedniel N\xc3\xba\xc3\xb1ez,29,673380,Maj-NL,New York,29,35,0,2.0,1.0,44.2,30,14,14,59,4,2.82,0.985,176,4.21,3,1,NYM
+Eduarniel Nu\xc3\xb1ez,26,674384,"Maj-AL,Maj-NL","Athletics,San Diego",26,10,0,1.0,,12.2,13,10,11,11,2,7.11,1.895,60,1.0,2,0,
+Riley O\'Brien,31,676617,Maj-NL,St. Louis,31,58,0,4.0,10.0,64.1,50,21,30,64,4,2.94,1.244,274,2.13,2,0,STL
+Jack O\'Loughlin,24,672552,Maj-AL,Oakland,24,4,0,,,9.2,13,5,5,6,1,4.66,1.862,47,1.2,0,0,OAK
+Bailey Ober,30,641927,Maj-AL,Minnesota,30,89,88,27.0,,487.1,441,231,108,468,84,4.27,1.127,1992,4.33,10,4,MIN
+Shinnosuke Ogasawara,27,829272,Maj-NL,Washington,27,23,2,1.0,,38.2,43,30,17,30,9,6.98,1.552,173,1.76,2,1,WSN
+Pierson Ohl,25,701487,Maj-AL,Minnesota,25,14,3,,,30.0,38,17,7,27,5,5.1,1.5,133,3.86,1,1,MIN
+Shohei Ohtani,31,660271,"Maj-AL,Maj-NL",Los Angeles,31,42,42,14.0,,205.1,144,71,72,255,23,3.11,1.052,826,3.54,6,1,
+Steven Okert,34,595345,"Maj-AL,Maj-NL","Houston,Miami,Minnesota",34,184,4,9.0,2.0,174.0,137,78,62,197,22,4.03,1.144,714,3.18,23,2,
+Adam Oller,29,670124,"Maj-AL,Maj-NL","Miami,Oakland",29,17,9,3.0,,62.0,72,47,34,49,12,6.82,1.71,290,1.44,1,0,
+Reese Olson,25,681857,Maj-AL,Detroit,25,58,54,13.0,,293.2,249,116,93,277,27,3.56,1.165,1210,2.98,20,3,DET
+Kaleb Ort,33,672391,Maj-AL,"Boston,Houston",33,91,2,4.0,1.0,91.2,74,46,40,98,21,4.52,1.244,385,2.45,9,2,
+Oliver Ortega,26,661383,Maj-AL,Minnesota,26,10,0,,,14.2,11,7,7,14,2,4.3,1.227,63,2.0,2,0,MIN
+Luis Ortiz,28,656814,Maj-NL,Philadelphia,28,15,0,,1.0,19.2,26,9,5,16,1,4.12,1.576,84,3.2,0,0,PHI
+Luis Ortiz,26,682847,"Maj-AL,Maj-NL","Cleveland,Pittsburgh",26,71,46,16.0,1.0,311.0,288,139,132,262,41,4.02,1.35,1338,1.98,23,4,
+Eric Orze,28,679358,"Maj-AL,Maj-NL","Minnesota,New York,Tampa Bay",28,40,0,1.0,4.0,49.0,44,19,24,45,5,3.49,1.388,212,1.88,7,1,
+Michel Ota\xc3\xb1ez,27,671305,Maj-AL,"Athletics,Oakland",27,42,0,1.0,1.0,39.1,34,21,25,61,4,4.81,1.5,179,2.44,4,0,
+Adam Ottavino,39,493603,"Maj-AL,Maj-NL",New York,39,129,0,3.0,13.0,119.1,95,49,56,135,13,3.7,1.265,515,2.41,41,1,
+Glenn Otto,27,657248,Maj-AL,Texas,27,6,0,,,10.2,14,12,6,11,6,10.13,1.875,51,1.83,4,0,TEX
+Connor Overton,29,656818,Maj-NL,Cincinnati,29,3,3,,,11.0,19,14,7,9,3,11.45,2.364,55,1.29,1,0,CIN
+Johan Oviedo,28,670912,"Maj-AL,Maj-NL","Boston,Pittsburgh",28,42,41,11.0,,221.2,193,105,107,203,27,4.26,1.353,969,1.9,13,0,
+Tyler Owens,24,687074,Maj-AL,Detroit,24,3,0,,,3.0,3,1,3,1,0,3.0,2.0,15,0.33,0,0,DET
+Chris Owings,31,572008,Maj-NL,Pittsburgh,31,1,0,,,1.0,2,0,0,0,0,0.0,2.0,6,,0,0,PIT
+Chris Paddack,30,663978,"Maj-AL,Maj-NL","Detroit,Miami,Minnesota",30,57,47,11.0,1.0,269.2,293,156,64,219,49,5.21,1.324,1156,3.42,12,1,
+Nicholas Padilla,26,656820,Maj-AL,Chicago,26,3,0,,,4.2,9,3,1,6,1,5.79,2.143,23,6.0,0,0,CWS
+Jedixson Paez,22,699151,Maj-AL,Chicago,22,3,0,,,3.0,4,6,3,0,2,18.0,2.333,16,0.0,0,0,CWS
+Emilio Pag\xc3\xa1n,35,641941,"Maj-AL,Maj-NL","Cincinnati,Minnesota",35,184,2,12.0,38.0,186.1,132,69,61,199,23,3.33,1.036,745,3.26,12,0,
+Andrew Painter,23,691725,Maj-NL,Philadelphia,23,2,2,1.0,,9.1,13,5,2,9,0,4.82,1.607,42,4.5,0,0,PHI
+Daniel Palencia,26,694037,Maj-NL,Chicago,26,101,0,9.0,24.0,107.1,88,44,45,116,9,3.69,1.239,447,2.58,5,2,CHC
+Jake Palisch,26,669449,Maj-AL,Chicago,26,1,0,,,1.0,3,2,0,0,0,18.0,3.0,6,,0,0,CWS
+Andre Pallante,27,669467,Maj-NL,St. Louis,27,123,53,19.0,,360.2,363,184,146,253,35,4.59,1.411,1563,1.73,60,7,STL
+Peyton Pallette,25,688883,Maj-AL,Cleveland,25,5,0,,,7.2,7,4,3,9,1,4.7,1.304,34,3.0,0,0,CLE
+Carson Palmquist,24,687223,Maj-NL,Colorado,24,9,7,,,34.1,45,34,25,27,10,8.91,2.039,175,1.08,10,0,COL
+Thomas Pannone,29,623381,Maj-NL,Milwaukee,29,1,0,,,2.2,5,2,1,4,0,6.75,2.25,14,4.0,0,0,MIL
+Enoli Paredes,28,660600,Maj-NL,"Chicago,Milwaukee",28,18,0,1.0,1.0,21.2,13,4,10,16,0,1.66,1.062,87,1.6,3,0,
+Mitchell Parker,25,680730,Maj-NL,Washington,25,62,59,16.0,1.0,315.2,332,176,101,236,43,5.02,1.372,1371,2.34,6,2,WSN
+Wes Parsons,31,641149,Maj-AL,"Cleveland,Toronto",31,5,1,,,13.0,20,15,5,10,4,10.38,1.923,64,2.0,3,0,
+Luis Pati\xc3\xb1o,23,672715,Maj-AL,"Chicago,Tampa Bay",23,9,1,,,21.2,21,11,14,18,3,4.57,1.615,99,1.29,2,0,
+Chad Patrick,27,694477,Maj-NL,Milwaukee,27,36,25,4.0,,141.0,128,50,46,145,16,3.19,1.234,585,3.15,7,1,MIL
+Spencer Patton,35,607359,Maj-AL,Oakland,35,12,0,,,12.1,13,7,6,7,3,5.11,1.541,55,1.17,1,0,OAK
+James Paxton,35,572020,"Maj-AL,Maj-NL","Boston,Los Angeles",35,40,40,16.0,,196.1,188,97,83,174,30,4.45,1.38,848,2.1,10,1,
+Joel Payamps,32,606303,Maj-NL,"Atlanta,Milwaukee",32,177,0,10.0,10.0,162.2,136,65,49,168,20,3.6,1.137,672,3.43,10,0,
+Nate Pearson,28,663878,"Maj-AL,Maj-NL","Chicago,Toronto",28,106,1,7.0,3.0,123.2,125,71,49,124,21,5.17,1.407,542,2.53,16,1,
+Elvis Peguero,28,665625,"Maj-AL,Maj-NL","Chicago,Milwaukee",28,121,1,11.0,3.0,123.2,114,47,59,111,9,3.42,1.399,532,1.88,16,0,
+Joel Peguero,28,666711,Maj-NL,San Francisco,28,17,0,3.0,,22.1,15,6,8,17,2,2.42,1.03,86,2.13,2,0,SF
+Walter Pennington,26,679156,Maj-AL,"Kansas City,Texas",26,16,1,1.0,,18.0,19,6,11,17,1,3.0,1.667,84,1.55,4,0,
+Zach Penrod,27,683068,Maj-AL,Boston,27,7,0,,,4.0,3,1,4,3,0,2.25,1.75,20,0.75,0,0,BOS
+Ryan Pepiot,27,686752,"Maj-AL,Maj-NL","Los Angeles,Tampa Bay",27,65,60,21.0,,339.2,263,134,114,347,50,3.55,1.11,1377,3.04,26,7,
+Freddy Peralta,30,642547,Maj-NL,"Milwaukee,New York",30,104,103,42.0,,556.1,427,218,202,662,81,3.53,1.131,2294,3.28,36,3,
+Luis Peralta,24,678821,Maj-NL,Colorado,24,37,0,1.0,,31.1,33,21,23,30,6,6.03,1.787,150,1.3,4,0,COL
+Sammy Peralta,27,671111,Maj-AL,"Chicago,Los Angeles",27,30,0,2.0,,45.2,54,26,24,37,4,5.12,1.708,214,1.54,5,0,
+Wandy Peralta,34,593974,"Maj-AL,Maj-NL","New York,San Diego",34,189,1,13.0,4.0,172.1,147,62,75,143,20,3.24,1.288,739,1.91,8,3,
+Oswald Peraza,25,672724,Maj-AL,Los Angeles,25,2,0,,,2.1,9,8,0,0,1,30.86,3.857,16,,0,0,LAA
+Angel Perdomo,31,622780,"Maj-AL,Maj-NL","Athletics,Pittsburgh",31,34,0,3.0,,32.1,23,14,14,46,3,3.9,1.144,133,3.29,5,0,
+Jhonny Pereda,29,640902,"Maj-AL,Maj-NL","Athletics,Miami",29,4,0,,,3.1,9,7,2,3,1,18.9,3.3,21,1.5,0,0,
+Carlos P\xc3\xa9rez,32,542208,Maj-AL,Oakland,32,2,0,,,1.2,4,2,2,0,1,10.8,3.6,10,0.0,0,0,OAK
+Cionel P\xc3\xa9rez,30,672335,"Maj-AL,Maj-NL","Baltimore,Washington",30,156,0,7.0,5.0,136.1,143,76,78,121,7,5.02,1.621,634,1.55,14,0,
+Eury P\xc3\xa9rez,23,691587,Maj-NL,Miami,23,42,42,13.0,,202.2,153,86,72,231,31,3.82,1.11,830,3.21,33,1,MIA
+Francisco P\xc3\xa9rez,25,660906,Maj-AL,Oakland,25,17,1,1.0,,16.2,17,11,8,14,0,5.94,1.5,74,1.75,3,1,OAK
+Hector Perez,27,660431,Maj-AL,Tampa Bay,27,1,0,,,0.1,3,1,1,0,0,27.0,12.0,5,0.0,0,0,TB
+Mart\xc3\xadn P\xc3\xa9rez,35,527048,"Maj-AL,Maj-NL","Atlanta,Chicago,Pittsburgh,San Diego,Texas",35,78,58,16.0,,351.2,359,170,127,252,50,4.35,1.382,1503,1.98,11,0,
+Jack Perkins,26,678022,Maj-AL,Athletics,26,13,4,4.0,3.0,41.0,30,18,18,40,4,3.95,1.171,170,2.22,2,0,
+Michael Petersen,32,656848,Maj-NL,"Atlanta,Los Angeles,Miami",32,37,0,4.0,1.0,43.2,43,24,22,37,7,4.95,1.489,195,1.68,2,0,
+David Peterson,30,656849,Maj-NL,New York,30,85,75,23.0,1.0,422.2,427,192,174,396,35,4.09,1.422,1832,2.28,14,18,NYM
+Jace Peterson,33,607054,Maj-AL,Oakland,33,2,0,,,2.0,3,2,3,1,1,9.0,3.0,12,0.33,0,0,OAK
+Chase Petty,22,695534,Maj-NL,Cincinnati,22,3,2,,,6.0,14,13,8,7,3,19.5,3.667,40,0.88,0,0,CIN
+Brandon Pfaadt,27,694297,Maj-NL,Arizona,27,92,91,27.0,,493.0,526,278,116,463,78,5.08,1.302,2108,3.99,28,2,ARI
+Brett Phillips,29,621433,Maj-AL,Los Angeles,29,1,0,,,0.1,1,0,1,0,0,0.0,6.0,3,0.0,0,0,LAA
+Connor Phillips,25,683175,Maj-NL,Cincinnati,25,35,5,7.0,1.0,56.0,37,30,36,69,11,4.82,1.304,243,1.92,4,1,CIN
+Evan Phillips,30,623465,Maj-NL,Los Angeles,30,136,0,9.0,43.0,130.1,95,36,36,144,12,2.49,1.005,521,4.0,9,0,LAD
+Tyler Phillips,28,663969,Maj-NL,"Miami,Philadelphia",28,66,8,6.0,5.0,123.0,114,52,35,90,17,3.8,1.211,509,2.57,9,0,
+Konnor Pilkington,27,663455,"Maj-AL,Maj-NL","Cleveland,Washington",27,33,0,2.0,,30.1,23,14,18,36,7,4.15,1.352,131,2.0,1,1,
+Robinson Pi\xc3\xb1a,26,673820,"Maj-AL,Maj-NL","Miami,Toronto",26,2,0,,,2.1,5,2,1,1,1,7.71,2.571,14,1.0,0,0,
+Riley Pint,26,666207,Maj-NL,Colorado,26,5,0,,,3.2,6,9,8,7,2,22.09,3.818,27,0.88,1,0,COL
+Jonathan Pintaro,27,702752,Maj-NL,New York,27,1,0,,,0.2,2,2,2,1,0,27.0,6.0,6,0.5,0,0,NYM
+Ren\xc3\xa9 Pinto,26,650907,Maj-AL,Tampa Bay,26,1,0,,,1.0,5,5,0,0,3,45.0,5.0,8,,0,0,TB
+Ricardo Pinto,30,620982,Maj-NL,Philadelphia,30,6,0,,1.0,10.2,19,13,5,8,2,10.97,2.25,59,1.6,0,0,PHI
+Nick Pivetta,33,601713,"Maj-AL,Maj-NL","Boston,San Diego",33,99,77,30.0,1.0,482.0,378,197,142,564,74,3.68,1.079,1955,3.97,31,5,
+Michael Plassmeyer,26,674681,Maj-NL,Philadelphia,26,1,1,,,3.2,8,9,0,4,3,22.09,2.182,23,,0,0,PHI
+Zach Plesac,29,668676,Maj-AL,"Cleveland,Los Angeles",29,8,8,2.0,,33.1,49,29,12,19,7,7.83,1.83,159,1.58,2,2,
+Colin Poche,31,621363,"Maj-AL,Maj-NL","New York,Tampa Bay,Washington",31,123,0,14.0,3.0,107.1,86,46,50,107,12,3.86,1.267,452,2.14,13,0,
+Drew Pomeranz,37,519141,"Maj-AL,Maj-NL","Chicago,Los Angeles",37,68,5,3.0,1.0,60.1,43,16,18,65,6,2.39,1.011,244,3.61,7,0,
+Cody Ponce,32,664074,Maj-AL,Toronto,32,1,1,,,2.1,1,1,1,3,0,3.86,0.857,10,3.0,0,0,TOR
+Zach Pop,29,647315,"Maj-AL,Maj-NL","New York,Philadelphia,Seattle,Toronto",29,82,0,2.0,1.0,72.1,73,53,30,54,17,6.59,1.424,322,1.8,5,0,
+Austin Pope,26,687166,Maj-NL,Arizona,26,1,0,,,2.0,2,0,1,1,0,0.0,1.5,9,1.0,0,0,ARI
+Logan Porter,29,682515,Maj-NL,San Francisco,29,1,0,,,1.0,2,1,0,0,1,9.0,2.0,5,,0,0,SF
+Cody Poteet,30,547001,Maj-AL,"Baltimore,New York",30,6,4,3.0,,27.0,24,11,10,17,2,3.67,1.259,112,1.7,0,1,
+PJ Poulin,29,676571,Maj-NL,Washington,29,36,1,3.0,1.0,32.1,28,14,20,33,4,3.9,1.485,144,1.65,3,0,WSN
+Cade Povich,26,700249,Maj-AL,Baltimore,26,39,36,6.0,,197.2,209,113,80,189,30,5.15,1.462,864,2.36,10,5,BAL
+Nick Pratto,25,668472,Maj-AL,Kansas City,25,1,0,,,1.0,1,0,0,1,0,0.0,1.0,4,,0,0,KC
+Ryan Pressly,36,519151,"Maj-AL,Maj-NL","Chicago,Houston",36,173,0,9.0,43.0,169.0,160,69,53,171,18,3.67,1.26,714,3.23,7,0,
+Quinn Priester,24,682990,"Maj-AL,Maj-NL","Boston,Milwaukee,Pittsburgh",24,52,40,19.0,,261.2,265,131,96,203,38,4.51,1.38,1131,2.11,13,0,
+Austin Pruitt,34,643493,Maj-AL,"Oakland,Texas",34,42,6,2.0,,52.2,52,22,15,31,8,3.76,1.272,220,2.07,2,0,
+A.J. Puk,30,640462,Maj-NL,"Arizona,Miami",30,128,4,11.0,21.0,136.0,113,52,43,177,16,3.44,1.147,571,4.12,17,1,
+Matt Pushard,28,690155,Maj-NL,St. Louis,28,1,0,,,1.0,3,3,1,1,0,27.0,4.0,7,1.0,0,0,STL
+Cal Quantrill,30,615698,"Maj-AL,Maj-NL","Atlanta,Cleveland,Colorado,Miami",30,74,74,16.0,,365.2,403,219,139,253,56,5.39,1.482,1613,1.82,49,8,
+Johan Quezada,28,629498,Maj-NL,Miami,28,1,0,,,0.2,1,3,5,0,0,40.5,9.0,8,0.0,0,0,MIA
+Jos\xc3\xa9 Quijada,29,650671,Maj-AL,Los Angeles,29,34,0,2.0,4.0,29.2,21,13,22,35,1,3.94,1.449,133,1.59,1,0,LAA
+Jose Quintana,37,500779,Maj-NL,"Colorado,Milwaukee,New York",37,74,73,24.0,,401.1,368,169,150,302,47,3.79,1.291,1699,2.01,26,3,
+Cole Ragans,28,666142,Maj-AL,"Kansas City,Texas",28,78,62,21.0,,364.1,287,142,137,462,32,3.51,1.164,1495,3.37,16,2,
+Carson Ragsdale,27,685068,Maj-AL,Baltimore,27,2,0,,,5.0,10,8,1,4,1,14.4,2.2,25,4.0,0,0,BAL
+Tanner Rainey,32,663432,"Maj-AL,Maj-NL","Detroit,Pittsburgh,Washington",32,64,0,,,61.2,56,39,39,56,8,5.69,1.541,283,1.44,4,0,
+Brooks Raley,38,548384,Maj-NL,New York,38,109,0,5.0,3.0,92.0,62,24,35,101,4,2.35,1.054,377,2.89,5,0,NYM
+Luke Raley,28,670042,Maj-AL,Tampa Bay,28,2,0,,,2.2,11,9,0,1,2,30.38,4.125,19,,0,0,TB
+Emmanuel Ramirez,29,642629,Maj-NL,Miami,29,15,0,,,20.2,21,16,8,21,3,6.97,1.403,92,2.63,1,0,MIA
+Erasmo Ram\xc3\xadrez,35,541640,"Maj-AL,Maj-NL","Minnesota,Tampa Bay,Washington",35,59,2,6.0,2.0,90.0,102,56,24,62,18,5.6,1.4,392,2.58,2,0,
+Nick Ramirez,34,598286,"Maj-AL,Maj-NL","Los Angeles,New York",34,40,0,1.0,1.0,54.0,59,21,16,33,1,3.5,1.389,235,2.06,5,0,
+Yohan Ram\xc3\xadrez,31,670990,"Maj-AL,Maj-NL","Baltimore,Boston,Chicago,Los Angeles,New York,Pittsburgh",31,100,0,6.0,1.0,126.1,126,71,56,136,11,5.06,1.441,579,2.43,11,2,
+Lane Ramsey,26,682010,Maj-AL,Chicago,26,21,0,1.0,,20.0,25,13,9,18,1,5.85,1.7,92,2.0,4,0,CWS
+Alan Rangel,27,660604,Maj-NL,Philadelphia,27,5,0,,1.0,11.0,10,3,6,8,1,2.45,1.455,46,1.33,0,0,PHI
+Nick Raquet,30,675919,"Maj-AL,Maj-NL","Baltimore,St. Louis",30,3,0,,,3.0,2,3,2,1,1,9.0,1.333,13,0.5,0,0,
+Taylor Rashi,30,688497,Maj-NL,Arizona,30,12,0,1.0,2.0,19.1,16,8,8,25,0,3.72,1.241,81,3.13,1,0,ARI
+Drew Rasmussen,30,656876,Maj-AL,Tampa Bay,30,57,45,14.0,1.0,233.1,184,70,55,219,22,2.7,1.024,918,3.98,29,1,TB
+Robbie Ray,34,592662,Maj-NL,San Francisco,34,42,42,16.0,,230.1,179,94,94,247,30,3.67,1.185,953,2.63,29,7,SF
+Colin Rea,35,607067,Maj-NL,"Chicago,Milwaukee",35,96,77,30.0,3.0,470.2,453,218,131,385,74,4.17,1.241,1973,2.94,42,13,
+Jake Reed,30,596082,Maj-NL,Los Angeles,30,1,0,,,0.2,5,6,1,1,1,81.0,9.0,7,1.0,0,0,LAD
+Sean Reid-Foley,28,656887,Maj-NL,New York,28,31,0,1.0,,29.1,17,7,20,41,0,2.15,1.261,124,2.05,8,0,NYM
+Denyi Reyes,26,660593,Maj-NL,New York,26,9,3,,,19.2,25,17,8,17,3,7.78,1.678,90,2.13,4,0,NYM
+Gerardo Reyes,31,622103,Maj-AL,"Los Angeles,Oakland",31,11,0,,,13.2,15,10,9,12,2,6.59,1.756,67,1.33,3,0,
+Pablo Reyes,31,622569,Maj-AL,"Boston,New York",31,4,0,,,4.0,9,4,5,0,1,9.0,3.5,26,0.0,0,0,
+Sean Reynolds,27,669308,Maj-NL,San Diego,27,28,1,,,38.0,30,17,22,46,4,4.03,1.368,166,2.09,4,0,
+Orlando Ribalta,27,687377,Maj-NL,Washington,27,26,0,,,27.2,38,24,19,28,6,7.81,2.06,143,1.47,1,1,WSN
+Trevor Richards,32,670950,"Maj-AL,Maj-NL","Arizona,Kansas City,Minnesota,Toronto",32,116,5,4.0,1.0,143.2,118,78,72,172,20,4.89,1.323,621,2.39,8,2,
+Lyon Richardson,25,680689,Maj-NL,Cincinnati,25,39,4,,,55.0,56,37,37,43,9,6.05,1.691,258,1.16,2,0,CIN
+Yacksel R\xc3\xados,30,605441,Maj-AL,Oakland,30,3,0,,,1.2,3,7,6,2,1,37.8,5.4,14,0.33,0,0,OAK
+Leo Rivas,27,660844,Maj-AL,Seattle,27,3,0,,,3.0,5,0,1,0,0,0.0,2.0,15,0.0,0,0,SEA
+Emmanuel Rivera,29,656896,"Maj-AL,Maj-NL","Baltimore,Miami",29,5,0,,,5.0,15,12,2,0,2,21.6,3.4,33,0.0,0,0,
+Christian Roa,27,685005,"Maj-AL,Maj-NL","Houston,Miami",27,7,0,,,7.2,4,2,9,7,1,2.35,1.696,36,0.78,2,1,
+Daniel Robert,30,642016,"Maj-AL,Maj-NL","Philadelphia,Texas",30,19,0,1.0,,18.2,17,8,12,21,3,3.86,1.554,85,1.75,0,0,
+Ethan Roberts,28,681799,Maj-NL,Chicago,28,33,0,2.0,,37.2,42,17,12,33,6,4.06,1.434,164,2.75,2,1,CHC
+David Robertson,40,502085,"Maj-AL,Maj-NL","Miami,New York,Philadelphia,Texas",40,151,0,11.0,21.0,156.1,127,58,60,201,17,3.34,1.196,651,3.35,11,1,
+Nick Robertson,25,687798,"Maj-AL,Maj-NL","Boston,Los Angeles,St. Louis,Toronto",25,27,1,,,35.2,45,21,11,40,6,5.3,1.57,161,3.64,3,0,
+Joe Rock,24,697812,Maj-AL,Tampa Bay,24,3,0,,,7.2,7,2,2,11,1,2.35,1.174,35,5.5,1,0,TB
+Kumar Rocker,26,677958,Maj-AL,Texas,26,19,19,4.0,,86.0,94,51,32,78,14,5.34,1.465,386,2.44,12,0,TEX
+Carlos Rod\xc3\xb3n,32,607074,Maj-AL,New York,32,85,85,38.0,,460.2,385,213,164,495,75,4.16,1.192,1927,3.02,45,4,NYY
+Bradgley Rodriguez,22,699134,Maj-NL,San Diego,22,13,0,1.0,,16.0,12,2,4,17,0,1.13,1.0,64,4.25,0,0,
+Carlos Rodriguez,23,692230,Maj-NL,Milwaukee,23,7,3,1.0,,22.0,32,17,12,20,4,6.95,2.0,107,1.67,1,1,MIL
+Dereck Rodr\xc3\xadguez,31,605446,"Maj-AL,Maj-NL","Atlanta,Minnesota",31,4,0,,,5.1,9,9,5,1,2,15.19,2.625,30,0.2,0,0,
+Eduardo Rodr\xc3\xadguez,33,593958,"Maj-AL,Maj-NL","Arizona,Detroit",33,67,67,26.0,,369.2,372,168,130,339,48,4.09,1.358,1589,2.61,22,1,
+Elvin Rodr\xc3\xadguez,27,660730,"Maj-AL,Maj-NL","Baltimore,Milwaukee,Tampa Bay",27,8,2,,,23.0,26,20,7,23,9,7.83,1.435,100,3.29,0,1,
+Grayson Rodriguez,24,680570,Maj-AL,Baltimore,24,44,44,20.0,,240.1,236,114,82,261,31,4.27,1.323,1021,3.18,9,1,BAL
+Joely Rodr\xc3\xadguez,32,570257,Maj-AL,Boston,32,25,0,,,24.2,32,17,8,26,5,6.2,1.622,115,3.25,3,0,BOS
+Jos\xc3\xa9 Rodr\xc3\xadguez,27,642578,Maj-AL,Seattle,27,1,0,,,3.0,3,3,1,1,0,9.0,1.333,12,1.0,0,0,SEA
+Manuel Rodr\xc3\xadguez,28,655889,Maj-AL,Tampa Bay,28,71,0,4.0,2.0,68.0,55,16,17,59,5,2.12,1.059,279,3.47,6,0,TB
+Randy Rodr\xc3\xadguez,25,678495,Maj-NL,San Francisco,25,85,1,6.0,4.0,103.0,81,35,29,120,8,3.06,1.068,419,4.14,11,1,SF
+Yariel Rodr\xc3\xadguez,28,684320,Maj-AL,Toronto,28,91,22,4.0,2.0,162.1,126,71,78,152,21,3.94,1.257,680,1.95,14,2,TOR
+Yerry Rodr\xc3\xadguez,26,666720,Maj-AL,"Texas,Toronto",26,29,1,1.0,,35.1,46,33,19,32,8,8.41,1.84,171,1.68,1,0,
+Jake Rogers,30,668670,Maj-AL,Detroit,30,4,0,,,3.2,5,1,0,0,0,2.45,1.364,16,,0,0,DET
+Josh Rogers,29,642028,Maj-NL,Colorado,29,6,0,2.0,,11.0,15,8,3,3,1,6.55,1.636,50,1.0,0,0,COL
+Taylor Rogers,35,573124,"Maj-AL,Maj-NL","Chicago,Cincinnati,Minnesota,San Francisco",35,189,0,10.0,2.0,169.2,147,60,72,187,20,3.18,1.291,717,2.6,19,3,
+Trevor Rogers,28,669432,"Maj-AL,Maj-NL","Baltimore,Miami",28,50,50,14.0,,271.0,241,102,96,233,22,3.39,1.244,1140,2.43,18,6,
+Tyler Rogers,35,643511,"Maj-AL,Maj-NL","New York,San Francisco,Toronto",35,231,0,12.0,3.0,227.1,202,64,35,163,18,2.53,1.043,921,4.66,17,1,
+Josh Rojas,30,668942,"Maj-AL,Maj-NL","Arizona,Seattle",30,4,0,,,4.0,7,6,3,1,1,13.5,2.5,21,0.33,0,0,
+Miguel Rojas,37,500743,Maj-NL,Los Angeles,37,9,0,,,10.0,16,10,4,0,3,9.0,2.0,52,0.0,0,0,LAD
+Ryan Rolison,27,669020,Maj-NL,Colorado,27,31,1,1.0,,42.1,55,33,20,25,11,7.02,1.772,193,1.25,2,2,COL
+Drew Rom,23,680723,Maj-NL,St. Louis,23,8,8,1.0,,33.2,51,30,19,32,7,8.02,2.079,170,1.68,2,0,STL
+Jordan Romano,33,605447,"Maj-AL,Maj-NL","Los Angeles,Philadelphia,Toronto",33,129,0,8.0,55.0,120.2,110,68,47,138,20,5.07,1.301,517,2.94,20,0,
+JoJo Romero,29,668941,Maj-NL,St. Louis,29,164,0,15.0,12.0,164.1,133,51,57,153,11,2.79,1.156,675,2.68,5,1,STL
+John Rooney,28,680701,Maj-AL,Houston,28,1,0,,,1.1,1,1,1,2,1,6.75,1.5,6,2.0,0,0,HOU
+Ben Rortvedt,26,666163,Maj-AL,Tampa Bay,26,1,0,,,2.0,3,1,2,1,1,4.5,2.5,11,0.5,0,0,TB
+Amed Rosario,29,642708,Maj-NL,Washington,29,1,0,,,1.0,5,4,2,0,1,36.0,7.0,10,0.0,0,0,WSN
+Kenny Rosenberg,28,670046,Maj-AL,Los Angeles,28,14,4,2.0,,57.0,63,30,22,46,8,4.74,1.491,250,2.09,5,4,LAA
+Joe Ross,33,605452,Maj-NL,"Arizona,Milwaukee,Philadelphia",33,67,11,6.0,,130.1,136,68,52,107,16,4.7,1.442,576,2.06,2,0,
+Landen Roupp,27,694738,Maj-NL,San Francisco,27,48,29,10.0,,173.2,170,71,76,167,13,3.68,1.417,762,2.2,9,0,SF
+Chris Roycroft,29,688297,Maj-NL,St. Louis,29,52,0,2.0,,58.2,65,39,34,51,5,5.98,1.688,281,1.5,6,0,STL
+Drew Rucinski,34,607968,Maj-AL,Oakland,34,4,4,,,18.0,27,18,14,6,5,9.0,2.278,95,0.43,0,0,OAK
+Michael Rucker,29,621074,Maj-NL,Chicago,29,35,0,2.0,,40.1,39,22,19,40,6,4.91,1.438,176,2.11,0,0,CHC
+Jos\xc3\xa9 Ruiz,30,614179,"Maj-AL,Maj-NL","Arizona,Atlanta,Chicago,Philadelphia",30,109,1,8.0,1.0,112.0,129,67,47,104,22,5.38,1.571,506,2.21,4,0,
+Jackson Rutledge,26,671131,Maj-NL,Washington,26,70,5,5.0,,101.2,119,65,32,86,21,5.75,1.485,452,2.69,7,1,WSN
+Joe Ryan,30,657746,Maj-AL,Minnesota,30,88,87,33.0,,491.0,420,210,102,561,79,3.85,1.063,1992,5.5,43,3,MIN
+River Ryan,25,689981,Maj-NL,Los Angeles,25,4,4,1.0,,20.1,15,3,9,18,1,1.33,1.18,81,2.0,4,1,LAD
+Ryder Ryan,29,656924,"Maj-AL,Maj-NL","Pittsburgh,Seattle",29,16,0,1.0,,21.2,21,13,10,19,2,5.4,1.431,97,1.9,3,0,
+Hyun Jin Ryu,36,547943,Maj-AL,Toronto,36,11,11,3.0,,52.0,53,20,14,38,9,3.46,1.288,224,2.71,3,0,TOR
+Andrew Saalfrank,27,685314,Maj-NL,Arizona,27,51,0,2.0,3.0,46.0,31,10,26,27,1,1.96,1.239,189,1.04,7,0,ARI
+Erik Sabrowski,28,681870,Maj-AL,Cleveland,28,57,0,,1.0,56.0,29,9,31,83,3,1.45,1.071,225,2.68,7,1,CLE
+C\xc3\xa9sar Salazar,29,663967,Maj-AL,Houston,29,1,0,,,1.0,0,0,0,0,0,0.0,0.0,4,,0,0,HOU
+Eduardo Salazar,27,674285,Maj-NL,"Cincinnati,Los Angeles,Washington",27,64,0,1.0,,70.2,97,47,35,55,9,5.99,1.868,344,1.57,10,2,
+Chris Sale,37,519242,"Maj-AL,Maj-NL","Atlanta,Boston",37,73,72,33.0,,422.0,339,139,105,531,38,2.96,1.052,1700,5.06,44,4,
+Tyler Samaniego,27,701719,Maj-AL,Boston,27,2,0,,,1.2,0,0,3,4,0,0.0,1.8,8,1.33,0,0,BOS
+Bryan Sammons,29,676614,Maj-AL,Detroit,29,6,0,1.0,,27.1,16,11,9,18,6,3.62,0.915,104,2.0,0,0,DET
+Ali S\xc3\xa1nchez,28,645305,Maj-AL,Toronto,28,1,0,,,1.0,3,2,0,1,0,18.0,3.0,6,,0,0,TOR
+Cristopher S\xc3\xa1nchez,29,650911,Maj-NL,Philadelphia,29,89,88,28.0,,518.2,475,170,113,503,40,2.95,1.134,2108,4.45,31,4,PHI
+Gary S\xc3\xa1nchez,32,596142,Maj-AL,Baltimore,32,1,0,,,1.0,2,4,1,0,1,36.0,3.0,7,0.0,0,0,BAL
+Sixto S\xc3\xa1nchez,25,664350,Maj-NL,Miami,25,14,7,,,35.2,43,24,14,17,3,6.06,1.598,162,1.21,4,0,MIA
+Cam Sanders,28,676742,Maj-NL,Pittsburgh,28,6,0,,,6.2,9,6,5,4,2,8.1,2.1,34,0.8,0,0,PIT
+Nick Sandlin,28,680704,Maj-AL,"Cleveland,Toronto",28,147,1,12.0,2.0,132.2,94,53,59,149,26,3.6,1.153,549,2.53,12,1,
+Patrick Sandoval,27,663776,Maj-AL,Los Angeles,27,44,44,9.0,,224.1,230,111,109,209,20,4.45,1.511,1005,1.92,11,5,LAA
+Jayvien Sandridge,26,682144,Maj-AL,New York,26,1,0,,,0.2,1,2,2,2,1,27.0,4.5,6,1.0,0,0,NYY
+Cole Sands,28,663485,Maj-AL,Minnesota,28,152,3,13.0,8.0,170.1,150,74,47,174,18,3.91,1.157,713,3.7,13,2,MIN
+Reiver Sanmartin,29,665665,Maj-NL,Cincinnati,29,15,0,1.0,,15.2,19,11,11,15,2,6.32,1.915,78,1.36,0,0,CIN
+Miguel San\xc3\xb3,31,593934,Maj-AL,Los Angeles,31,1,0,,,0.1,0,0,0,0,0,0.0,0.0,1,,0,0,LAA
+Javier Sanoja,22,691594,Maj-NL,Miami,22,8,0,,,9.1,24,17,5,1,4,16.39,3.107,54,0.2,0,0,MIA
+Dennis Santana,30,642701,"Maj-AL,Maj-NL","New York,Pittsburgh",30,149,0,10.0,20.0,160.2,113,56,49,147,11,3.14,1.008,635,3.0,11,1,
+Tony Santillan,29,663574,Maj-NL,Cincinnati,29,120,1,6.0,7.0,115.0,81,32,50,131,11,2.5,1.139,474,2.62,1,2,CIN
+Gregory Santos,25,666619,Maj-AL,"Chicago,Seattle",25,76,0,3.0,5.0,80.2,84,33,26,72,2,3.68,1.364,356,2.77,12,1,
+Roki Sasaki,24,808963,Maj-NL,Los Angeles,24,21,10,1.0,3.0,56.0,45,26,32,43,8,4.18,1.375,245,1.34,7,0,LAD
+Tayler Saucedo,32,642048,Maj-AL,Seattle,32,115,0,5.0,4.0,99.2,95,45,47,93,7,4.06,1.425,439,1.98,13,1,SEA
+Matt Sauer,26,669422,"Maj-AL,Maj-NL","Kansas City,Los Angeles",26,24,1,2.0,1.0,46.0,58,35,19,33,9,6.85,1.674,213,1.74,0,0,
+Josh Sborz,30,622250,Maj-AL,Texas,30,71,0,8.0,1.0,80.2,63,40,25,96,9,4.46,1.091,327,3.84,11,0,TEX
+Max Scherzer,41,453286,"Maj-AL,Maj-NL","New York,Texas,Toronto",41,60,60,21.0,,307.0,278,145,89,314,60,4.25,1.195,1265,3.53,21,1,
+Cam Schlittler,25,693645,Maj-AL,New York,25,19,19,7.0,,104.0,79,29,31,120,8,2.51,1.058,418,3.87,10,1,NYY
+Clarke Schmidt,29,657376,Maj-AL,New York,29,66,65,18.0,,335.0,307,145,113,324,43,3.9,1.254,1417,2.87,20,3,NYY
+Jesse Scholtens,32,669947,Maj-AL,"Chicago,Tampa Bay",32,29,11,1.0,1.0,98.0,113,55,34,74,16,5.05,1.5,432,2.18,8,1,
+Jonathan Schoop,31,570731,Maj-AL,Detroit,31,1,0,,,1.1,1,0,0,1,0,0.0,0.75,5,,0,0,DET
+John Schreiber,32,670167,Maj-AL,"Boston,Kansas City",32,190,2,9.0,5.0,171.0,151,71,73,167,18,3.74,1.31,733,2.29,4,1,
+Paxton Schultz,28,687606,"Maj-AL,Maj-NL","Toronto,Washington",28,15,2,,,26.2,29,12,9,30,4,4.05,1.425,121,3.33,0,0,
+Tyler Schweitzer,25,805326,Maj-AL,Chicago,25,1,0,,,1.1,2,1,1,1,0,6.75,2.25,7,1.0,0,0,CWS
+Spencer Schwellenbach,25,680885,Maj-NL,Atlanta,25,38,38,15.0,,234.1,195,84,41,235,27,3.23,1.007,934,5.73,7,1,ATL
+Christian Scott,25,681035,Maj-NL,New York,25,9,9,,,47.1,45,24,12,39,8,4.56,1.204,197,3.25,1,0,NYM
+Tanner Scott,31,656945,Maj-NL,"Los Angeles,Miami,San Diego",31,220,0,19.0,57.0,218.2,156,63,79,264,18,2.59,1.075,879,3.34,14,0,
+Tayler Scott,33,605463,"Maj-AL,Maj-NL","Arizona,Boston,Houston,Los Angeles,Oakland",33,104,3,8.0,,113.2,102,52,63,112,16,4.12,1.452,504,1.78,32,0,
+Connor Seabold,30,657756,"Maj-AL,Maj-NL","Atlanta,Colorado,Detroit,Tampa Bay",30,37,13,1.0,,104.0,132,78,37,83,20,6.75,1.625,481,2.24,2,0,
+JP Sears,29,676664,"Maj-AL,Maj-NL","Athletics,Oakland,San Diego",29,91,91,25.0,,489.0,480,251,138,415,92,4.62,1.264,2076,3.01,42,4,
+Anthony Seigler,26,678011,Maj-NL,Milwaukee,26,1,0,,,1.0,1,0,0,0,0,0.0,1.0,4,,0,0,MIL
+Colin Selby,27,681882,"Maj-AL,Maj-NL","Baltimore,Kansas City,Pittsburgh",27,37,5,2.0,,45.0,48,31,21,49,6,6.2,1.533,202,2.33,3,0,
+Kodai Senga,33,673540,Maj-NL,New York,33,58,57,20.0,,304.0,245,113,147,343,33,3.35,1.289,1289,2.33,17,1,NYM
+Antonio Senzatela,31,622608,Maj-NL,Colorado,31,39,28,4.0,1.0,159.0,216,109,60,96,28,6.17,1.736,733,1.6,7,0,COL
+Luis Severino,32,622663,"Maj-AL,Maj-NL","Athletics,New York",32,85,84,24.0,,464.0,469,241,163,394,64,4.67,1.362,2016,2.42,37,17,
+Paul Sewald,36,623149,"Maj-AL,Maj-NL","Arizona,Cleveland,Detroit,Seattle",36,145,0,5.0,62.0,134.1,112,58,43,165,22,3.89,1.154,557,3.84,16,2,
+Carson Seymour,26,693313,Maj-NL,San Francisco,26,16,3,1.0,,36.0,37,19,13,26,9,4.75,1.389,156,2.0,2,0,SF
+Ian Seymour,27,693855,Maj-AL,Tampa Bay,27,25,5,4.0,,63.2,56,29,19,72,5,4.1,1.178,270,3.79,3,0,TB
+Bryan Shaw,36,543766,Maj-AL,Chicago,36,43,0,,4.0,49.2,47,25,21,44,4,4.53,1.369,214,2.1,2,1,CWS
+Emmet Sheehan,26,686218,Maj-NL,Los Angeles,26,38,26,12.0,1.0,159.2,128,77,61,177,23,4.34,1.184,661,2.9,4,2,LAD
+Ryan Sherriff,33,595411,Maj-AL,Boston,33,5,0,,,6.2,6,2,2,5,0,2.7,1.2,29,2.5,2,0,BOS
+Zack Short,28,670097,Maj-AL,Detroit,28,6,0,,,6.0,12,4,1,1,0,6.0,2.167,32,1.0,0,0,DET
+Chasen Shreve,33,592741,"Maj-AL,Maj-NL","Cincinnati,Colorado,Detroit",33,50,0,1.0,,44.2,47,23,13,43,7,4.63,1.343,193,3.31,1,0,
+Chase Shugart,28,663767,"Maj-AL,Maj-NL","Boston,Pittsburgh",28,41,0,4.0,1.0,53.2,41,21,20,39,7,3.52,1.137,217,1.95,2,0,
+Jared Shuster,27,694363,"Maj-AL,Maj-NL","Atlanta,Chicago,St. Louis",27,63,17,6.0,,142.1,154,83,64,98,16,5.25,1.532,635,1.53,18,1,
+Chase Silseth,26,681217,Maj-AL,Los Angeles,26,36,10,4.0,,76.2,63,33,42,88,14,3.87,1.37,334,2.1,12,1,LAA
+Josh Simpson,27,681006,Maj-NL,Miami,27,31,0,4.0,,30.2,34,25,22,36,5,7.34,1.826,151,1.64,1,0,MIA
+Lucas Sims,32,608371,"Maj-AL,Maj-NL","Boston,Chicago,Cincinnati,Washington",32,146,0,9.0,4.0,127.0,92,65,85,138,15,4.61,1.394,564,1.62,9,4,
+Brady Singer,29,663903,"Maj-AL,Maj-NL","Cincinnati,Kansas City",29,97,96,31.0,,521.0,528,258,166,480,63,4.46,1.332,2240,2.89,29,3,
+Evan Sisk,28,681895,"Maj-AL,Maj-NL","Kansas City,Pittsburgh",28,19,0,1.0,,17.2,16,7,10,25,1,3.57,1.472,80,2.5,4,0,
+Paul Skenes,24,694973,Maj-NL,Pittsburgh,24,58,58,23.0,,332.2,239,77,80,398,22,2.08,0.959,1299,4.98,10,7,PIT
+Tarik Skubal,29,669373,Maj-AL,Detroit,29,86,86,41.0,,525.0,381,138,90,643,41,2.37,0.897,2030,7.14,12,5,DET
+Justin Slaten,28,686580,Maj-AL,Boston,28,86,0,8.0,5.0,94.2,77,35,22,89,7,3.33,1.046,384,4.05,4,1,BOS
+Austin Slater,32,596103,Maj-AL,New York,32,1,0,,,0.2,1,0,0,0,0,0.0,1.5,3,,0,0,NYY
+Ethan Small,26,663629,Maj-NL,Milwaukee,26,2,0,,1.0,4.0,9,5,2,6,1,11.25,2.75,23,3.0,0,0,MIL
+Devin Smeltzer,27,656970,Maj-NL,Miami,27,9,1,,,22.1,29,16,4,16,7,6.45,1.478,100,4.0,0,0,MIA
+Burch Smith,34,572143,"Maj-AL,Maj-NL","Baltimore,Miami",34,50,0,4.0,,56.1,64,31,12,46,6,4.95,1.349,241,3.83,6,0,
+Cade Smith,27,671922,Maj-AL,Cleveland,27,169,0,18.0,20.0,169.1,118,49,43,237,7,2.6,0.951,672,5.51,6,0,CLE
+Chad Smith,28,663385,Maj-AL,Oakland,28,10,0,1.0,,13.2,15,10,7,9,2,6.59,1.61,60,1.29,0,1,OAK
+Dominic Smith,29,642086,Maj-AL,Boston,29,3,0,,,3.0,2,0,1,0,0,0.0,1.0,11,0.0,0,0,BOS
+Drew Smith,30,622098,Maj-NL,New York,30,80,0,5.0,5.0,73.0,67,32,38,81,9,3.95,1.438,319,2.13,5,1,NYM
+Dylan Smith,25,681916,Maj-AL,Detroit,25,7,0,1.0,,13.0,6,2,5,4,0,1.38,0.846,48,0.8,0,0,DET
+Pavin Smith,28,656976,Maj-NL,Arizona,28,1,0,,,1.0,0,0,1,0,0,0.0,1.0,5,0.0,0,0,ARI
+Shane Smith,26,681343,Maj-AL,Chicago,26,32,32,7.0,,154.2,129,72,67,156,18,4.19,1.267,665,2.33,14,4,CWS
+Will Smith,34,519293,Maj-AL,"Kansas City,Texas",34,110,0,2.0,23.0,102.0,92,62,35,88,13,5.47,1.245,428,2.51,12,3,
+AJ Smith-Shawver,22,700363,Maj-NL,Atlanta,22,18,16,4.0,,78.0,69,37,35,70,15,4.27,1.333,336,2.0,13,0,ATL
+Drew Smyly,35,592767,Maj-NL,Chicago,35,91,23,15.0,,201.0,204,104,81,197,36,4.66,1.418,883,2.43,22,7,CHC
+Kirby Snead,29,669912,Maj-AL,"Oakland,Seattle",29,26,0,1.0,,22.0,26,11,13,16,1,4.5,1.773,104,1.23,3,1,
+Blake Snell,32,605483,Maj-NL,"Los Angeles,San Diego,San Francisco",32,68,67,27.0,,375.0,246,106,181,483,27,2.54,1.139,1523,2.67,45,6,
+Collin Snider,29,676092,Maj-AL,"Kansas City,Seattle",29,86,1,5.0,1.0,88.1,92,36,32,82,11,3.67,1.404,383,2.56,6,1,
+Peter Solomon,26,656981,Maj-NL,Arizona,26,5,0,,,13.1,17,18,11,6,2,12.15,2.1,67,0.55,1,0,ARI
+Drew Sommers,24,805427,Maj-AL,Detroit,24,4,0,,,3.0,7,6,3,3,1,18.0,3.333,19,1.0,0,1,DET
+George Soriano,27,666277,Maj-NL,"Miami,St. Louis",27,78,1,4.0,3.0,125.0,122,80,58,121,23,5.76,1.44,560,2.09,6,1,
+Jos\xc3\xa9 Soriano,27,667755,Maj-AL,Los Angeles,27,94,54,20.0,,344.0,289,141,152,326,25,3.69,1.282,1448,2.14,9,1,LAA
+Michael Soroka,28,647336,"Maj-AL,Maj-NL","Arizona,Atlanta,Chicago,Washington",28,59,35,8.0,,219.0,192,118,93,232,35,4.85,1.301,950,2.49,23,2,
+Gregory Soto,31,642397,"Maj-AL,Maj-NL","Baltimore,New York,Philadelphia,Pittsburgh",31,219,0,7.0,7.0,186.0,170,85,79,217,15,4.11,1.339,822,2.75,16,2,
+Bennett Sousa,30,656986,"Maj-AL,Maj-NL","Houston,Milwaukee",30,51,0,5.0,4.0,59.2,43,20,17,69,5,3.02,1.006,233,4.06,11,1,
+Alex Speas,26,666208,Maj-AL,"Houston,Texas",26,4,0,,,4.0,4,4,6,6,1,9.0,2.5,20,1.0,0,0,
+Gabe Speier,31,642100,Maj-AL,Seattle,31,188,0,7.0,2.0,153.2,120,63,39,191,16,3.69,1.035,617,4.9,21,2,SEA
+Mitch Spence,27,687765,Maj-AL,"Athletics,Oakland",27,67,32,11.0,1.0,236.0,261,125,70,192,36,4.77,1.403,1026,2.74,20,0,
+Carson Spiers,27,686730,Maj-NL,Cincinnati,27,29,14,5.0,1.0,117.0,143,74,41,103,24,5.69,1.573,534,2.51,3,0,CIN
+Jeffrey Springs,33,605488,Maj-AL,"Athletics,Tampa Bay",33,45,43,17.0,,238.1,199,94,75,214,34,3.55,1.15,978,2.85,27,3,
+Brandon Sproat,25,687075,Maj-NL,"Milwaukee,New York",25,7,5,,,31.0,32,23,17,27,4,6.68,1.581,134,1.59,2,3,
+Jacob Stallings,35,607732,Maj-NL,"Colorado,Miami",35,8,0,,,10.0,14,5,0,2,1,4.5,1.4,44,,0,0,
+Ryne Stanek,34,592773,"Maj-AL,Maj-NL","Houston,New York,Seattle,St. Louis",34,201,0,17.0,11.0,180.2,162,96,86,194,26,4.78,1.373,790,2.26,5,0,
+Josh Staumont,30,622251,Maj-AL,"Kansas City,Minnesota",30,46,1,1.0,,44.1,33,22,27,42,1,4.47,1.353,191,1.56,4,0,
+Justin Steele,29,657006,Maj-NL,Chicago,29,58,58,24.0,,330.2,299,117,78,332,31,3.18,1.14,1363,4.26,17,2,CHC
+Michael Stefanic,29,683021,Maj-AL,"Los Angeles,Toronto",29,2,0,,,2.0,1,0,0,0,0,0.0,0.5,8,,0,0,
+Trevor Stephan,27,663986,Maj-AL,Cleveland,27,69,0,7.0,2.0,66.2,63,31,26,72,6,4.19,1.335,288,2.77,13,0,CLE
+Jackson Stephens,30,623451,Maj-NL,Atlanta,30,8,0,,,15.1,18,5,6,13,2,2.93,1.565,69,2.17,2,0,ATL
+Robert Stephenson,32,596112,"Maj-AL,Maj-NL","Los Angeles,Pittsburgh,Tampa Bay",32,71,0,5.0,1.0,62.1,37,21,19,87,9,3.03,0.898,243,4.58,3,0,
+Justin Sterner,29,686993,Maj-AL,"Athletics,Tampa Bay",29,68,1,4.0,,77.0,61,26,26,82,11,3.04,1.13,321,3.15,15,0,
+Brock Stewart,33,592779,"Maj-AL,Maj-NL","Los Angeles,Minnesota",33,90,0,4.0,1.0,84.0,67,24,33,107,7,2.57,1.19,346,3.24,11,4,
+Robert Stock,35,476594,Maj-AL,Boston,35,2,0,,,2.2,4,3,4,1,1,10.13,3.0,15,0.25,0,0,BOS
+Gavin Stone,25,694813,Maj-NL,Los Angeles,25,33,29,12.0,1.0,171.1,179,86,50,138,26,4.52,1.337,732,2.76,9,1,LAD
+Levi Stoudt,25,686651,Maj-NL,Cincinnati,25,4,2,,,10.1,16,11,8,9,1,9.58,2.323,55,1.13,3,0,CIN
+Matt Strahm,34,621381,"Maj-AL,Maj-NL","Kansas City,Philadelphia",34,206,10,17.0,12.0,227.0,164,72,56,269,23,2.85,0.969,904,4.8,11,1,
+Chris Stratton,34,608717,"Maj-AL,Maj-NL","Kansas City,Los Angeles,St. Louis,Texas",34,140,0,6.0,5.0,166.0,158,94,70,150,18,5.1,1.373,717,2.14,11,3,
+Hunter Stratton,28,676702,Maj-NL,"Atlanta,Pittsburgh",28,59,0,3.0,2.0,68.2,69,29,17,59,8,3.8,1.252,294,3.47,2,1,
+Hunter Strickland,36,519326,Maj-AL,Los Angeles,36,91,0,4.0,2.0,95.1,73,35,34,71,12,3.3,1.122,385,2.09,7,2,LAA
+Spencer Strider,26,675911,Maj-NL,Atlanta,26,59,59,27.0,,333.2,292,153,119,439,48,4.13,1.232,1396,3.69,38,8,ATL
+Ross Stripling,34,548389,"Maj-AL,Maj-NL","Oakland,San Francisco",34,44,25,2.0,,174.1,213,110,38,119,27,5.68,1.44,762,3.13,13,2,
+Marcus Stroman,34,573186,"Maj-AL,Maj-NL","Chicago,New York",34,65,62,22.0,1.0,324.1,328,161,125,250,34,4.47,1.397,1402,2.0,45,2,
+Kade Strowd,27,669704,Maj-AL,Baltimore,27,25,0,,,26.1,16,5,13,24,1,1.71,1.101,105,1.85,1,1,BAL
+Peter Strzelecki,29,657265,"Maj-AL,Maj-NL","Arizona,Cleveland,Milwaukee",29,46,0,3.0,,47.2,44,21,15,46,4,3.97,1.238,207,3.07,9,0,
+Garrett Stubbs,31,596117,Maj-NL,Philadelphia,31,4,0,,,4.0,6,7,2,0,2,15.75,2.0,19,0.0,0,0,PHI
+Albert Su\xc3\xa1rez,36,544150,Maj-AL,Baltimore,36,39,25,11.0,1.0,150.1,142,59,46,121,18,3.53,1.251,628,2.63,12,0,BAL
+Andrew Su\xc3\xa1rez,30,605498,Maj-NL,St. Louis,30,13,0,,,27.2,33,22,15,17,7,7.16,1.735,130,1.13,0,0,STL
+Jos\xc3\xa9 Suarez,28,660761,"Maj-AL,Maj-NL","Atlanta,Los Angeles",28,43,12,4.0,2.0,111.2,129,77,61,110,18,6.21,1.701,518,1.8,4,4,
+Ranger Suarez,30,624133,"Maj-AL,Maj-NL","Boston,Philadelphia",30,84,83,31.0,,475.1,462,185,139,457,45,3.5,1.264,1989,3.29,23,4,
+Robert Suarez,35,663158,Maj-NL,"Atlanta,San Diego",35,172,0,18.0,79.0,174.0,124,57,43,169,18,2.95,0.96,679,3.93,5,0,
+Wander Suero,33,593833,"Maj-AL,Maj-NL","Atlanta,Houston,Los Angeles",33,11,0,1.0,,14.1,17,15,9,16,5,9.42,1.814,68,1.78,5,0,
+Tomoyuki Sugano,36,608372,"Maj-AL,Maj-NL","Baltimore,Colorado",36,33,33,11.0,,173.2,183,85,39,118,37,4.4,1.278,738,3.03,8,0,
+Cole Sulser,36,642121,"Maj-AL,Maj-NL","Arizona,New York,Tampa Bay",36,36,2,4.0,,52.0,43,16,22,48,4,2.77,1.25,215,2.18,6,1,
+Brent Suter,36,608718,"Maj-AL,Maj-NL","Cincinnati,Colorado,Los Angeles",36,158,8,6.0,2.0,216.0,211,87,59,172,25,3.63,1.25,907,2.92,6,13,
+Matt Svanson,27,694335,Maj-NL,St. Louis,27,46,0,4.0,,69.0,51,28,26,75,6,3.65,1.116,284,2.88,1,0,STL
+Erik Swanson,31,657024,Maj-AL,Toronto,31,120,0,7.0,4.0,110.2,95,52,43,115,20,4.23,1.247,460,2.67,12,1,TOR
+Devin Sweet,26,682967,Maj-AL,"Oakland,Seattle",26,7,0,1.0,,8.2,10,10,6,6,4,10.38,1.846,43,1.0,0,0,
+Noah Syndergaard,30,592789,"Maj-AL,Maj-NL","Cleveland,Los Angeles",30,18,18,2.0,,88.2,104,64,19,56,22,6.5,1.387,391,2.95,34,0,
+Jameson Taillon,34,592791,Maj-NL,Chicago,34,85,84,31.0,1.0,468.0,436,201,106,377,74,3.87,1.158,1926,3.56,41,3,CHC
+Domingo Tapia,31,593619,Maj-NL,San Diego,31,14,0,,1.0,15.2,8,5,12,10,0,2.87,1.277,65,0.83,0,0,
+Freddy Tarnok,26,676206,"Maj-AL,Maj-NL","Miami,Oakland",26,10,1,2.0,1.0,22.0,12,10,15,24,5,4.09,1.227,93,1.6,1,0,
+Dillon Tate,31,622253,Maj-AL,"Baltimore,Toronto",31,39,0,2.0,1.0,43.0,50,22,18,35,3,4.6,1.581,198,1.94,4,0,
+Grant Taylor,24,691799,Maj-AL,Chicago,24,42,5,2.0,6.0,43.0,43,21,17,62,0,4.4,1.395,184,3.65,7,1,CWS
+Josh Taylor,30,657031,Maj-AL,Kansas City,30,17,1,1.0,,17.2,22,16,9,26,4,8.15,1.755,83,2.89,2,0,KC
+Troy Taylor,23,700187,Maj-AL,Seattle,23,29,0,,1.0,26.0,29,17,10,27,6,5.88,1.5,118,2.7,1,0,SEA
+Julio Teheran,33,527054,Maj-NL,"Milwaukee,New York",33,15,12,3.0,,74.1,74,39,15,53,14,4.72,1.197,304,3.53,9,3,
+Rowdy Tellez,30,642133,"Maj-AL,Maj-NL","Milwaukee,Pittsburgh,Texas",30,5,0,,,5.2,11,5,1,1,1,7.94,2.118,30,1.0,0,0,
+Kai-Wei Teng,27,678906,"Maj-AL,Maj-NL","Houston,San Francisco",27,18,7,3.0,,49.0,49,35,27,55,6,6.43,1.551,226,2.04,2,1,
+Ryan Tepera,35,572193,"Maj-AL,Maj-NL","Los Angeles,St. Louis",35,11,0,2.0,,10.0,16,9,3,11,3,8.1,1.9,53,3.67,1,0,
+Juan Then,23,672730,Maj-AL,Seattle,23,9,0,,,11.0,14,6,2,5,3,4.91,1.455,48,2.5,3,0,SEA
+Caleb Thielbar,39,573204,"Maj-AL,Maj-NL","Chicago,Minnesota",39,176,0,9.0,4.0,147.0,121,61,50,157,21,3.73,1.163,604,3.14,11,2,
+Connor Thomas,27,671162,Maj-NL,Milwaukee,27,2,0,,,5.1,12,12,2,5,3,20.25,2.625,31,2.5,0,0,MIL
+Lane Thomas,27,657041,Maj-NL,Washington,27,1,0,,,1.0,3,3,0,1,1,27.0,3.0,6,,0,0,WSN
+Keegan Thompson,29,624522,Maj-NL,Chicago,29,42,0,4.0,3.0,58.0,39,24,36,61,5,3.72,1.293,248,1.69,3,1,CHC
+Mason Thompson,27,666168,Maj-NL,Washington,27,64,0,5.0,1.0,62.2,77,47,34,52,5,6.75,1.771,293,1.53,9,0,WSN
+Ryan Thompson,34,657044,"Maj-AL,Maj-NL","Arizona,Tampa Bay",34,163,0,12.0,4.0,155.2,139,58,43,122,12,3.35,1.169,637,2.84,33,2,
+Zach Thompson,31,605507,Maj-NL,Atlanta,31,2,0,,,3.2,0,0,1,3,0,0.0,0.273,12,3.0,0,0,ATL
+Zack Thompson,26,668868,Maj-NL,St. Louis,26,29,11,5.0,,81.2,92,51,33,89,14,5.62,1.531,364,2.7,5,1,STL
+Trent Thornton,31,663423,Maj-AL,"Seattle,Toronto",31,131,1,7.0,1.0,146.0,134,58,39,135,19,3.58,1.185,599,3.46,15,3,
+Drew Thorpe,23,689672,Maj-AL,Chicago,23,9,9,3.0,,44.1,35,27,21,25,8,5.48,1.263,190,1.19,9,1,CWS
+Blade Tidwell,25,694918,Maj-NL,"New York,San Francisco",25,8,2,1.0,1.0,21.0,28,17,11,15,5,7.29,1.857,100,1.36,3,0,
+Jes\xc3\xbas Tinoco,30,622786,"Maj-AL,Maj-NL","Chicago,Miami,Texas",30,52,0,3.0,7.0,60.0,44,26,20,52,4,3.9,1.067,242,2.6,6,0,
+Tyler Tolbert,28,686475,Maj-AL,Kansas City,28,1,0,,,0.2,1,0,0,0,0,0.0,1.5,2,,0,0,KC
+Payton Tolle,22,801139,Maj-AL,Boston,22,8,3,,,16.2,18,11,8,19,5,5.94,1.56,75,2.38,3,0,BOS
+Jonah Tong,22,804636,Maj-NL,New York,22,5,5,2.0,,18.2,24,16,9,22,3,7.71,1.768,87,2.44,0,1,NYM
+Michael Tonkin,35,543859,"Maj-AL,Maj-NL","Atlanta,Minnesota,New York",35,124,0,13.0,3.0,184.0,156,83,61,180,22,4.06,1.179,772,2.95,17,0,
+Justin Topa,35,623437,Maj-AL,"Minnesota,Seattle",35,141,1,6.0,8.0,138.0,139,50,39,117,7,3.26,1.29,587,3.0,14,2,
+Abraham Toro,28,647351,Maj-AL,Boston,28,1,0,,,1.0,4,2,1,0,0,18.0,5.0,8,0.0,0,0,BOS
+Luis Torrens,29,620443,Maj-NL,New York,29,3,0,,,1.0,5,4,1,0,2,36.0,6.0,9,0.0,0,0,NYM
+Touki Toussaint,29,657053,Maj-AL,"Chicago,Cleveland,Los Angeles",29,32,16,5.0,,112.0,108,69,76,114,13,5.54,1.643,512,1.5,11,3,
+Blake Treinen,38,595014,Maj-NL,Los Angeles,38,107,0,11.0,7.0,96.1,87,33,39,119,9,3.08,1.308,416,3.05,25,4,LAD
+Alan Trejo,29,676701,Maj-NL,Colorado,29,3,0,,,3.0,5,3,0,1,2,9.0,1.667,13,,0,0,COL
+Jose Trevino,32,624431,"Maj-AL,Maj-NL","Cincinnati,New York",32,4,0,,,4.1,9,4,3,1,0,8.31,2.769,25,0.33,0,0,
+Jared Triolo,27,669707,Maj-NL,Pittsburgh,27,1,0,,,1.0,3,0,1,0,1,0.0,4.0,8,0.0,0,0,PIT
+Lou Trivino,33,642152,Maj-NL,"Los Angeles,Philadelphia,San Francisco",33,47,2,3.0,,47.2,46,21,18,37,6,3.97,1.343,207,2.06,3,2,
+Cole Tucker,27,657061,Maj-AL,Los Angeles,27,1,0,,,1.0,1,0,1,0,0,0.0,2.0,4,0.0,0,0,LAA
+Spencer Turnbull,32,605513,"Maj-AL,Maj-NL","Detroit,Philadelphia,Toronto",32,27,15,5.0,,91.2,86,46,39,86,12,4.52,1.364,400,2.21,10,3,
+Kyle Tyler,27,667725,Maj-NL,Miami,27,8,7,,,31.2,37,19,18,25,4,5.4,1.737,142,1.39,3,0,MIA
+Tyler Uberstine,27,700413,Maj-AL,Boston,27,1,0,,,2.2,3,1,1,2,1,3.38,1.5,11,2.0,0,0,BOS
+Edwin Uceta,27,670955,"Maj-AL,Maj-NL","New York,Tampa Bay",27,101,0,12.0,6.0,120.2,88,39,37,163,13,2.91,1.036,491,4.41,13,0,
+Erich Uelmen,27,657272,Maj-NL,Philadelphia,27,1,0,,,1.0,3,4,2,1,0,36.0,5.0,8,0.5,2,0,PHI
+Duane Underwood Jr.,28,621249,Maj-NL,Pittsburgh,28,20,0,1.0,2.0,24.1,24,14,11,14,3,5.18,1.438,100,1.27,1,0,PIT
+Jos\xc3\xa9 Ure\xc3\xb1a,33,570632,"Maj-AL,Maj-NL","Chicago,Colorado,Los Angeles,Minnesota,New York,Texas,Toronto",33,62,25,5.0,2.0,208.2,212,106,84,133,34,4.57,1.419,911,1.58,16,0,
+Walbert Ure\xc3\xb1a,22,700712,Maj-AL,Los Angeles,22,2,0,,,1.2,5,0,3,2,0,0.0,4.8,15,0.67,0,0,LAA
+Julio Ur\xc3\xadas,26,628711,Maj-NL,Los Angeles,26,20,20,10.0,,111.1,108,58,24,111,24,4.69,1.186,461,4.63,11,3,LAD
+Abner Uribe,26,682842,Maj-NL,Milwaukee,26,133,0,6.0,12.0,132.1,91,35,66,156,5,2.38,1.186,543,2.36,4,2,MIL
+Jos\xc3\xa9 Urquidy,31,664353,"Maj-AL,Maj-NL","Detroit,Houston,Pittsburgh",31,24,12,4.0,2.0,80.1,85,46,31,62,16,5.15,1.444,352,2.0,17,0,
+Naoyuki Uwasawa,30,683822,Maj-AL,Boston,30,2,0,,,4.0,2,1,2,3,0,2.25,1.0,16,1.5,0,0,BOS
+Framber Valdez,32,664285,Maj-AL,"Detroit,Houston",32,96,96,41.0,,594.2,517,235,193,584,51,3.56,1.194,2451,3.03,56,3,
+Chris Vallimont,26,681808,Maj-AL,Baltimore,26,1,0,,,0.2,1,0,0,1,0,0.0,1.5,2,,0,0,BAL
+Brian Van Belle,28,687003,Maj-AL,Tampa Bay,28,4,0,1.0,,8.1,13,5,0,6,2,5.4,1.56,36,,1,0,TB
+Ricky Vanasco,25,676568,"Maj-AL,Maj-NL","Detroit,Los Angeles",25,4,0,1.0,,4.0,3,3,0,1,0,6.75,0.75,15,,0,0,
+Logan VanWey,26,701121,Maj-AL,Houston,26,9,0,,,10.2,15,6,3,7,2,5.06,1.688,49,2.33,0,0,HOU
+Carlos Vargas,25,672841,"Maj-AL,Maj-NL","Arizona,Seattle",25,80,0,5.0,1.0,88.0,94,41,29,63,13,4.19,1.398,381,2.17,7,0,
+Ildemaro Vargas,32,545121,Maj-NL,Washington,32,4,0,,,4.0,5,2,1,0,2,4.5,1.5,19,0.0,0,0,WSN
+Gus Varland,29,681402,"Maj-AL,Maj-NL","Chicago,Los Angeles,Milwaukee,Washington",29,45,0,2.0,,49.2,60,28,25,51,6,5.07,1.711,231,2.04,7,2,
+Louis Varland,28,686973,Maj-AL,"Minnesota,Toronto",28,131,19,8.0,,215.0,220,108,61,223,38,4.52,1.307,915,3.66,10,3,
+Mike Vasil,25,678024,Maj-AL,Chicago,25,47,3,5.0,4.0,101.0,74,28,52,82,8,2.5,1.248,423,1.58,24,0,CWS
+Andrew Vasquez,29,607755,"Maj-AL,Maj-NL","Detroit,Philadelphia",29,41,0,2.0,,47.0,45,18,22,43,4,3.45,1.426,214,1.95,0,0,
+Randy V\xc3\xa1squez,27,681190,"Maj-AL,Maj-NL","New York,San Diego",27,62,54,13.0,,287.0,289,124,103,192,35,3.89,1.366,1236,1.86,24,2,
+Luis V\xc3\xa1zquez,25,676679,Maj-AL,Baltimore,25,4,0,,,4.1,3,0,1,0,0,0.0,0.923,14,0.0,0,0,BAL
+Vince Velasquez,31,592826,Maj-NL,Pittsburgh,31,8,8,4.0,,37.1,35,16,14,37,4,3.86,1.313,162,2.64,5,0,PIT
+Anthony Veneziano,27,685107,"Maj-AL,Maj-NL","Kansas City,Miami,St. Louis",27,40,1,1.0,,40.2,46,18,16,40,5,3.98,1.525,187,2.5,8,1,
+Drew VerHagen,32,572403,Maj-NL,St. Louis,32,59,0,5.0,,60.1,51,27,26,59,9,4.03,1.276,265,2.27,9,0,STL
+Justin Verlander,43,434378,"Maj-AL,Maj-NL","Detroit,Houston,New York,San Francisco",43,77,77,23.0,,426.2,414,189,132,370,53,3.99,1.28,1821,2.8,32,5,
+Alex Vesia,30,681911,Maj-NL,Los Angeles,30,213,1,13.0,13.0,193.2,127,58,80,249,23,2.7,1.069,784,3.11,15,4,LAD
+Nick Vespi,28,663989,Maj-AL,Baltimore,28,20,0,1.0,,27.0,26,11,5,18,3,3.67,1.148,108,3.6,0,0,BAL
+Will Vest,31,676684,Maj-AL,Detroit,31,199,4,13.0,29.0,207.0,173,67,56,218,10,2.91,1.106,847,3.89,7,1,DET
+Thyago Vieira,31,600986,"Maj-AL,Maj-NL","Arizona,Baltimore,Milwaukee",31,30,0,,1.0,41.0,37,22,27,41,8,4.83,1.561,187,1.52,3,2,
+Eli Villalobos,27,681871,Maj-NL,Miami,27,3,0,,,4.1,3,1,2,3,1,2.08,1.154,18,1.5,1,0,MIA
+David Villar,26,681584,Maj-NL,San Francisco,26,1,0,,,1.0,0,0,1,0,0,0.0,1.0,3,0.0,0,0,SF
+Darius Vines,26,670241,Maj-NL,Atlanta,26,9,4,1.0,,34.0,36,22,11,23,7,5.82,1.382,150,2.09,4,1,ATL
+Victor Vodnik,26,680767,Maj-NL,Colorado,26,127,0,10.0,20.0,139.0,140,62,68,130,12,4.01,1.496,607,1.91,5,1,COL
+Jason Vosler,29,613564,Maj-NL,Cincinnati,29,2,0,,,2.0,5,1,0,0,0,4.5,2.5,11,,0,0,CIN
+Austin Voth,34,608723,Maj-AL,"Baltimore,Seattle,Toronto",34,94,0,3.0,,98.1,88,46,34,96,15,4.21,1.241,420,2.82,6,0,
+Michael Wacha,34,608379,"Maj-AL,Maj-NL","Kansas City,San Diego",34,89,89,39.0,,503.1,453,190,142,417,49,3.4,1.182,2066,2.94,10,0,
+Brandon Waddell,31,663399,Maj-NL,New York,31,11,1,,,31.1,29,12,11,22,4,3.45,1.277,134,2.0,1,0,NYM
+Tyler Wade,30,642180,Maj-NL,San Diego,30,1,0,,,1.0,2,1,1,0,0,9.0,3.0,6,0.0,0,0,
+Jacob Waguespack,30,621097,Maj-AL,Tampa Bay,30,4,1,,,10.0,13,6,10,11,1,5.4,2.3,51,1.1,3,0,TB
+Adam Wainwright,41,425794,Maj-NL,St. Louis,41,21,21,5.0,,101.0,151,83,41,55,20,7.4,1.901,484,1.34,4,0,STL
+Cole Waites,25,686972,Maj-NL,San Francisco,25,3,0,,,2.1,6,4,2,2,0,15.43,3.429,15,1.0,2,0,SF
+Ken Waldichuk,28,686610,"Maj-AL,Maj-NL","Oakland,Washington",28,39,22,4.0,1.0,148.2,156,90,76,139,28,5.45,1.561,673,1.83,7,4,
+Hurston Waldrep,23,694462,Maj-NL,Atlanta,23,12,11,6.0,,63.1,54,31,30,58,6,4.41,1.326,265,1.93,8,1,ATL
+Matt Waldron,28,663362,Maj-NL,San Diego,28,36,33,8.0,,192.2,190,104,58,167,31,4.86,1.287,823,2.88,26,2,
+Josh Walker,30,677020,"Maj-AL,Maj-NL","New York,Toronto",30,27,0,,,27.1,33,20,14,31,3,6.59,1.72,128,2.21,3,0,
+Ryan Walker,30,676254,Maj-NL,San Francisco,30,198,14,20.0,29.0,207.0,174,69,63,242,18,3.0,1.145,856,3.84,13,4,SF
+Taijuan Walker,33,592836,Maj-NL,Philadelphia,33,88,70,24.0,1.0,395.1,417,219,158,295,69,4.99,1.454,1728,1.87,31,17,PHI
+Matt Wallner,26,670242,Maj-AL,Minnesota,26,1,0,,,1.1,2,0,0,0,0,0.0,1.5,6,,0,0,MIN
+Blake Walston,23,686796,Maj-NL,Arizona,23,7,2,1.0,,18.1,16,9,10,18,4,4.42,1.418,83,1.8,0,0,ARI
+Brandon Walter,28,687888,Maj-AL,"Boston,Houston",28,18,9,1.0,1.0,76.2,78,36,11,68,13,4.23,1.161,318,6.18,4,1,
+Andrew Walters,24,689958,Maj-AL,Cleveland,24,15,1,1.0,,13.0,4,3,7,12,1,2.08,0.846,50,1.71,1,0,CLE
+Donovan Walton,30,622268,Maj-NL,San Francisco,30,1,0,,,1.0,2,0,0,0,0,0.0,2.0,5,,0,0,SF
+Andrew Wantz,28,681806,Maj-AL,Los Angeles,28,28,3,2.0,,40.2,29,18,16,36,5,3.98,1.107,166,2.25,1,0,LAA
+Thaddeus Ward,26,663658,Maj-NL,Washington,26,26,0,,,35.1,29,25,28,30,7,6.37,1.613,160,1.07,2,1,WSN
+Austin Warren,29,681810,"Maj-AL,Maj-NL","Los Angeles,New York,San Francisco",29,13,0,2.0,,21.2,16,4,9,18,3,1.66,1.154,82,2.0,0,0,
+Will Warren,27,701542,Maj-AL,New York,27,43,41,10.0,,204.1,212,117,81,218,33,5.15,1.434,906,2.69,8,2,NYY
+Spenser Watkins,30,657093,Maj-AL,Oakland,30,1,1,,,4.1,7,5,2,4,2,10.38,2.077,21,2.0,0,0,OAK
+Ryan Watson,28,670245,Maj-AL,Boston,28,6,0,,,8.0,6,3,6,4,0,3.38,1.5,37,0.67,0,0,BOS
+Ryan Weathers,26,677960,"Maj-AL,Maj-NL","Miami,New York,San Diego",26,42,39,8.0,,198.2,200,99,70,178,30,4.48,1.359,858,2.54,12,6,
+Luke Weaver,32,596133,"Maj-AL,Maj-NL","Cincinnati,New York,Seattle",32,177,25,16.0,16.0,294.2,271,155,93,304,52,4.73,1.235,1249,3.27,6,3,
+Jacob Webb,32,657097,"Maj-AL,Maj-NL","Baltimore,Chicago,Los Angeles,Texas",32,178,0,8.0,4.0,184.2,136,68,83,182,24,3.31,1.186,775,2.19,15,1,
+Logan Webb,29,657277,Maj-NL,San Francisco,29,103,103,40.0,,645.2,633,241,134,599,44,3.36,1.188,2628,4.47,54,5,SF
+Ryan Weber,32,543901,Maj-AL,New York,32,8,0,1.0,1.0,14.1,17,5,1,7,2,3.14,1.256,60,7.0,3,0,NYY
+Jordan Weems,32,607179,"Maj-AL,Maj-NL","Houston,Washington",32,96,0,6.0,,100.2,96,60,55,95,16,5.36,1.5,451,1.73,10,1,
+Ryan Weiss,29,680802,Maj-AL,Houston,29,5,0,,,11.0,17,9,6,15,3,7.36,2.091,56,2.5,0,0,HOU
+Zack Weiss,31,592848,Maj-AL,"Boston,Los Angeles",31,12,0,1.0,,14.0,9,5,6,15,4,3.21,1.071,58,2.5,0,0,
+Greg Weissert,31,669711,Maj-AL,"Boston,New York",31,160,0,10.0,5.0,158.2,149,57,52,148,19,3.23,1.267,663,2.85,16,1,
+Tyler Wells,31,669330,Maj-AL,Baltimore,31,41,27,9.0,1.0,166.2,126,68,43,160,32,3.67,1.014,664,3.72,7,4,BAL
+Joey Wentz,27,666214,"Maj-AL,Maj-NL","Atlanta,Detroit,Minnesota,Pittsburgh",27,110,33,9.0,1.0,271.0,307,177,123,263,44,5.88,1.587,1238,2.14,45,5,
+Hayden Wesneski,27,669713,"Maj-AL,Maj-NL","Chicago,Houston",27,68,24,7.0,,189.0,167,91,59,179,39,4.33,1.196,793,3.03,7,0,
+Zack Wheeler,35,554430,Maj-NL,Philadelphia,35,94,93,42.0,,576.1,432,185,131,675,62,2.89,0.977,2288,5.15,16,2,PHI
+Carson Whisenhunt,24,687931,Maj-NL,San Francisco,24,5,5,2.0,,23.1,22,13,12,16,6,5.01,1.457,102,1.33,2,0,SF
+Brendan White,24,686839,Maj-AL,Detroit,24,33,2,2.0,,40.2,40,23,15,44,4,5.09,1.352,177,2.93,8,1,DET
+Mitch White,29,669952,"Maj-AL,Maj-NL","Milwaukee,San Francisco,Toronto",29,23,0,1.0,,36.1,41,29,20,26,6,7.18,1.679,170,1.3,3,0,
+Owen White,25,669391,Maj-AL,"Chicago,Texas",25,8,0,,,14.0,28,20,6,10,4,12.86,2.429,72,1.67,1,2,
+Forrest Whitley,27,666215,Maj-AL,"Houston,Tampa Bay",27,13,0,,,15.1,24,18,11,17,3,10.57,2.283,86,1.55,3,1,
+Garrett Whitlock,30,676477,Maj-AL,Boston,30,95,14,13.0,2.0,169.2,157,66,50,192,17,3.5,1.22,708,3.84,17,2,BOS
+Jordan Wicks,25,696136,Maj-NL,Chicago,25,26,17,6.0,1.0,95.0,112,55,32,79,16,5.21,1.516,426,2.47,7,1,CHC
+Cole Wilcox,26,677961,Maj-AL,"Seattle,Tampa Bay",26,5,0,,,5.2,9,6,4,7,1,9.53,2.294,33,1.75,2,0,
+Nathan Wiles,26,686249,Maj-NL,Atlanta,26,1,0,,,1.0,4,3,0,1,0,27.0,4.0,7,,0,0,ATL
+Devin Williams,31,642207,"Maj-AL,Maj-NL","Milwaukee,New York",31,162,0,14.0,71.0,153.2,93,52,72,228,11,3.05,1.074,630,3.17,27,0,
+Gavin Williams,26,668909,Maj-AL,Cleveland,26,68,68,19.0,,351.2,281,135,167,370,42,3.45,1.274,1482,2.22,19,7,CLE
+Luke Williams,28,663897,Maj-NL,"Atlanta,Los Angeles",28,10,0,,,11.0,11,4,2,4,1,3.27,1.182,47,2.0,0,0,
+Trevor Williams,33,592866,Maj-NL,Washington,33,60,60,15.0,,293.2,335,161,92,235,48,4.93,1.454,1292,2.55,20,1,WSN
+Brandon Williamson,28,682227,Maj-NL,Cincinnati,28,30,29,6.0,,146.2,133,73,53,120,25,4.48,1.268,617,2.26,2,3,CIN
+Amos Willingham,25,686294,Maj-NL,Washington,25,19,0,,,25.1,37,20,9,16,9,7.11,1.816,121,1.78,2,0,WSN
+Bryse Wilson,27,669060,"Maj-AL,Maj-NL","Chicago,Milwaukee",27,108,14,11.0,3.0,229.0,229,104,72,171,40,4.09,1.314,981,2.38,20,5,
+Justin Wilson,37,458677,"Maj-AL,Maj-NL","Boston,Cincinnati",37,122,0,5.0,2.0,96.2,103,47,33,108,13,4.38,1.407,421,3.27,11,5,
+Steven Wilson,30,621051,"Maj-AL,Maj-NL","Chicago,San Diego",30,150,0,4.0,2.0,142.0,112,66,75,140,22,4.18,1.317,618,1.87,13,0,
+Weston Wilson,30,642215,Maj-NL,Philadelphia,30,3,0,,,4.0,4,0,0,0,0,0.0,1.0,16,,0,0,PHI
+Will Wilson,26,669717,Maj-AL,Cleveland,26,1,0,,,2.0,2,2,0,0,1,9.0,1.0,8,,0,0,CLE
+Allan Winans,29,642216,"Maj-AL,Maj-NL","Atlanta,New York",29,11,9,1.0,,49.1,64,41,15,44,10,7.48,1.601,228,2.93,2,0,
+Josh Winckowski,27,670174,Maj-AL,Boston,27,104,7,8.0,5.0,170.0,180,67,62,150,19,3.55,1.424,747,2.42,8,1,BOS
+Josh Winder,27,680739,Maj-AL,Minnesota,27,23,0,2.0,1.0,43.2,42,19,15,38,3,3.92,1.305,185,2.53,4,1,MIN
+Trey Wingenter,30,622259,"Maj-AL,Maj-NL","Boston,Chicago,Detroit",30,24,0,1.0,,25.1,29,20,11,28,4,7.11,1.579,118,2.55,3,0,
+Cole Winn,26,668390,Maj-AL,Texas,26,53,0,1.0,1.0,65.1,46,22,23,55,5,3.03,1.056,265,2.39,3,0,TEX
+Keaton Winn,28,676775,Maj-NL,San Francisco,28,35,17,4.0,1.0,114.0,108,74,32,99,16,5.84,1.228,477,3.09,12,1,SF
+Patrick Wisdom,32,621550,Maj-NL,Chicago,32,1,0,,,0.1,1,0,1,0,0,0.0,6.0,3,0.0,0,0,CHC
+Brett Wisely,24,689172,Maj-NL,San Francisco,24,1,0,,,1.0,1,1,0,0,1,9.0,1.0,4,,0,0,SF
+Nick Wittgren,32,621295,Maj-AL,Kansas City,32,27,0,1.0,,29.0,30,16,11,18,2,4.97,1.414,128,1.64,1,0,KC
+Jackson Wolf,24,680232,Maj-NL,San Diego,24,1,1,1.0,,5.0,6,3,1,1,0,5.4,1.4,22,1.0,0,0,
+Grant Wolfram,29,664991,Maj-AL,Baltimore,29,27,0,4.0,,32.2,41,18,15,41,2,4.96,1.714,158,2.73,2,1,BAL
+Jake Wong,26,673858,Maj-NL,Cincinnati,26,1,0,,,3.0,6,3,3,0,0,9.0,3.0,15,0.0,0,0,CIN
+Bryan Woo,26,693433,Maj-AL,Seattle,26,75,73,28.0,,418.0,322,147,87,411,53,3.17,0.978,1662,4.72,16,1,SEA
+Alex Wood,33,622072,"Maj-AL,Maj-NL","Oakland,San Francisco",33,38,21,6.0,,137.0,149,70,61,107,15,4.6,1.533,615,1.75,7,2,
+Jake Woodford,29,663765,"Maj-AL,Maj-NL","Arizona,Chicago,Milwaukee,Pittsburgh,St. Louis",29,50,15,3.0,3.0,125.1,160,93,46,83,21,6.68,1.644,585,1.8,7,1,
+Brandon Woodruff,33,605540,Maj-NL,Milwaukee,33,25,25,13.0,,142.1,97,47,31,167,20,2.97,0.899,556,5.39,11,0,MIL
+Simeon Woods Richardson,25,680573,Maj-AL,Minnesota,25,55,53,12.0,,265.1,244,125,101,237,37,4.24,1.3,1129,2.35,20,5,MIN
+Kyle Wright,27,657140,Maj-NL,Atlanta,27,9,7,1.0,,31.0,40,24,17,34,5,6.97,1.839,155,2.0,2,0,ATL
+Justin Wrobleski,25,680736,Maj-NL,Los Angeles,25,38,9,7.0,3.0,117.0,109,59,38,112,15,4.54,1.256,492,2.95,9,1,LAD
+Randy Wynne,32,691094,Maj-NL,Cincinnati,32,2,0,,1.0,5.1,6,2,2,3,1,3.38,1.5,24,1.5,0,0,CIN
+Jimmy Yacabonis,31,642231,Maj-NL,New York,31,7,0,2.0,,13.2,14,10,6,11,2,6.59,1.463,62,1.83,1,0,NYM
+Yoshinobu Yamamoto,27,808967,Maj-NL,Los Angeles,27,61,60,28.0,,337.2,240,97,95,368,28,2.59,0.992,1337,3.87,12,0,LAD
+Ryan Yarbrough,34,642232,"Maj-AL,Maj-NL","Kansas City,Los Angeles,New York,Toronto",34,90,17,16.0,4.0,253.2,224,111,66,186,37,3.94,1.143,1043,2.82,25,8,
+Mike Yastrzemski,34,573262,Maj-NL,San Francisco,34,2,0,,,2.0,4,4,4,0,0,18.0,4.0,15,0.0,0,0,SF
+Kirby Yates,38,489446,"Maj-AL,Maj-NL","Atlanta,Los Angeles,Texas",38,173,0,18.0,41.0,164.1,97,54,83,219,21,2.96,1.095,674,2.64,28,5,
+Trey Yesavage,21,702056,Maj-AL,Toronto,21,9,8,4.0,,41.2,31,16,18,55,4,3.46,1.176,171,3.06,1,0,TOR
+Craig Yoho,25,684974,Maj-NL,Milwaukee,25,8,0,,,8.2,8,7,9,7,1,7.27,1.962,41,0.78,0,0,MIL
+Alex Young,30,622065,Maj-NL,"Cincinnati,New York",30,79,0,4.0,1.0,67.2,68,28,26,64,12,3.72,1.389,298,2.46,5,1,
+Brandon Young,27,687064,Maj-AL,Baltimore,27,13,13,2.0,,62.2,69,40,24,49,12,5.74,1.484,274,2.04,1,1,BAL
+Danny Young,31,664849,Maj-NL,"Atlanta,New York",31,62,0,4.0,,58.0,49,27,26,75,3,4.19,1.293,255,2.88,2,0,
+Jared Young,29,676724,Maj-NL,New York,29,1,0,,,0.1,1,0,1,0,0,0.0,6.0,3,0.0,0,0,NYM
+Rob Zastryzny,33,642239,Maj-NL,"Milwaukee,Pittsburgh",33,55,5,3.0,,49.0,44,18,24,39,4,3.31,1.388,215,1.63,2,1,
+Seby Zavala,29,664874,Maj-NL,Arizona,29,1,0,,,0.2,0,0,0,0,0,0.0,0.0,2,,0,0,ARI
+Ryan Zeferjahn,28,666171,Maj-AL,Los Angeles,28,79,1,7.0,2.0,82.1,61,39,45,102,12,4.26,1.287,357,2.27,9,0,LAA
+Angel Zerpa,26,672582,"Maj-AL,Maj-NL","Kansas City,Milwaukee",26,155,5,12.0,1.0,172.1,180,79,55,151,21,4.13,1.364,739,2.75,5,6,
+Bruce Zimmermann,30,669145,"Maj-AL,Maj-NL","Baltimore,Milwaukee",30,8,1,2.0,,19.1,24,12,2,15,5,5.59,1.345,89,7.5,0,0,
+Tyler Zuber,30,676604,"Maj-AL,Maj-NL","Miami,New York,Tampa Bay",30,12,0,,,15.1,20,16,8,18,4,9.39,1.826,74,2.25,3,0,
+Yosver Zulueta,27,691172,Maj-NL,Cincinnati,27,19,0,1.0,,23.2,20,14,11,25,3,5.32,1.31,101,2.27,2,0,CIN
+Guillo Zu\xc3\xb1iga,25,670871,"Maj-AL,Maj-NL","Los Angeles,St. Louis",25,17,0,,2.0,19.2,18,11,8,16,5,5.03,1.322,84,2.0,2,0,
