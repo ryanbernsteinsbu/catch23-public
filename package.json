@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:jest": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.ts"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -30,6 +38,7 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/sequelize": "^4.28.20",
     "jest": "^30.3.0",
+    "sqlite3": "^6.0.1",
     "ts-jest": "^29.4.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
