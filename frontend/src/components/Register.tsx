@@ -8,7 +8,6 @@ interface RegisterProps {
 
 export default function Register({ onCreateUserClick, onShowLogin }: RegisterProps) {
   const [email, setEmail] = useState<string>("");
-  const [displayName, setName] = useState<string>("");
   const [firstPassword, setFirstPassword] = useState<string>("");
   const [secondPassword, setSecondPassword] = useState<string>("");
   const [saveBanner, setSaveBanner] = useState<boolean>(false);
@@ -29,7 +28,6 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
     e.preventDefault();
 
     if (email === "") return showError("Email is required");
-    if (displayName === "") return showError("Display Name is required");
     if (firstPassword === "") return showError("Password is required");
     if (secondPassword === "") return showError("Re-type Password is required");
     if (firstPassword !== secondPassword) return showError("Passwords do not match, please try again");
@@ -39,14 +37,13 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
 
     const emailSub = email.split("@")[0];
     const p = firstPassword.toLowerCase();
-    if (p.includes(displayName.toLowerCase())) return showError("Password cannot contain your display name!");
     if (p.includes(emailSub.toLowerCase())) return showError("Password cannot contain your email!");
 
     try {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/create-key`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, displayName, password: firstPassword }),
+        body: JSON.stringify({ email, password: firstPassword }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error?.message || "Registration failed");
@@ -55,7 +52,6 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
       setGeneratedKey(data.key);
 
       setEmail("");
-      setName("");
       setFirstPassword("");
       setSecondPassword("");
       showBanner();
@@ -99,13 +95,6 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
             value={email}
             placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
-          />
-          <br /><br />
-          <input
-            type="text"
-            value={displayName}
-            placeholder="Display Name"
-            onChange={(e) => setName(e.target.value)}
           />
           <br /><br />
           <input
