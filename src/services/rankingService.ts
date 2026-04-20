@@ -140,11 +140,20 @@ export const getHittingScore = (playerStats: Record<string, Record<string, numbe
 }
 
 // Getting all the player ranks
-export const getAllPlayerRanks = async(): Promise<{id: number, rank: number}[]> => {
+export const getAllPlayerRanks = async(totalBudget: number = 260): Promise<{id: number, rank: number}[]> => {
     const players = await findAllPlayers();
     const leagueStats = await getLeagueStats();
 
-    return Promise.all(players.map(async player => {
+    const avgHitterStats = getAveragePlayer(leagueStats.hitters);
+    const avgPitcherStats = getAveragePlayer(leagueStats.pitchers);
+
+    const avgHitterScore = getHittingScore(avgHitterStats, leagueStats.hitters);
+    const avgPitcherScore = getPitchingScore(avgPitcherStats, leagueStats.pitchers);
+
+    const avgHitterRank = 0.4 * avgHitterScore['lastYearStats'] + 0.2 * avgHitterScore['threeYearAvg'] + 0.4 * avgHitterScore['projectedStats'];
+    const avgPitcherRank = 0.4 * avgPitcherScore['lastYearStats'] + 0.2 * avgPitcherScore['threeYearAvg'] + 0.4 * avgPitcherScore['projectedStats'];
+
+    const playerScores = await Promise.all(players.map(async player => {
         const playerStats = {
             lastYearStats: player.lastYearStats,
             threeYearAvg: player.threeYearAvg,
@@ -157,15 +166,24 @@ export const getAllPlayerRanks = async(): Promise<{id: number, rank: number}[]> 
         
         var rank = 0.4 * score['lastYearStats'] + 0.2 * score['threeYearAvg'] + 0.4 * score['projectedStats'];
 
-        if(player.age !=null && player.age<=22)
-            rank *= 1.1;
-        else if(player.age !=null && player.age > 22 && player.age<=25)
-            rank *= 1.05;
-        else if(player.age !=null && player.age > 31 && player.age<=35)
-            rank *= 0.95;
-        else if(player.age !=null && player.age > 35)
-            rank *= 0.90
+        if(player.age !=null && player.age<=22) rank *= 1.1;
+        else if(player.age !=null && player.age > 22 && player.age<=25) rank *= 1.05;
+        else if(player.age !=null && player.age > 31 && player.age<=35) rank *= 0.95;
+        else if(player.age !=null && player.age > 35) rank *= 0.90
+
+        const avgRank = player.isHitter ? avgHitterRank : avgPitcherRank;
         
-        return { id: player.id, rank };
-    }))
+        return { id: player.id, rank, avgRank };
+    }));
+
+    const totalRank = playerScores.reduce((sum, p) => sum + Math.max(p.avgRank, 0), 0);
+
+    return playerScores.map(player => ({
+        id: player.id,
+        rank: player.rank,
+        cost: Math.max(
+            1,
+            Math.round((player.rank/totalRank) * totalBudget * players.length)
+        )
+    }));
 }
