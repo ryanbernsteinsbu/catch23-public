@@ -49,6 +49,7 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
       if (!res.ok) throw new Error(data.error?.message || "Registration failed");
 
       // Show the generated key to the user
+      console.log(data);
       setGeneratedKey(data);
 
       setEmail("");
