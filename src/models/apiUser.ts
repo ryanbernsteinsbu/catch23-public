@@ -14,6 +14,14 @@ ApiUser.init({
         primaryKey: true,
         autoIncrement: true
     },
+    email: {
+        type: DataTypes.STRING,
+        unique: true
+    },
+    passwordHash: {
+        type: DataTypes.STRING,
+        field: 'password_hash'
+    },
     apiKey: {
         type: DataTypes.STRING,
         unique: true,
@@ -32,5 +40,4 @@ ApiUser.init({
 });
 
 
-console.log("sulk");
 export default ApiUser;

@@ -1,19 +1,19 @@
 import { Request, Response, NextFunction } from "express";
-import {findApiUserByKey, incrementApiUserUsage} from '../repositories/apiUserRepository';
+import {findApiUserByEmail, incrementApiUserUsage} from '../repositories/apiUserRepository';
 import crypto from "crypto";
 
 export default async function requireAuth(req: Request, res: Response, next: NextFunction) {
     try{
-        const apiKey = req.headers["x-api-key"] as string;
+        const email = req.headers["x-email"] as string;
         const signature = req.headers["x-signature"] as string;
 
-        if (!apiKey || !signature) {
+        if (!email || !signature) {
             return res.status(400).send("Missing headers");
         }
 
 
         //check if user exists from apiKey
-        const user = await findApiUserByKey(apiKey);
+        const user = await findApiUserByEmail(email);
         if (!user) {
             return res.status(401).send("Invalid API key");
         }

@@ -3,21 +3,11 @@ import sequelize from './config/database';
 import requireAuth from './middleware/requireAuth';
 import publicRoutes from './routes/publicRoutes'
 import frontendRoutes from './routes/frontendRoutes'
-import Team from './models/team';
 import Player from './models/player';
-import DraftPick from './models/draftPick';
-import League from './models/league';
 import rankingRoutes from './routes/rankingRoutes';
 
 const ApiUser = require('./models/apiUser') //i have no idea why import and require are mixed here
 // associations
-Team.belongsTo(League, { foreignKey: 'league_id', as: 'league' });
-
-Team.hasMany(DraftPick, { foreignKey: 'team_id', as: 'players' });
-DraftPick.belongsTo(Team, { foreignKey: 'team_id', as: 'team' });
-
-Player.hasMany(DraftPick, { foreignKey: 'player_id', as: 'draftPicks' });
-DraftPick.belongsTo(Player, { foreignKey: 'player_id', as: 'player' });
 
 require('dotenv').config();
 
