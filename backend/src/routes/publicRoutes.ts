@@ -10,6 +10,5 @@ router.get('/player/:id', publicController.getPlayer);
 //   console.log('Time:', Date.now())
 //   next()
 // })
-router.get('/test', publicController.test);
 
 export default router;
