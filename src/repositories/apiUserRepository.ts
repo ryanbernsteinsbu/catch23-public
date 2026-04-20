@@ -10,6 +10,10 @@ export const findApiUserById = async (id: number): Promise<ApiUser | null> => {
     return await ApiUser.findOne({ where: { id } });
 };
 
+export const findApiUserByEmail = async (email: string): Promise<ApiUser | null> => {
+    return await ApiUser.findOne({ where: { email } });
+};
+
 export const incrementApiUserUsage = async (id: number): Promise<void> => {
     await ApiUser.increment(
         { usage: 1 },

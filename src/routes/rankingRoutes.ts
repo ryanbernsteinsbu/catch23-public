@@ -3,6 +3,6 @@ import { getPlayerRankController } from '../controllers/rankingController';
 
 const router = Router();
 
-router.get('/rank', getPlayerRankController);
+router.post('/rank', getPlayerRankController);
 
 export default router;

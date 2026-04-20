@@ -1,5 +1,5 @@
 from pybaseball import batting_stats_range, pitching_stats_range
- 
+from datetime import date
 import pandas as pd
 import requests
 
@@ -59,32 +59,34 @@ TEAM_MAP = { #results dont show team so I used AI to make this map
     # Index(['Name', 'Age', '#days', 'Lev', 'Tm', 'G', 'PA', 'AB', 'R', 'H', '2B',
     #        '3B', 'HR', 'RBI', 'BB', 'IBB', 'SO', 'HBP', 'SH', 'SF', 'GDP', 'SB',
     #        'CS', 'BA', 'OBP', 'SLG', 'OPS', 'mlbID'],
-data = batting_stats_range(start_dt="2023-04-01", end_dt="2026-04-11") # grab stats, TODO make this range dynamic (it will break if times are offseason)
-data.rename({ "SO": "K", "BA": "AVG" }, axis="columns", inplace=True) # match existing labels
-data["1B"] = data["H"] - data["2B"] - data["3B"] - data["HR"] # add existing label
+# def get_batting_stats(start_dt="2023-04-01", end_dt="2026-04-18", filename):
+def get_batting_stats(start_dt, end_dt, filename):
+    data = batting_stats_range(start_dt=start_dt, end_dt=end_dt) # grab stats, TODO make this range dynamic (it will break if times are offseason)
+    data.rename({ "SO": "K", "BA": "AVG" }, axis="columns", inplace=True) # match existing labels
+    data["1B"] = data["H"] - data["2B"] - data["3B"] - data["HR"] # add existing label
 #names contain escape codes
-final_data = data[ # get required fields
-    [
-        "Name", "Age", "mlbID", "Lev","Tm", "Age", "PA",
-        "AB", "R", "H", "1B", "2B", "3B", "HR",
-        "RBI", "BB", "K", "SB", "CS",
-        "AVG", "OBP", "SLG"
+    final_data = data[ # get required fields
+        [
+            "Name", "Age", "mlbID", "Lev","Tm", "Age", "PA",
+            "AB", "R", "H", "1B", "2B", "3B", "HR",
+            "RBI", "BB", "K", "SB", "CS",
+            "AVG", "OBP", "SLG"
+        ]
     ]
-]
-positions = {}
+    positions = {}
 
-for batch in chunk(final_data["mlbID"].tolist(), 50):
-    positions.update(get_positions_batch(batch))
+    for batch in chunk(final_data["mlbID"].tolist(), 50):
+        positions.update(get_positions_batch(batch))
 
-final_data["position"] = final_data["mlbID"].map(positions) # grab positions
+    final_data["position"] = final_data["mlbID"].map(positions) # grab positions
 # final_data["position"] = final_data["mlbID"].apply(get_position)
 
-final_data["team_abbr"] = final_data.apply(# get team
-    lambda row: TEAM_MAP.get((row["Lev"], row["Tm"]), None),
-    axis=1
-)
+    final_data["team_abbr"] = final_data.apply(# get team
+        lambda row: TEAM_MAP.get((row["Lev"], row["Tm"]), None),
+        axis=1
+    )
 
-final_data.to_csv(r'./data.csv', index=False) #save
+    final_data.to_csv(filename, index=False) #save
 
 # Index(['Name', 'Age', '#days', 'Lev', 'Date', 'Tm', ' ', 'Opp', 'G', 'GS', 'W',
 #        'L', 'SV', 'IP', 'H', 'R', 'ER', 'BB', 'SO', 'HR', 'HBP', 'ERA', 'GSc',
@@ -93,25 +95,29 @@ final_data.to_csv(r'./data.csv', index=False) #save
 #        'SO/W', 'mlbID'],
 
 #pitching stats reference ^^
-pitching_data = pitching_stats_range(start_dt="2023-04-01", end_dt="2026-04-11")
+# pitching_data = pitching_stats_range(start_dt="2023-04-01", end_dt="2026-04-18")
+
+def get_pitching_stats(start_dt, end_dt, filename):
+    pitching_data = pitching_stats_range(start_dt=start_dt, end_dt=end_dt)
 
 # pitching_data["Name"] = pitching_data["Name"].apply( # was my attempt to parse names TODO 
 #     lambda x : x.encode("latin1").decode("utf-8")
 # )
-final_pitching_data = pitching_data[
-    [
-        "Name", "Age", "mlbID", "Lev","Tm", "Age", "G",
-        "GS", "W", "SV", "IP", "H", "ER",
-        "BB", "SO", "HR", "ERA", "WHIP",
-        "BF", "SO/W", "SB", "PO"
+    final_pitching_data = pitching_data[
+        [
+            "Name", "Age", "mlbID", "Lev","Tm", "Age", "G",
+            "GS", "W", "SV", "IP", "H", "ER",
+            "BB", "SO", "HR", "ERA", "WHIP",
+            "BF", "SO/W", "SB", "PO"
+        ]
     ]
-]
 
-final_pitching_data["team_abbr"] = final_pitching_data.apply(
-    lambda row: TEAM_MAP.get((row["Lev"], row["Tm"]), None),
-    axis=1
-)
-final_pitching_data.to_csv(r'./pdata.csv', index=False)
+    final_pitching_data["team_abbr"] = final_pitching_data.apply(
+        lambda row: TEAM_MAP.get((row["Lev"], row["Tm"]), None),
+        axis=1
+    )
+    final_pitching_data.to_csv(filename, index=False)
 # print(pitching_data)
 
-
+get_pitching_stats("2023-04-01", "2026-04-18", r'pdata.csv')
+get_batting_stats("2023-04-01", "2026-04-18", r'data.csv')
