@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+        <html>
+            <head>
+                <title>API Key Generator</title>
+            </head>
+            <body>
+                <h1>Create API Key</h1>
+
+                <button onclick="createKey()">Generate Key</button>
+
+                <p id="result"></p>
+
+                <script>
+                    async function createKey() {
+                        const res = await fetch('/api/create-key', {
+                            method: 'POST'
+                        });
+
+                        const data = await res.json();
+                        document.getElementById('result').innerText = data.apiKey;
+                    }
+                </script>
+            </body>
+        </html>

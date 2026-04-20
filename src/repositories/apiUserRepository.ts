@@ -14,3 +14,7 @@ export const incrementApiUserUsage = async (id: number): Promise<void> => {
         { where: { id } }
     );
 };
+
+export const createApiUser = async (): Promise<void> => {
+    //return api key, we possibly need email deets
+}
