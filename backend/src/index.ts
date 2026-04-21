@@ -6,7 +6,7 @@ import publicRoutes from './routes/publicRoutes'
 import frontendRoutes from './routes/frontendRoutes'
 import Player from './models/player';
 import rankingRoutes from './routes/rankingRoutes';
-import { create } from './controllers/accountController';
+import { create, login } from './controllers/accountController';
 
 const ApiUser = require('./models/apiUser') //i have no idea why import and require are mixed here
 // associations
@@ -20,7 +20,8 @@ app.use(express.json());
 
 const allowedOrigins = [
   "https://catch23-public.vercel.app",
-  "https://get-catch23.vercel.app"
+  "https://get-catch23.vercel.app",
+  "http://localhost:3000"
 ];
 
 app.use(cors({
@@ -33,11 +34,13 @@ app.use(cors({
     },
     credentials: true
 }));
-app.use('/api/create-key', create); //make an account 
+app.use('/api/create-key', create); //make an account
+app.use('/api/login', login);
 app.use('/api/', requireAuth);
 app.use('/api/public', publicRoutes); //Think about naming this smthn different
 app.use('/api/ranking', rankingRoutes);
 app.use('/', frontendRoutes)
+
 
 const PORT = process.env.PORT || 8000;
 // console.log(Object.keys(sequelize.models));

@@ -51,7 +51,6 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
       // Show the generated key to the user
       console.log(data);
       setGeneratedKey(data);
-
       setEmail("");
       setFirstPassword("");
       setSecondPassword("");
