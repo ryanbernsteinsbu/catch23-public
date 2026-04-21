@@ -16,6 +16,7 @@ const app = express();
 app.use(express.json());
 const allowedOrigins = [
     "https://catch23-public.vercel.app",
+    "https://catch23.vercel.app",
     "https://get-catch23.vercel.app",
     "http://localhost:3000"
 ];
