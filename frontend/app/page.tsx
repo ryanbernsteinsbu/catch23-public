@@ -12,10 +12,15 @@ interface DecodedToken {
 export default function Page() {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
   const [checkedAuth, setCheckedAuth] = useState<boolean>(false);
+  const [email, setEmail] = useState<string>("");
 
   useEffect(() => {
     const token = localStorage.getItem("token");
     const userId = localStorage.getItem("user_id");
+    const storedEmail = localStorage.getItem("email");
+
+    if(storedEmail) setEmail(storedEmail);
+
     setIsLoggedIn(!!token && !!userId);
     setCheckedAuth(true);
   }, []);
@@ -27,10 +32,13 @@ export default function Page() {
       {isLoggedIn ? (
         <div className="catch23">
           <Doc
+            email={email}
             onLogout={() => {
               localStorage.removeItem("token");
               localStorage.removeItem("user_id");
+              localStorage.removeItem("email");
               setIsLoggedIn(false);
+              setEmail("");
             }}
           />
         </div>
@@ -43,6 +51,11 @@ export default function Page() {
               if (decoded.id) {
                 localStorage.setItem("user_id", String(decoded.id));
               }
+              if(decoded.email) {
+                localStorage.setItem("email", String(decoded.email));
+                setEmail(String(decoded.email));
+              }
+
               setIsLoggedIn(true);
             } catch (err) {
               console.error("Could not decode token:", err);

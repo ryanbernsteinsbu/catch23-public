@@ -57,3 +57,22 @@ export const login = async(req: Request, res: Response): Promise<void> => {
         res.status(400).json({error: err.message});
     }
 };
+
+export const getUserByEmail = async(req: Request, res: Response) => {
+    try{
+        const email = decodeURIComponent(req.params.email as string);
+        console.log("params:", req.params);
+        console.log("email:", req.params.email);
+        const user = await findApiUserByEmail(email);
+        console.log("user:", user);
+        if(!user) return res.status(404).json({ error: "User not found" });
+
+        res.json({
+            key: user.apiKey,
+            usage: user.usage,
+            email: user.email
+        })
+    } catch (err: any) {
+        res.status(400).json({error: err.message});
+    }
+}
