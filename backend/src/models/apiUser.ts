@@ -4,6 +4,8 @@ import sequelize from '../config/database';
 class ApiUser extends Model {
     // Fields
     public id!: number;
+    public email!: string;
+    public passwordHash!: string;
     public apiKey!: string;
     public usage!: number;
 }

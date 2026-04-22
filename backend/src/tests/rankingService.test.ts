@@ -1,6 +1,14 @@
-// tests/rankingService.test.ts
 
-import { getNormalizeStats, getPitchingScore, getHittingScore } from '../services/rankingService';
+// Mock database module
+jest.mock('../config/database', () => ({
+  default: { define: jest.fn(), authenticate: jest.fn(), sync: jest.fn(), query: jest.fn() }
+}));
+
+jest.mock('../models/player', () => ({
+  default: { init: jest.fn(), findAll: jest.fn(), findOne: jest.fn(), create: jest.fn(), update: jest.fn(), destroy: jest.fn() },
+  Position: { CATCHER: 'CATCHER', FIRST: 'FIRST', SECOND: 'SECOND', THIRD: 'THIRD', SHORTSTOP: 'SHORTSTOP', OUTFIELD: 'OUTFIELD', PITCHER: 'PITCHER', UTILITY: 'UTILITY' },
+  Status: { ACTIVE: 'ACTIVE', IL_10: 'IL_10', IL_15: 'IL_15', IL_60: 'IL_60', MINORS: 'MINORS', OUT: 'OUT' }
+}));
 
 // Mock one player stats
 const mockHitterStats = {
@@ -16,8 +24,11 @@ const mockHitterSummary = {
     projectedStats: { HR: { min: 0, max: 60, avg: 20 }, RBI: { min: 0, max: 130, avg: 65 }, SB: { min: 0, max: 60, avg: 15 }, OBP: { min: 0.200, max: 0.450, avg: 0.320 }, SLG: { min: 0.250, max: 0.650, avg: 0.420 }, R: { min: 0, max: 130, avg: 65 }, H: { min: 0, max: 220, avg: 130 }, BB: { min: 0, max: 120, avg: 50 }, '2B': { min: 0, max: 55, avg: 25 }, AB: { min: 0, max: 650, avg: 450 }, '3B': { min: 0, max: 15, avg: 3 } },
 };
 
-describe('rankingService', () => {
+// Imports:
+import { getNormalizeStats, getPitchingScore, getHittingScore } from '../services/rankingService';
 
+
+describe('rankingService', () => {
     test('getNormalizeStats returns values between 0 and 1', () => {
         const normalized = getNormalizeStats(mockHitterStats, mockHitterSummary);
 
