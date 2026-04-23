@@ -11,8 +11,8 @@ export const create = async (req: Request, res: Response): Promise<void> => {
             res.status(400).json({error: "Email and password required"});
             return;
         }
-        const passwordHash = await bcrypt.hash(password, 10);
-        const apiUser = await createApiUser(email, passwordHash);
+        // const passwordHash = await bcrypt.hash(password, 10);
+        const apiUser = await createApiUser(email, password);
         res.status(201).json(apiUser.apiKey);
     } catch (err: any) {
         res.status(400).json({error: err.message});
