@@ -1,7 +1,5 @@
 'use client';
 import React, { useState } from "react";
-import bcrypt from 'bcrypt';
-const saltRounds = 10;
 interface RegisterProps {
   onCreateUserClick: () => void;
   onShowLogin: () => void;
@@ -41,11 +39,10 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
     if (p.includes(emailSub.toLowerCase())) return showError("Password cannot contain your email!");
 
     try {
-      const passwordHash = await bcrypt.hash(firstPassword, saltRounds);
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/create-key`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password: passwordHash }),
+        body: JSON.stringify({ email, password:firstPassword}),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error?.message || "Registration failed");
