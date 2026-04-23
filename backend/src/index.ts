@@ -12,14 +12,6 @@ const ApiUser = require('./models/apiUser')
 
 require('dotenv').config();
 
-process.on('unhandledRejection', (reason) => {
-    console.error('Unhandled Rejection:', reason);
-});
-
-process.on('uncaughtException', (err) => {
-    console.error('Uncaught Exception:', err);
-});
-
 const app = express();
 app.use(express.json());
 const allowedOrigins = [
