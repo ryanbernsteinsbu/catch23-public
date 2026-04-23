@@ -173,13 +173,14 @@ export const getAllPlayerRanks = async(totalBudget: number = 260): Promise<{id: 
 
         const avgRank = player.isHitter ? avgHitterRank : avgPitcherRank;
         
-        return { id: player.id, rank, avgRank };
+        return { id: player.id, mlbPlayerId: player.mlbPlayerId, rank, avgRank };
     }));
 
     const totalRank = playerScores.reduce((sum, p) => sum + Math.max(p.avgRank, 0), 0);
 
     return playerScores.map(player => ({
         id: player.id,
+        mlbPlayerId: player.mlbPlayerId,
         rank: player.rank,
         cost: Math.max(
             1,
