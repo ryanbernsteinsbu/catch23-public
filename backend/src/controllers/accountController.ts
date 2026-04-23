@@ -37,6 +37,7 @@ export const login = async(req: Request, res: Response): Promise<void> => {
     }
 
     const valid = await bcrypt.compare(password, user.passwordHash);
+    // const valid = password === user.passwordHash;
     console.log('password:', password);
     console.log('hash:', user.passwordHash);
     console.log('valid:', valid);
