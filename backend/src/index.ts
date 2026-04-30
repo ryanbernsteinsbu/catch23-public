@@ -7,6 +7,7 @@ import frontendRoutes from './routes/frontendRoutes'
 import Player from './models/player';
 import rankingRoutes from './routes/rankingRoutes';
 import { create, login } from './controllers/accountController';
+import accountRoutes from './routes/accountRoutes';
 
 const ApiUser = require('./models/apiUser')
 
@@ -35,10 +36,11 @@ app.use(cors({
 // Routes
 app.use('/api/create-key', create); //make an account
 app.use('/api/login', login);
+app.use('/api/', requireAuth);
 app.use('/api/public', publicRoutes);
 console.log("rankingRoutes loaded:", rankingRoutes); // should not be undefined
 app.use('/api/ranking', rankingRoutes);
-app.use('/api/', requireAuth);
+app.use('/api/account', accountRoutes);
 app.use('/', frontendRoutes)
 
 

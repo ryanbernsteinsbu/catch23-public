@@ -81,9 +81,15 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
       {generatedKey && (
         <div className="key-display">
           <p>Your generated key:</p>
-          <strong>{generatedKey}</strong>
-          <p>Save this somewhere safe!</p>
-          <button onClick={onCreateUserClick}>Continue to Login →</button>
+          <div className="key-value">
+            {/* <strong>{generatedKey}</strong> */}
+            <code>{generatedKey}</code>
+            <button className="copy-btn" onClick={() => navigator.clipboard.writeText(generatedKey)}>
+              Copy
+            </button>
+          </div>
+          <p className="key-warning">Save this somewhere safe!</p>
+          <button className="continue-btn" onClick={onCreateUserClick}>Continue to Login →</button>
         </div>
       )}
 
