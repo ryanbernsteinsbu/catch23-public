@@ -1,6 +1,5 @@
 'use client';
 import { useState } from "react";
-
 interface LogInProps {
   onLoginSuccess: (token: string, userId: string) => void;
   onGoToRegister: () => void;
@@ -17,6 +16,7 @@ export default function LogIn({ onLoginSuccess, onGoToRegister }: LogInProps) {
     setLoading(true);
     setError(null);
     try {
+        
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

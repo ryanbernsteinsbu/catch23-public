@@ -1,0 +1,991 @@
+{
+    "league": {
+        "teams": [
+            {
+                "id": 1,
+                "budget": 182,
+                "isPrincipal": true,
+                "players": [
+                    {
+                        "cost": 5,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 686948
+                    },
+                    {
+                        "cost": 23,
+                        "rosterPosition": "SECOND",
+                        "player_id": 669364
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 676475
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 684007
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 690990
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 694297
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 694819
+                    },
+                    {
+                        "cost": 13,
+                        "rosterPosition": "MIDDLE_INFIELD",
+                        "player_id": 672640
+                    },
+                    {
+                        "cost": 20,
+                        "rosterPosition": "THIRD",
+                        "player_id": 656305
+                    },
+                    {
+                        "cost": 35,
+                        "rosterPosition": "FIRST",
+                        "player_id": 621566
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "SECOND",
+                        "player_id": 664040
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 642207
+                    },
+                    {
+                        "cost": 17,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 664023
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 606192
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 605397
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "FIRST",
+                        "player_id": 467793
+                    },
+                    {
+                        "cost": 22,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 682622
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 656945
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 676962
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 668964
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 657757
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 620443
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "budget": 149,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 10,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 682626
+                    },
+                    {
+                        "cost": 3,
+                        "rosterPosition": "FIRST",
+                        "player_id": 687462
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "THIRD",
+                        "player_id": 677595
+                    },
+                    {
+                        "cost": 20,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 682928
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 701538
+                    },
+                    {
+                        "cost": 20,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 671739
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 687401
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 645261
+                    },
+                    {
+                        "cost": 16,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 650633
+                    },
+                    {
+                        "cost": 16,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 675911
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 808967
+                    },
+                    {
+                        "cost": 26,
+                        "rosterPosition": "THIRD",
+                        "player_id": 608324
+                    },
+                    {
+                        "cost": 32,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 695243
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 677651
+                    },
+                    {
+                        "cost": 30,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 661395
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 694037
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 665795
+                    },
+                    {
+                        "cost": 3,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 672275
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 671289
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 682990
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 666971
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "budget": 177,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 1,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 696100
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 672515
+                    },
+                    {
+                        "cost": 7,
+                        "rosterPosition": "SECOND",
+                        "player_id": 668930
+                    },
+                    {
+                        "cost": 34,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 607208
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 682998
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 691718
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 691023
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 571510
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 605540
+                    },
+                    {
+                        "cost": 36,
+                        "rosterPosition": "FIRST",
+                        "player_id": 547180
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 605483
+                    },
+                    {
+                        "cost": 17,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 669065
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 607192
+                    },
+                    {
+                        "cost": 31,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 621242
+                    },
+                    {
+                        "cost": 25,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 691587
+                    },
+                    {
+                        "cost": 17,
+                        "rosterPosition": "SECOND",
+                        "player_id": 681082
+                    },
+                    {
+                        "cost": 8,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 687597
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 650489
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 673540
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "budget": 162,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 17,
+                        "rosterPosition": "SECOND",
+                        "player_id": 663538
+                    },
+                    {
+                        "cost": 36,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 596019
+                    },
+                    {
+                        "cost": 9,
+                        "rosterPosition": "THIRD",
+                        "player_id": 571970
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 669016
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 695578
+                    },
+                    {
+                        "cost": 7,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 656605
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 628452
+                    },
+                    {
+                        "cost": 25,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 661388
+                    },
+                    {
+                        "cost": 28,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 605141
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 519293
+                    },
+                    {
+                        "cost": 9,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 605400
+                    },
+                    {
+                        "cost": 8,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 670770
+                    },
+                    {
+                        "cost": 12,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 518876
+                    },
+                    {
+                        "cost": 21,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 554430
+                    },
+                    {
+                        "cost": 14,
+                        "rosterPosition": "FIRST",
+                        "player_id": 650333
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "SECOND",
+                        "player_id": 680574
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 682842
+                    },
+                    {
+                        "cost": 3,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 669194
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 807713
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "budget": 92,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 47,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 665742
+                    },
+                    {
+                        "cost": 44,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 663656
+                    },
+                    {
+                        "cost": 23,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 656941
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 672695
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 671096
+                    },
+                    {
+                        "cost": 25,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 642547
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 694973
+                    },
+                    {
+                        "cost": 14,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 641482
+                    },
+                    {
+                        "cost": 12,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 695734
+                    },
+                    {
+                        "cost": 7,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 593428
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 665804
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 689414
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 641941
+                    },
+                    {
+                        "cost": 9,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 676254
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 666969
+                    },
+                    {
+                        "cost": 17,
+                        "rosterPosition": "FIRST",
+                        "player_id": 683734
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "SECOND",
+                        "player_id": 669242
+                    },
+                    {
+                        "cost": 3,
+                        "rosterPosition": "THIRD",
+                        "player_id": 681393
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 663158
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "THIRD",
+                        "player_id": 691720
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "budget": 194,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 11,
+                        "rosterPosition": "THIRD",
+                        "player_id": 571448
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 686217
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 694192
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 686611
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 625643
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 700241
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 519242
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 592791
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 663903
+                    },
+                    {
+                        "cost": 38,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 606466
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "SECOND",
+                        "player_id": 543760
+                    },
+                    {
+                        "cost": 25,
+                        "rosterPosition": "THIRD",
+                        "player_id": 553993
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "SECOND",
+                        "player_id": 500743
+                    },
+                    {
+                        "cost": 16,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 666160
+                    },
+                    {
+                        "cost": 16,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 668715
+                    },
+                    {
+                        "cost": 7,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 592663
+                    },
+                    {
+                        "cost": 9,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 656811
+                    },
+                    {
+                        "cost": 7,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 663886
+                    },
+                    {
+                        "cost": 8,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 694335
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 664126
+                    },
+                    {
+                        "cost": 8,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 642701
+                    },
+                    {
+                        "cost": 12,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 657656
+                    },
+                    {
+                        "cost": 3,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 656464
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "budget": 198,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 10,
+                        "rosterPosition": "FIRST",
+                        "player_id": 683737
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "THIRD",
+                        "player_id": 663586
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "CORNER",
+                        "player_id": 656976
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 691026
+                    },
+                    {
+                        "cost": 31,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 660670
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 573262
+                    },
+                    {
+                        "cost": 7,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 666157
+                    },
+                    {
+                        "cost": 1,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 666200
+                    },
+                    {
+                        "cost": 25,
+                        "rosterPosition": "SECOND",
+                        "player_id": 645277
+                    },
+                    {
+                        "cost": 31,
+                        "rosterPosition": "THIRD",
+                        "player_id": 663586
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 668678
+                    },
+                    {
+                        "cost": 33,
+                        "rosterPosition": "FIRST",
+                        "player_id": 646240
+                    },
+                    {
+                        "cost": 20,
+                        "rosterPosition": "FIRST",
+                        "player_id": 593871
+                    },
+                    {
+                        "cost": 17,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 656730
+                    },
+                    {
+                        "cost": 29,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 665833
+                    },
+                    {
+                        "cost": 17,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 681624
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 593958
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "budget": 166,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 2,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 608348
+                    },
+                    {
+                        "cost": 31,
+                        "rosterPosition": "FIRST",
+                        "player_id": 518692
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 682829
+                    },
+                    {
+                        "cost": 8,
+                        "rosterPosition": "MIDDLE_INFIELD",
+                        "player_id": 621020
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 808982
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 676917
+                    },
+                    {
+                        "cost": 28,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 657277
+                    },
+                    {
+                        "cost": 43,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 665487
+                    },
+                    {
+                        "cost": 33,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 666182
+                    },
+                    {
+                        "cost": 20,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 686218
+                    },
+                    {
+                        "cost": 21,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 592885
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 668881
+                    },
+                    {
+                        "cost": 16,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 668804
+                    },
+                    {
+                        "cost": 10,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 671218
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "CORNER",
+                        "player_id": 683146
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 666214
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "CORNER",
+                        "player_id": 669357
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "budget": 104,
+                "isPrincipal": false,
+                "players": [
+                    {
+                        "cost": 1,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 682663
+                    },
+                    {
+                        "cost": 33,
+                        "rosterPosition": "THIRD",
+                        "player_id": 592518
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 642715
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 687363
+                    },
+                    {
+                        "cost": 18,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 673548
+                    },
+                    {
+                        "cost": 5,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 656550
+                    },
+                    {
+                        "cost": 9,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 650911
+                    },
+                    {
+                        "cost": 13,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 601713
+                    },
+                    {
+                        "cost": 15,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 592662
+                    },
+                    {
+                        "cost": 46,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 660271
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "SHORTSTOP",
+                        "player_id": 678662
+                    },
+                    {
+                        "cost": 11,
+                        "rosterPosition": "THIRD",
+                        "player_id": 664761
+                    },
+                    {
+                        "cost": 27,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 673357
+                    },
+                    {
+                        "cost": 14,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 686668
+                    },
+                    {
+                        "cost": 20,
+                        "rosterPosition": "OUTFIELD",
+                        "player_id": 805300
+                    },
+                    {
+                        "cost": 4,
+                        "rosterPosition": "CATCHER",
+                        "player_id": 666023
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "PITCHER",
+                        "player_id": 641816
+                    },
+                    {
+                        "cost": 2,
+                        "rosterPosition": "UTILITY",
+                        "player_id": 630105
+                    }
+                ]
+            }
+        ],
+        "scoringSettings": {
+            "useAvg": true,
+            "useHr": true,
+            "useRbi": true,
+            "useSb": true,
+            "useRuns": true,
+            "useEra": true,
+            "useWhip": true,
+            "useWins": true,
+            "useStrikeouts": true,
+            "useSaves": true
+        },
+        "playerSettings": {
+            "positionEligibility": true,
+            "multiPositionEnabled": false,
+            "prospectEligibility": true,
+            "rookieStatusFilter": true,
+            "mlbOnly": true,
+            "mlbPlusProspects": false,
+            "minorLeaguePlayers": false,
+            "freeAgents": false,
+            "draftInjuredPlayers": false,
+            "autoInjuryRisk": true,
+            "hideLongTermIL": true,
+            "ohtaniRule": "ONE_PLAYER",
+            "division": "MIXED"
+        },
+        "rosterSettings": {
+            "numCatchers": 2,
+            "numFirstBase": 1,
+            "numSecondBase": 1,
+            "numThirdBase": 1,
+            "numShortstop": 1,
+            "numCornerInfield": 1,
+            "numMiddleInfield": 1,
+            "numOutfield": 5,
+            "numUtility": 1,
+            "numPitchers": 9
+        },
+        "draftSettings": {
+            "budget": 260
+        }
+    }
+}

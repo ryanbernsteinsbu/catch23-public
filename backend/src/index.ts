@@ -19,7 +19,8 @@ const allowedOrigins = [
     "https://catch23-public.vercel.app",
     "https://catch23.vercel.app",
     "https://get-catch23.vercel.app",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "http://localhost:3001"
 ];
 app.use(cors({
     origin:( origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) => {
@@ -35,10 +36,11 @@ app.use(cors({
 // Routes
 app.use('/api/create-key', create); //make an account
 app.use('/api/login', login);
+app.use('/api/', requireAuth);
 app.use('/api/public', publicRoutes);
+console.log("rankingRoutes loaded:", rankingRoutes); // should not be undefined
 app.use('/api/ranking', rankingRoutes);
 app.use('/api/account', accountRoutes);
-app.use('/api/', requireAuth);
 app.use('/', frontendRoutes)
 
 

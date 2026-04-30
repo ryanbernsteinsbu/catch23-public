@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from "react";
-
 interface RegisterProps {
   onCreateUserClick: () => void;
   onShowLogin: () => void;
@@ -43,7 +42,7 @@ export default function Register({ onCreateUserClick, onShowLogin }: RegisterPro
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/create-key`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password: firstPassword }),
+        body: JSON.stringify({ email, password:firstPassword}),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error?.message || "Registration failed");

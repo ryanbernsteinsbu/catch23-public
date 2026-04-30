@@ -12,6 +12,7 @@ export const create = async (req: Request, res: Response): Promise<void> => {
             return;
         }
         const passwordHash = await bcrypt.hash(password, 10);
+        console.log(passwordHash);
         const apiUser = await createApiUser(email, passwordHash);
         res.status(201).json(apiUser.apiKey);
     } catch (err: any) {
@@ -37,6 +38,7 @@ export const login = async(req: Request, res: Response): Promise<void> => {
     }
 
     const valid = await bcrypt.compare(password, user.passwordHash);
+    // const valid = password === user.passwordHash;
     console.log('password:', password);
     console.log('hash:', user.passwordHash);
     console.log('valid:', valid);
