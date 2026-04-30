@@ -13,14 +13,18 @@ export default function Page() {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
   const [checkedAuth, setCheckedAuth] = useState<boolean>(false);
   const [email, setEmail] = useState<string>("");
+  const [token, setToken] = useState<string>("");
 
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    const getToken = localStorage.getItem("token");
     const userId = localStorage.getItem("user_id");
     const storedEmail = localStorage.getItem("email");
 
     if(storedEmail) setEmail(storedEmail);
 
+    if(getToken){
+      setToken(getToken);
+    }
     setIsLoggedIn(!!token && !!userId);
     setCheckedAuth(true);
   }, []);
@@ -33,6 +37,7 @@ export default function Page() {
         <div className="catch23">
           <Doc
             email={email}
+            token={token}
             onLogout={() => {
               localStorage.removeItem("token");
               localStorage.removeItem("user_id");
