@@ -1,15 +1,19 @@
 const express = require('express');
 const cors = require('cors');
+import http from 'http';
+import { WebSocketServer } from 'ws';
 import sequelize from './config/database';
 import requireAuth from './middleware/requireAuth';
-import publicRoutes from './routes/publicRoutes'
-import frontendRoutes from './routes/frontendRoutes'
+import publicRoutes from './routes/publicRoutes';
+import frontendRoutes from './routes/frontendRoutes';
 import Player from './models/player';
 import rankingRoutes from './routes/rankingRoutes';
+import transactionRoutes from './routes/transactionRoutes';
+import { attachWSS, startPoller } from './services/transactionPoller';
 import { create, login } from './controllers/accountController';
-import accountRoutes from './routes/accountRoutes';
 
 const ApiUser = require('./models/apiUser')
+require('dotenv').config();
 
 require('dotenv').config();
 
@@ -34,19 +38,32 @@ app.use(cors({
 }));
 
 // Routes
-app.use('/api/create-key', create); //make an account
+app.use('/api/create-key', create);
 app.use('/api/login', login);
-app.use('/api/', requireAuth);
 app.use('/api/public', publicRoutes);
-console.log("rankingRoutes loaded:", rankingRoutes); // should not be undefined
+console.log("rankingRoutes loaded:", rankingRoutes);
 app.use('/api/ranking', rankingRoutes);
-app.use('/api/account', accountRoutes);
-app.use('/', frontendRoutes)
+app.use('/api/transactions', transactionRoutes); 
+app.use('/api/', requireAuth);
+app.use('/', frontendRoutes);
 
 
 const PORT = process.env.PORT || 8000;
+
+// Upgrade to HTTP server so WS can share the same port
+const server = http.createServer(app);
+
+const wss = new WebSocketServer({ server, path: '/ws' });
+attachWSS(wss);
+
+wss.on('connection', (ws) => {
+    console.log('[WS] Client connected');
+    ws.on('close', () => console.log('[WS] Client disconnected'));
+});
+
 sequelize.sync().then(() => {
-    app.listen(PORT, () => {
+    server.listen(PORT, () => {
         console.log(`Server running on port ${PORT}`);
+        startPoller(); // ← start polling MLB after DB is ready
     });
 });
