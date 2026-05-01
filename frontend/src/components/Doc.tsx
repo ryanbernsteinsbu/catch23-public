@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import crypto from 'crypto';
 
 interface DocProps {
   email: string;
@@ -11,14 +12,17 @@ export default function Doc({ email, token, onLogout }: DocProps) {
   const [usage, setUsage] = useState<number | null> (null);
   const [apiKey, setApiKey] = useState<string | null> (null);
 
-
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/user-info/${encodeURIComponent(email)}`, {
-      headers: { Authorization:  `Bearer ${token}`},
-    })
-      .then((r) => r.json())
-      .then((data) => {setApiKey(data.key); setUsage(data.usage);})
-      .catch(() => {setApiKey("Cannot find API key"), setUsage(0)});
+    const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+    
+    if(apiKey)
+      setApiKey(apiKey)
+
+    // fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/user-info/${encodeURIComponent(email)}`, {
+    //   headers: { "x-email": email, "x-signature": token}})
+    //   .then((r) => r.json())
+    //   .then((data) => {setApiKey(data.key); setUsage(data.usage);})
+    //   .catch(() => {setApiKey("Cannot find API key"), setUsage(0)});
   }, [apiKey]);
 
   const displayName = email.split("@")[0];

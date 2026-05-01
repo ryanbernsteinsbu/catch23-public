@@ -4,8 +4,11 @@ import crypto from "crypto";
 
 export default async function requireAuth(req: Request, res: Response, next: NextFunction) {
     try{
+        console.log("MADE IT TO REQUIRE AUTH")
         const email = req.headers["x-email"] as string;
+        console.log(email)
         const signature = req.headers["x-signature"] as string;
+        console.log(signature)
 
         if (!email || !signature) {
             return res.status(400).send("Missing headers");

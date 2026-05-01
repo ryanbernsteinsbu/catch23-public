@@ -33,6 +33,7 @@ export const getLeagueStats = async(players: Player[]) => {
 
 // Computing summary of league stats
 export const computeLeagueSummary = (players: Player[]): Record<string, Record<string, {min: number; max: number; avg: number}>> => {
+    if (players.length === 0) return {};
     // Collecting min, max, and average of each stat for each set of stats
     const statSets = ['lastYearStats', 'threeYearAvg', 'projectedStats'] as const;
     const summary: Record<string, Record<string, {min: number, max: number, avg: number}>> = {}; // e.g., lastYearStats: { G: {min: 10, max: 11, avg: 10.5}}
@@ -220,7 +221,7 @@ export const getPlayerRanksAndCost = async(totalBudget: number = 260, players: P
         rank: player.rank,
         cost: Math.max(
             1,
-            Math.round((player.rank/totalRank) * totalBudget * players.length)
+            Math.round((player.rank/totalRank) * totalBudget)
         )
     }));
 }
