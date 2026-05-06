@@ -9,31 +9,27 @@ import sequelize from '../config/database';
 class ScoringSettings extends Model {
     // Fields
     public id!: number;
-        // Hitters
-        public useAvg!: boolean;
-        public useHr!: boolean;
-        public useRbi!: boolean;
-        public useSb!: boolean;
-        public useRuns!: boolean;
+        
+    // Hitters
+    public hrWeight!: number;      // 0 = don't use, otherwise relative importance
+    public rbiWeight!: number;
+    public sbWeight!: number;
+    public avgWeight!: number;
+    public runsWeight!: number;
 
-        // Pitchers
-        public useEra!: boolean;
-        public useWhip!: boolean;
-        public useWins!: boolean;
-        public useStrikeouts!: boolean;
-        public useSaves!: boolean;
+    // Pitchers
+    public eraWeight!: number;
+    public whipWeight!: number;
+    public winsWeight!: number;
+    public strikeoutsWeight!: number;
+    public savesWeight!: number;
+
+    // Stat windows
+    public useLastYear!: boolean;
+    public useThreeYearAvg!: boolean;
+    public useProjected!: boolean;
 
     public league_id!: number;
-    //public league!: League;
-
-    // Associations
-    // public static associations: {
-    //     league: Association<ScoringSettings, League>;
-    // }
-
-    // public static associate (models: any) {
-    //     ScoringSettings.belongsTo(models.League, { foreignKey: 'league_id', as: 'league' });
-    // }
 }
 
 ScoringSettings.init({
@@ -42,55 +38,70 @@ ScoringSettings.init({
         primaryKey: true,
         autoIncrement: true
     },
-    useAvg: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_avg'
+    hrWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.175,
+        field: 'hr_weight'
     },
-    useHr: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_hr'
+    rbiWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.155,
+        field: 'rbi_weight'
     },
-    useRbi: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_rbi'
+    sbWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.125,
+        field: 'sb_weight'
     },
-    useSb: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_sb'
+    avgWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.150,
+        field: 'avg_weight'
     },
-    useRuns: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_runs'
+    runsWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.125,
+        field: 'runs_weight'
     },
-    useEra: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_era'
+    eraWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.200,
+        field: 'era_weight'
     },
-    useWhip: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_whip'
+    whipWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.200,
+        field: 'whip_weight'
     },
-    useWins: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_wins'
+    winsWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.100,
+        field: 'wins_weight'
     },
-    useStrikeouts: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: true,
-        field: 'use_strikeouts'
+    strikeoutsWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.150,
+        field: 'strikeouts_weight'
     },
-    useSaves: {
+    savesWeight: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0.100,
+        field: 'saves_weight'
+    },
+    useLastYear: {
         type: DataTypes.BOOLEAN,
         defaultValue: true,
-        field: 'use_saves'
+        field: 'use_last_year'
+    },
+    useThreeYearAvg: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: true,
+        field: 'use_three_year_avg'
+    },
+    useProjected: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: true,
+        field: 'use_projected'
     },
     league_id: { // fix this to camelCase later
         type: DataTypes.BIGINT,
