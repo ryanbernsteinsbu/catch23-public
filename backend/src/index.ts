@@ -47,7 +47,7 @@ app.use('/api/transactions', transactionRoutes);
 app.use('/api/', requireAuth);
 app.use('/', frontendRoutes);
 
-export default app; // FOR TESTING WITHOUT RUNNING SERVER
+// export default app; // FOR TESTING WITHOUT RUNNING SERVER
 const PORT = process.env.PORT || 8000;
 
 // Upgrade to HTTP server so WS can share the same port
