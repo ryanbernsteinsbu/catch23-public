@@ -92,7 +92,7 @@ Player.init({
     realLeague: {
         type: DataTypes.STRING,
         allowNull: false
-    },
+    }
 }, {
     sequelize,
     tableName:'player',
