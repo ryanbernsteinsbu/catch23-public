@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 import http from 'http';
-import { WebSocketServer } from 'ws';
+// import { WebSocketServer } from 'ws';
 import sequelize from './config/database';
 import requireAuth from './middleware/requireAuth';
 import publicRoutes from './routes/publicRoutes';
@@ -47,19 +47,19 @@ app.use('/api/transactions', transactionRoutes);
 app.use('/api/', requireAuth);
 app.use('/', frontendRoutes);
 
-
+export default app; // FOR TESTING WITHOUT RUNNING SERVER
 const PORT = process.env.PORT || 8000;
 
 // Upgrade to HTTP server so WS can share the same port
 const server = http.createServer(app);
 
-const wss = new WebSocketServer({ server, path: '/ws' });
-attachWSS(wss);
+// const wss = new WebSocketServer({ server, path: '/ws' });
+// attachWSS(wss);
 
-wss.on('connection', (ws) => {
-    console.log('[WS] Client connected');
-    ws.on('close', () => console.log('[WS] Client disconnected'));
-});
+// wss.on('connection', (ws) => {
+//     console.log('[WS] Client connected');
+//     ws.on('close', () => console.log('[WS] Client disconnected'));
+// });
 
 sequelize.sync().then(() => {
     server.listen(PORT, () => {
