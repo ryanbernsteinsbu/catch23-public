@@ -86,3 +86,10 @@ export async function startPoller() {
     }
   }, 60_000); // poll every 60 seconds
 }
+
+// FOR TESTING
+export function _resetForTesting() {
+    seenIds = new Set<number>();
+    transactionHistory = [];
+    wss = null;
+}
