@@ -153,6 +153,7 @@ export const computePlayerCost = (playerScores: {mlbPlayerId: number, rank: numb
 
     const surpluses = playerScores.map(p => Math.max(0, p.rank - replacementScores[p.position]))
     const totalSurplus = surpluses.reduce((sum, v) => sum + v, 0)
+    if(totalSurplus === 0) return playerScores.map(p => ({...p, cost:1}));
     
     return playerScores.map((player, i) => ({
         mlbPlayerId: player.mlbPlayerId,
@@ -224,7 +225,16 @@ export const getHittingScore = (playerStats: Record<string, Record<string, numbe
     return score;
 }
 
-// SCARCITY
+// ADJUSTMENTS
+export const getDepthChartMultiplier = (depthPosition: number): number => {
+    switch(depthPosition) {
+        case 0: return 1.0;
+        case 1: return 0.85;
+        case 2: return 0.60;
+        default: return 0.40;
+    }
+}
+
 export const getScarcity = (positionPlayers: {rank: number}[], leagueNeed: number): number => {
     if (positionPlayers.length === 0) return 1.0;
 

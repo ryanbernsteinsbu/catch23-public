@@ -64,6 +64,18 @@ describe('createPlayer', () => {
             Status.ACTIVE, 3, "NYY", "AL"
         )).rejects.toThrow('Player already exists');
     });
+
+    it('should not call createPlayer if player already exists', async() => {
+        mockedRepo.findPlayerByMlbId.mockResolvedValue(mockPlayer);
+
+        await expect(playerService.createPlayer(
+            "123", 25, "Richard", "McKenna", true, [Position.FIRST],
+            { HR: 30, RBI: 90 }, { HR: 25, RBI: 80 }, { HR: 28, RBI: 85 },
+            Status.ACTIVE, 3, "NYY", "AL"
+        )).rejects.toThrow();
+
+        expect(mockedRepo.createPlayer).not.toHaveBeenCalled();
+    });
 });
 
 // Testing: getAllPlayers
@@ -156,6 +168,13 @@ describe('updatePlayer', () => {
         expect(result).toEqual(updated)
         expect(mockedRepo.updatePlayer).toHaveBeenCalledWith(1, {age: 26});
     });
+
+    it('should return null if player not found', async() => {
+        mockedRepo.updatePlayer.mockResolvedValue(null);
+
+        const result = await playerService.updatePlayer(999, { age: 26 });
+        expect(result).toBeNull();
+    });
 });
 
 // Testing: deletePlayer
@@ -173,4 +192,11 @@ describe('deletePlayer', () => {
         const result = await playerService.deletePlayer(999);
         expect(result).toBe(false);
     })
+
+    it('should call deletePlayer with correct id', async() => {
+        mockedRepo.deletePlayer.mockResolvedValue(true);
+
+        await playerService.deletePlayer(1);
+        expect(mockedRepo.deletePlayer).toHaveBeenCalledWith(1);
+    });
 })
