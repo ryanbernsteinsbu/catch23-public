@@ -54,7 +54,7 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
     const divisionFiltered = allPlayers.filter(player => {
         if(league.playerSettings.division === Division.MIXED) return true;
         return player.realLeague === league.playerSettings.division;
-    });
+    }).filter(player => player.status !== Status.MINORS);
 
     if(league.teams == undefined){
         const league_needs: Record<RosterPosition, number> = {
@@ -75,11 +75,7 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
     
     const teamInformation = await getTeamInfo(league.teams);
 
-    const unusedPlayers = divisionFiltered.filter(player => !teamInformation.currentDrafted.includes(player.mlbPlayerId));
-    const activePlayers = unusedPlayers.filter(player => {
-        if(league.playerSettings.division === Division.MIXED) return true;
-        return player.realLeague === league.playerSettings.division;
-    })
+    const activePlayers = divisionFiltered.filter(player => !teamInformation.currentDrafted.includes(player.mlbPlayerId));
 
     const allTeamNeeds: Record<RosterPosition, number>[] = []
     for(const team of league.teams){
