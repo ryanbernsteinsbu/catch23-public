@@ -19,18 +19,47 @@ interface CreatePlayerInput {
     seasonsLeft: number;
     realTeam: string;
     realLeague: string;
+    depth: string;
 }
 async function addPlayer(data: CreatePlayerInput): Promise<Player| null> {
     try {
-        const now = new Date();
+        let player = await Player.findOne({
+            where: { mlbPlayerId: String(data.mlbPlayerId) }
+        });
 
-        const player = await Player.create({
+        if (player) {
+            player.firstName = data.firstName;
+            player.lastName = data.lastName;
+            player.age = data.age;
+            player.status = data.status;
+            player.realTeam = data.realTeam;
+            player.realLeague = data.realLeague;
+            player.depth = data.depth;
+
+            player.lastYearStats = {
+                ...(player.lastYearStats || {}),
+                ...(data.lastYearStats || {})
+            }
+            player.threeYearAvg = {
+                ...(player.threeYearAvg || {}),
+                ...(data.threeYearAvg || {})
+            }
+            player.projectedStats = {
+                ...(player.projectedStats || {}),
+                ...(data.projectedStats || {})
+            }
+            // Save updates
+            await player.save();
+            return player;
+        }
+
+        const newPlayer = await Player.create({
             mlbPlayerId: data.mlbPlayerId,
             age: data.age,
             firstName: data.firstName,
             lastName: data.lastName,
             isHitter: data.isHitter,
-            playablePositions: data.playablePositions,
+            playablePositions: data.playablePositions, // DO NOT TOUCH LATER
             lastYearStats: data.lastYearStats ?? {},
             threeYearAvg: data.threeYearAvg ?? {},
             projectedStats: data.projectedStats ?? {},
@@ -38,17 +67,21 @@ async function addPlayer(data: CreatePlayerInput): Promise<Player| null> {
             seasonsLeft: data.seasonsLeft,
             realTeam: data.realTeam,
             realLeague: data.realLeague,
+            depth: data.depth,
         });
-        if(!player){
+
+        if(!newPlayer){
             console.log("issue")
             return null;
         }
-        return player;
+        return newPlayer;
     } catch (error) {
         // console.error("Error creating player:", error);
         throw error;
     }
 }
+// ['SS' '1B' 'RF' 'CF' 'C' '3B' '2B' 'P' 'OF' 'LF' 'DH' 'TWP']
+
 function mapPosition(pos: string): Position {
   const map: Record<string, Position> = {
     C: Position.CATCHER,
@@ -59,6 +92,11 @@ function mapPosition(pos: string): Position {
     OF: Position.OUTFIELD,
     P: Position.PITCHER,
     U: Position.UTILITY,
+    RF: Position.RIGHTFIELD,
+    CF: Position.CENTERFIELD,
+    LF: Position.LEFTFIELD,
+    DH: Position.HITTER,
+    TWP: Position.TWOWAY
   };
   return map[pos] ?? Position.UTILITY;
 }
@@ -150,11 +188,12 @@ async function ingestHitters(csvPath: string) {
                 OBP: Number(row.OBP),
                 SLG: Number(row.SLG),
             }, 
-            status: Status.ACTIVE, 
+            status: (row.Tm == "minors" ? Status.MINORS : Status.ACTIVE), 
             seasonsLeft: 1, // placeholder (you can adjust later)
 
             realTeam: row.team_abbr,
             realLeague: row.Lev === "Maj-AL" ? "AL" : "NL",
+            depth: row.depth
           };
 
           players.push(playerData);
@@ -254,10 +293,11 @@ async function ingestPitchers(csvPath: string) {
               SB: Number(row.SB),
               PO: Number(row.PO),
             },
-            status: Status.ACTIVE,
+            status: (row.Tm == "minors" ? Status.MINORS : Status.ACTIVE), 
             seasonsLeft: 1, // placeholder
             realTeam: row.team_abbr,
             realLeague: row.Lev === "Maj-AL" ? "AL" : "NL",
+            depth: row.depth,
           };
 
           pitchers.push(pitcherData);
@@ -282,9 +322,15 @@ async function ingestPitchers(csvPath: string) {
       .on("error", reject);
   });
 }
-ingestHitters("./python/data.csv")
+ingestHitters("./python/rsrc/minordata.csv")
   .then(() => console.log("Done"))
   .catch((err) => console.error("Error:", err));
-ingestPitchers("./python/pdata.csv")
+ingestPitchers("./python/rsrc/minorpdata.csv")
+  .then(() => console.log("Done"))
+  .catch((err) => console.error("Error:", err));
+ingestHitters("./python/rsrc/batting_3avg.csv")
+  .then(() => console.log("Done"))
+  .catch((err) => console.error("Error:", err));
+ingestPitchers("./python/rsrc/pitching_3avg.csv")
   .then(() => console.log("Done"))
   .catch((err) => console.error("Error:", err));

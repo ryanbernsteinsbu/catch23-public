@@ -4,9 +4,12 @@ import sequelize from '../config/database';
 // Used AI and MLB website to make sure I had correct formatting since this will be external datas
 
 // Enums
+// ['SS' '1B' 'RF' 'CF' 'C' '3B' '2B' 'P' 'OF' 'LF' 'DH' 'TWP']
 export enum Position {
     CATCHER = 'CATCHER', FIRST = 'FIRST', SECOND = 'SECOND', THIRD = 'THIRD',
-    SHORTSTOP = 'SHORTSTOP', OUTFIELD = 'OUTFIELD', PITCHER = 'PITCHER', UTILITY = 'UTILITY'
+    SHORTSTOP = 'SHORTSTOP', OUTFIELD = 'OUTFIELD', PITCHER = 'PITCHER', UTILITY = 'UTILITY',
+    RIGHTFIELD = 'RIGHTFIELD', CENTERFIELD = 'CENTERFIELD', LEFTFIELD = 'LEFTFIELD',
+    HITTER = 'HITTER', TWOWAY = 'TWOWAY'
 }
 
 export enum Status {
@@ -30,6 +33,7 @@ class Player extends Model {
     public seasonsLeft!: number; 
     public realTeam!: string;
     public realLeague!: string;
+    public depth!: string;
 }
 
 
@@ -87,12 +91,16 @@ Player.init({
     },
     realTeam: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
     realLeague: {
         type: DataTypes.STRING,
-        allowNull: false
-    }
+        allowNull: true
+    },
+    depth: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
 }, {
     sequelize,
     tableName:'player',
@@ -100,3 +108,4 @@ Player.init({
 });
 
 export default Player;
+
