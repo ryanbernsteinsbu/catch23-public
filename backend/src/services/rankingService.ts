@@ -50,8 +50,6 @@ export const getAllPlayerRanks = async(): Promise<{mlbPlayerId: number, rank: nu
 
 export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlayerId: number, rank: number, cost:number}[]> => {
     const allPlayers = await findAllPlayers();
-    console.log("Sample player:", JSON.stringify(allPlayers[0]));
-    console.log("Sample lastYearStats:", JSON.stringify(allPlayers[0]?.lastYearStats));
 
     const divisionFiltered = allPlayers.filter(player => {
         if(league.playerSettings.division === Division.MIXED) return true;
@@ -88,18 +86,6 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
 
     const ranks = getPlayerRanksAndCost(league.draftSettings.budget, activePlayers, leagueNeeds, league.scoringSettings);
     
-    // Make inferences based on each team's status
-
-    console.log("Sample rank:", ranks[0]);
-    console.log("Sample player mlbPlayerId type:", typeof activePlayers[0]?.mlbPlayerId);
-    console.log("Sample rank mlbPlayerId type:", typeof ranks[0]?.mlbPlayerId);
-    const nullRanks = ranks.filter(r => r.rank === null || r.cost === null);
-    console.log("Null rank count:", nullRanks.length);
-    console.log("Sample null rank:", nullRanks[0]);
-    console.log("Total players:", activePlayers.length);
-    console.log("Valid players after stats filter:", activePlayers.filter(p => 
-        p.lastYearStats != null && Object.keys(p.lastYearStats).length > 0).length);
-
     const ranksWithNames = ranks.map(r => {
         const player = activePlayers.find(p => p.mlbPlayerId === r.mlbPlayerId);
         return {
@@ -120,6 +106,7 @@ export const getPlayerRanksAndCost = (totalBudget: number = 260, players: Player
         p.threeYearAvg != null && Object.keys(p.threeYearAvg).length > 0 &&
         p.projectedStats != null && Object.keys(p.projectedStats).length > 0
     );
+
     const leagueStats = getLeagueStats(validPlayers);
     const playerScores = computePlayerScores(validPlayers, leagueStats, scoringSettings, leagueNeeds)
     const playerCost = computePlayerCost(playerScores, totalBudget, leagueNeeds)
@@ -160,38 +147,66 @@ export const computePlayerScores = (players: Player[], leagueStats: ReturnType<t
             case Status.OUT: rank *= 0; break;
         }
 
-        const primaryPosition = getEligibleRosterPositions(player.playablePositions[0])[0];
+        // DEPTH ADJUSTMENT
+        const depthNumber = parseDepth(player.depth);
+        rank *= getDepthChartMultiplier(depthNumber);
+
+        const eligiblePositions = player.playablePositions
+            .flatMap(pos => getEligibleRosterPositions(pos))
+            .filter((pos, i, arr) => arr.indexOf(pos) === i) // dedupe
         
-        return { mlbPlayerId: player.mlbPlayerId, rank, position: primaryPosition};
+        const primaryPosition = eligiblePositions[0]
+        const scarcityPositions = eligiblePositions.filter(pos => pos !== RosterPosition.UTILITY);
+        
+        return { mlbPlayerId: player.mlbPlayerId, rank, scarcityPositions, primaryPosition};
     });
 
     // SCARCITY ADJUSTMENTS
     return rawScores.map(player => {
-        const positionGroup = rawScores.filter(p => p.position === player.position);
-        const scarcityMult = getScarcity(positionGroup, leagueNeeds[player.position]);
-        return {...player, rank: player.rank * scarcityMult}
-    })
+        const scarcityMults = player.scarcityPositions.map(pos => {
+            const positionGroup = rawScores.filter(p => p.scarcityPositions.includes(pos));
+            return getScarcity(positionGroup, leagueNeeds[pos]);
+        });
+        const bestScarcity = player.scarcityPositions.length > 0
+            ? Math.max(...scarcityMults) : 1.0;
 
+        return {
+            mlbPlayerId: player.mlbPlayerId, // returning mlbPlayerId as before
+            rank: player.rank * bestScarcity,
+            position: player.primaryPosition
+        };
+    });
 }
 
 export const computePlayerCost = (playerScores: {mlbPlayerId: number, rank: number, position: RosterPosition}[], totalBudget: number, leagueNeeds: Record<RosterPosition, number>) => {
     const replacementScores: Record<RosterPosition, number> = {} as Record<RosterPosition, number>
     for(const position in leagueNeeds) {
         const rosterPosition = position as RosterPosition
-        const positionPlayers = playerScores.filter(p => p.position === rosterPosition);
+        
+        let positionPlayers;
+        if (rosterPosition === RosterPosition.CORNER) {
+            positionPlayers = playerScores.filter(p => 
+                p.position === RosterPosition.FIRST || p.position === RosterPosition.THIRD
+            );
+        } else if (rosterPosition === RosterPosition.MIDDLE) {
+            positionPlayers = playerScores.filter(p => 
+                p.position === RosterPosition.SECOND || p.position === RosterPosition.SHORTSTOP
+            );
+        } else {
+            positionPlayers = playerScores.filter(p => p.position === rosterPosition);
+        }
+
         replacementScores[rosterPosition] = getReplacementPlayerScore(positionPlayers, leagueNeeds[rosterPosition])
     }
 
-    const surpluses = playerScores.map(p => Math.max(0, p.rank - replacementScores[p.position]))
+    const surpluses = playerScores.map(p => Math.max(0, p.rank - (replacementScores[p.position] ?? 0)))
     const totalSurplus = surpluses.reduce((sum, v) => sum + v, 0)
     if(totalSurplus === 0) return playerScores.map(p => ({...p, cost:1}));
     
     return playerScores.map((player, i) => ({
         mlbPlayerId: player.mlbPlayerId,
         rank: player.rank,
-        cost: Math.max(
-            1,
-            Math.round((surpluses[i]/totalSurplus) * totalBudget)
+        cost: Math.max(1, Math.round((surpluses[i]/totalSurplus) * totalBudget)
         )
     }));
 }
@@ -257,11 +272,16 @@ export const getHittingScore = (playerStats: Record<string, Record<string, numbe
 }
 
 // ADJUSTMENTS
+export const parseDepth = (depth: string): number => {
+    if(!depth || depth.trim() === '') return 3;
+    const num = parseInt(depth.trim().split(' ')[0]);
+    return isNaN(num) ? 3 : num;
+}
 export const getDepthChartMultiplier = (depthPosition: number): number => {
     switch(depthPosition) {
-        case 0: return 1.0;
-        case 1: return 0.85;
-        case 2: return 0.60;
+        case 1: return 1.0;
+        case 2: return 0.85;
+        case 3: return 0.60;
         default: return 0.40;
     }
 }
@@ -269,7 +289,7 @@ export const getDepthChartMultiplier = (depthPosition: number): number => {
 export const getScarcity = (positionPlayers: {rank: number}[], leagueNeed: number): number => {
     if (positionPlayers.length === 0) return 1.0;
 
-    const QUALITY_THRESHOLD = 0.5; // above average based on z-score norm
+    const QUALITY_THRESHOLD = 0; // above average based on z-score norm
     const qualityPlayerCount = positionPlayers.filter(p => p.rank > QUALITY_THRESHOLD).length;
     const scarcityRatio = qualityPlayerCount / leagueNeed;
 
@@ -287,22 +307,9 @@ export const getLeagueStats = (players: Player[]) => {
     const hitters = players.filter(p => p.isHitter);
     const pitchers = players.filter(p => !p.isHitter);
 
-    const catchers = hitters.filter(p => p.playablePositions[0] === 'CATCHER');
-    const first = hitters.filter(p => p.playablePositions[0] === 'FIRST');
-    const second = hitters.filter(p => p.playablePositions[0] === 'SECOND');
-    const third = hitters.filter(p => p.playablePositions[0] === 'THIRD')
-    const shortstop = hitters.filter(p => p.playablePositions[0] === 'SHORTSTOP');
-    const outfield = hitters.filter(p => p.playablePositions[0] === 'OUTFIELD');
-
     return {
         hitters: getLeagueSummary(hitters),
         pitchers: getLeagueSummary(pitchers),
-        catchers: getLeagueSummary(catchers),
-        first: getLeagueSummary(first),
-        second: getLeagueSummary(second),
-        third: getLeagueSummary(third),
-        shortstop: getLeagueSummary(shortstop),
-        outfield: getLeagueSummary(outfield)
     }
 }
 
@@ -334,7 +341,6 @@ export const getLeagueSummary = (players: Player[]): Record<string, Record<strin
 
     return summary;
 }
-
 
 // NORMILIZATION
 export const getNormalizeStats = (playerStats: Record<string, Record<string, number>>, leagueSummary: Record<string, Record<string, {min: number; max: number; avg: number, sd: number}>>, scoringSettings: ScoringSettings) : Record<string, Record<string, number>> => {
@@ -430,6 +436,7 @@ export const getLeagueNeeds = (allTeamNeeds: Record<RosterPosition, number>[]): 
 
 // OTHER
 export const getReplacementPlayerScore = (playerScores: {mlbPlayerId: number, rank: number}[], leaguePlayerNeed: number): number => {
+    if (playerScores.length === 0) return 0;
     playerScores.sort((a, b) => b.rank - a.rank);
     return playerScores[leaguePlayerNeed]?.rank ?? 0;
 }

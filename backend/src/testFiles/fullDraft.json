@@ -1111,9 +1111,9 @@
             "winsWeight": 0.100,
             "strikeoutsWeight": 0.150,
             "savesWeight": 0.100,
-            "useLastYear": true,
+            "useLastYear": false,
             "useThreeYearAvg": true,
-            "useProjected": true
+            "useProjected": false
         },
         "playerSettings": {
             "ohtaniRule": "ONE_PLAYER",
