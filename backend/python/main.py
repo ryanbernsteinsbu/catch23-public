@@ -115,7 +115,7 @@ mlb_depth = map_espn_to_mlb(depthchart)
 mlb_teams = map_espn_to_mlb(teamchart)
 # print(teamchart["4990055"])
 # print(ESPN_TO_MLB)
-# print(mlb_teams["677800"])
+print(mlb_teams[808967])
 
 # lastYearStats: { AB,R,H,"1B":_1B,"2B":_2B,"3B":_3B,HR,RBI,BB,K,SB,CS,AVG,OBP,SLG,FPTS },
     # Index(['Name', 'Age', '#days', 'Lev', 'Tm', 'G', 'PA', 'AB', 'R', 'H', '2B',
@@ -168,18 +168,19 @@ def get_pitching_stats(start_dt, end_dt, filename=r"./pdata.csv"):
             "BF", "SO/W", "SB", "PO"
         ]
     ]
-
+    final_pitching_data["mlbID"] = final_pitching_data["mlbID"].astype(int)
     final_pitching_data["team_abbr"] = final_pitching_data.apply(
         lambda row: TEAM_MAP.get((row["Lev"], row["Tm"]), None),
         axis=1
     )
+    # print(final_pitching_data["mlbID"].dtype)
     final_pitching_data["depth"] = final_pitching_data["mlbID"].map(mlb_depth)
     final_pitching_data["team_abbr"] = final_pitching_data["mlbID"].map(mlb_teams)
     final_pitching_data.to_csv(filename, index=False)
 
-get_batting_stats('2025-03-18', '2025-11-01', r"./rsrc/batting_last.csv")
-get_batting_stats('2023-04-01',  '2025-11-01', r"./rsrc/batting_3avg.csv")
-get_pitching_stats('2025-03-18', '2025-11-01', r"./rsrc/pitching_last.csv")
+# get_batting_stats('2025-03-18', '2025-11-01', r"./rsrc/batting_last.csv")
+# get_batting_stats('2023-04-01',  '2025-11-01', r"./rsrc/batting_3avg.csv")
+# get_pitching_stats('2025-03-18', '2025-11-01', r"./rsrc/pitching_last.csv")
 get_pitching_stats('2023-04-01',  '2025-11-01', r"./rsrc/pitching_3avg.csv")
 
 
