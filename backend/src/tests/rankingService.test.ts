@@ -193,10 +193,10 @@ describe('rankingService', () => {
 
     // --- getDepthChartMultiplier ---
     describe('getDepthChartMultiplier', () => {
-        it('returns 1.0 for starter', () => expect(getDepthChartMultiplier(0)).toBe(1.0));
-        it('returns 0.85 for backup',  () => expect(getDepthChartMultiplier(1)).toBe(0.85));
-        it('returns 0.60 for depth',   () => expect(getDepthChartMultiplier(2)).toBe(0.60));
-        it('returns 0.40 for fringe',  () => expect(getDepthChartMultiplier(3)).toBe(0.40));
+        it('returns 1.0 for starter', () => expect(getDepthChartMultiplier(1)).toBe(1.0));
+        it('returns 0.85 for backup',  () => expect(getDepthChartMultiplier(2)).toBe(0.85));
+        it('returns 0.60 for depth',   () => expect(getDepthChartMultiplier(3)).toBe(0.60));
+        it('returns 0.40 for fringe',  () => expect(getDepthChartMultiplier(4)).toBe(0.40));
         it('returns 0.40 for any index above 3', () => expect(getDepthChartMultiplier(99)).toBe(0.40));
     });
 
