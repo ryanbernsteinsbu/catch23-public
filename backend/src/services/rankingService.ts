@@ -50,6 +50,8 @@ export const getAllPlayerRanks = async(): Promise<{mlbPlayerId: number, rank: nu
 
 export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlayerId: number, rank: number, cost:number}[]> => {
     const allPlayers = await findAllPlayers();
+    console.log("Sample player:", JSON.stringify(allPlayers[0]));
+    console.log("Sample lastYearStats:", JSON.stringify(allPlayers[0]?.lastYearStats));
 
     const divisionFiltered = allPlayers.filter(player => {
         if(league.playerSettings.division === Division.MIXED) return true;
@@ -75,7 +77,7 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
     
     const teamInformation = await getTeamInfo(league.teams);
 
-    const activePlayers = divisionFiltered.filter(player => !teamInformation.currentDrafted.includes(player.mlbPlayerId));
+    const activePlayers = divisionFiltered.filter(player => !teamInformation.currentDrafted.includes(Number(player.mlbPlayerId)));
 
     const allTeamNeeds: Record<RosterPosition, number>[] = []
     for(const team of league.teams){
@@ -88,21 +90,49 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
     
     // Make inferences based on each team's status
 
-    return ranks;
+    console.log("Sample rank:", ranks[0]);
+    console.log("Sample player mlbPlayerId type:", typeof activePlayers[0]?.mlbPlayerId);
+    console.log("Sample rank mlbPlayerId type:", typeof ranks[0]?.mlbPlayerId);
+    const nullRanks = ranks.filter(r => r.rank === null || r.cost === null);
+    console.log("Null rank count:", nullRanks.length);
+    console.log("Sample null rank:", nullRanks[0]);
+    console.log("Total players:", activePlayers.length);
+    console.log("Valid players after stats filter:", activePlayers.filter(p => 
+        p.lastYearStats != null && Object.keys(p.lastYearStats).length > 0).length);
+
+    const ranksWithNames = ranks.map(r => {
+        const player = activePlayers.find(p => p.mlbPlayerId === r.mlbPlayerId);
+        return {
+            ...r,
+            name: player ? `${player.firstName} ${player.lastName}` : "Unknown"
+        };
+    });
+
+    return ranksWithNames;
 }
 
 ///////////////////////
 // MAJOR FUNCTIONS
 //////////////////////
 export const getPlayerRanksAndCost = (totalBudget: number = 260, players: Player[], leagueNeeds: Record<RosterPosition, number>, scoringSettings: ScoringSettings): {mlbPlayerId: number, rank: number, cost: number}[] => {
-    const leagueStats = getLeagueStats(players);
-    const playerScores = computePlayerScores(players, leagueStats, scoringSettings, leagueNeeds)
+    const validPlayers = players.filter(p =>
+        p.lastYearStats != null && Object.keys(p.lastYearStats).length > 0 &&
+        p.threeYearAvg != null && Object.keys(p.threeYearAvg).length > 0 &&
+        p.projectedStats != null && Object.keys(p.projectedStats).length > 0
+    );
+    const leagueStats = getLeagueStats(validPlayers);
+    const playerScores = computePlayerScores(validPlayers, leagueStats, scoringSettings, leagueNeeds)
     const playerCost = computePlayerCost(playerScores, totalBudget, leagueNeeds)
     return playerCost
 }
 
 export const computePlayerScores = (players: Player[], leagueStats: ReturnType<typeof getLeagueStats>, scoringSettings: ScoringSettings, leagueNeeds: Record<RosterPosition, number>): {mlbPlayerId: number, rank: number, position: RosterPosition}[] => {    
-    const rawScores = players.map(player => {
+    const rawScores = players.filter(players =>
+        players.lastYearStats != null && Object.keys(players.lastYearStats).length > 0 &&
+        players.threeYearAvg != null && Object.keys(players.threeYearAvg).length > 0 &&
+        players.projectedStats != null && Object.keys(players.projectedStats).length > 0
+        )
+        .map(player => {
         const playerStats = {
             lastYearStats: player.lastYearStats,
             threeYearAvg: player.threeYearAvg,
@@ -253,7 +283,7 @@ export const getScarcity = (positionPlayers: {rank: number}[], leagueNeed: numbe
 }
 
 // GET SUMMARY STATS
-export const getLeagueStats = (players: Player[]) => {    
+export const getLeagueStats = (players: Player[]) => {
     const hitters = players.filter(p => p.isHitter);
     const pitchers = players.filter(p => !p.isHitter);
 
@@ -289,7 +319,7 @@ export const getLeagueSummary = (players: Player[]): Record<string, Record<strin
         summary[statSet] = {};
 
         for(const statLabel of statLabels) { // Going through each individual stat
-            const values = allStats.map(s => s[statLabel]).filter(v => v !== null && v !== undefined); // Getting the proper stat for each player (minus the ones that are null)
+            const values = allStats.map(s => Number(s[statLabel])).filter(v => v !== null && v !== undefined); // Getting the proper stat for each player (minus the ones that are null)
             const avg = values.reduce((a,b) => a + b, 0)/ values.length;
             const variance = values.reduce((sum, v) => sum + Math.pow(v - avg, 2), 0) / values.length;
 
@@ -318,7 +348,7 @@ export const getNormalizeStats = (playerStats: Record<string, Record<string, num
 
         for(const statLabel of statLabels){
             const { avg, sd } = leagueSummary[statSet][statLabel];
-            normalized[statSet][statLabel] = sd === 0 ? 0 : (playerStats[statSet][statLabel] - avg) / sd;
+            normalized[statSet][statLabel] = sd === 0 ? 0 : (Number(playerStats[statSet][statLabel] - avg) / sd);
         }
     }
 
@@ -343,7 +373,7 @@ export const getTeamInfo = async(teams: Team[]): Promise<{teamInfo: Record<numbe
         if(team.players != null){
             for(const player of team.players){
                 totalDrafted ++;
-                currentDrafted.push(player.player_id);
+                currentDrafted.push(Number(player.player_id));
             }
         }
         teamInfo.push({[team.id]: totalDrafted});
@@ -424,8 +454,12 @@ export const getEligibleRosterPositions = (position: Position): RosterPosition[]
         case Position.SHORTSTOP:
             return [RosterPosition.SHORTSTOP, RosterPosition.MIDDLE, RosterPosition.UTILITY];
         case Position.OUTFIELD:
+        case Position.RIGHTFIELD:
+        case Position.CENTERFIELD:
+        case Position.LEFTFIELD:
             return [RosterPosition.OUTFIELD, RosterPosition.UTILITY];
         case Position.PITCHER:
+        case Position.TWOWAY:
             return [RosterPosition.PITCHER, RosterPosition.UTILITY];
         default:
             return [RosterPosition.UTILITY];

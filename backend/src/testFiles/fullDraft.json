@@ -43,7 +43,7 @@
                     },
                     {
                         "cost": 13,
-                        "rosterPosition": "MIDDLE_INFIELD",
+                        "rosterPosition": "MIDDLE",
                         "player_id": 672640
                     },
                     {
@@ -750,11 +750,6 @@
                     },
                     {
                         "cost": 1,
-                        "rosterPosition": "THIRD",
-                        "player_id": 663586
-                    },
-                    {
-                        "cost": 1,
                         "rosterPosition": "CORNER",
                         "player_id": 656976
                     },
@@ -887,7 +882,7 @@
                     },
                     {
                         "cost": 8,
-                        "rosterPosition": "MIDDLE_INFIELD",
+                        "rosterPosition": "MIDDLE",
                         "player_id": 621020
                     },
                     {
@@ -1106,29 +1101,21 @@
             }
         ],
         "scoringSettings": {
-            "useAvg": true,
-            "useHr": true,
-            "useRbi": true,
-            "useSb": true,
-            "useRuns": true,
-            "useEra": true,
-            "useWhip": true,
-            "useWins": true,
-            "useStrikeouts": true,
-            "useSaves": true
+            "hrWeight": 0.175,
+            "rbiWeight": 0.155,
+            "sbWeight": 0.125,
+            "avgWeight": 0.150,
+            "runsWeight": 0.125,
+            "eraWeight": 0.200,
+            "whipWeight": 0.200,
+            "winsWeight": 0.100,
+            "strikeoutsWeight": 0.150,
+            "savesWeight": 0.100,
+            "useLastYear": true,
+            "useThreeYearAvg": true,
+            "useProjected": true
         },
         "playerSettings": {
-            "positionEligibility": true,
-            "multiPositionEnabled": false,
-            "prospectEligibility": true,
-            "rookieStatusFilter": true,
-            "mlbOnly": true,
-            "mlbPlusProspects": false,
-            "minorLeaguePlayers": false,
-            "freeAgents": false,
-            "draftInjuredPlayers": false,
-            "autoInjuryRisk": true,
-            "hideLongTermIL": true,
             "ohtaniRule": "ONE_PLAYER",
             "division": "MIXED"
         },
