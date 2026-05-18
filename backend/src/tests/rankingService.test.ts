@@ -239,7 +239,7 @@ describe('rankingService', () => {
         });
 
         it('higher ranked player gets higher cost', () => {
-            const result = computePlayerCost(scores, 260, mockLeagueNeeds(), numTeams);
+            const result = computePlayerCost(scores, 50, mockLeagueNeeds(), 1);
             const p1 = result.find(p => p.mlbPlayerId === 1)!;
             const p2 = result.find(p => p.mlbPlayerId === 2)!;
             expect(p1.cost).toBeGreaterThan(p2.cost);
