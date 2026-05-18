@@ -13,17 +13,25 @@ export default function Doc({ email, token, onLogout }: DocProps) {
   const [apiKey, setApiKey] = useState<string | null> (null);
 
   useEffect(() => {
-    const apiKey = process.env.NEXT_PUBLIC_API_KEY;
-    
-    if(apiKey)
-      setApiKey(apiKey)
+    const fetchUserInfo = async () => {
+        try {
+            const r = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/user/logged-in`, {
+                headers: {
+                    "x-token": token,
+                    "x-email": email
+                }
+            });
+            const data = await r.json();
+            setApiKey(data.key);
+            setUsage(data.usage);
+        } catch {
+            setApiKey("Could not load API key");
+            setUsage(0);
+        }
+    };
 
-    // fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/user-info/${encodeURIComponent(email)}`, {
-    //   headers: { "x-email": email, "x-signature": token}})
-    //   .then((r) => r.json())
-    //   .then((data) => {setApiKey(data.key); setUsage(data.usage);})
-    //   .catch(() => {setApiKey("Cannot find API key"), setUsage(0)});
-  }, [apiKey]);
+    fetchUserInfo();
+  }, []);
 
   const displayName = email.split("@")[0];
 
