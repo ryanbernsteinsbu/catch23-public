@@ -204,19 +204,48 @@ export const computePlayerCost = (playerScores: {mlbPlayerId: number, rank: numb
     const aboveReplacementBudget = totalLeagueBudget - belowReplacementBudget;
 
     const surpluses = playerScores.map(p => Math.max(0, p.rank - (replacementScores[p.position] ?? 0)));
-    const totalSurplus = surpluses.reduce((sum, v) => sum + v, 0);
+    const draftablePlayers = new Set<number>();
+    for (const position in leagueNeeds) {
+        const rosterPosition = position as RosterPosition;
+        const need = leagueNeeds[rosterPosition];
+        
+        let eligible;
+        if (rosterPosition === RosterPosition.CORNER) {
+            eligible = playerScores.filter(p => 
+                p.position === RosterPosition.FIRST || p.position === RosterPosition.THIRD
+            );
+        } else if (rosterPosition === RosterPosition.MIDDLE) {
+            eligible = playerScores.filter(p => 
+                p.position === RosterPosition.SECOND || p.position === RosterPosition.SHORTSTOP
+            );
+        } else {
+            eligible = playerScores.filter(p => p.position === rosterPosition);
+        }
+
+        eligible
+            .sort((a, b) => b.rank - a.rank)
+            .slice(0, need * numTeams)
+            .forEach(p => draftablePlayers.add(p.mlbPlayerId));
+    }
+
+    const totalSurplus = surpluses
+        .filter((_, i) => draftablePlayers.has(playerScores[i].mlbPlayerId))
+        .reduce((sum, v) => sum + v, 0);
 
     const deficits = playerScores.map((p, i) => surpluses[i] === 0 ? Math.max(0, p.rank) : 0);
     const totalDeficit = deficits.reduce((sum, v) => sum + v, 0);
 
     if(totalSurplus === 0) return playerScores.map(p => ({...p, cost:1}));
     
+    const MAX_PLAYER_BUDGET_PERCENT = 0.18
+
     return playerScores.map((player, i) => {
         if(surpluses[i] > 0) {
             return {
                 mlbPlayerId: player.mlbPlayerId,
                 rank: player.rank,
-                cost: Math.max(1, Math.round((surpluses[i]/totalSurplus) * aboveReplacementBudget))
+                cost: Math.min(Math.max(1, Math.round((surpluses[i]/totalSurplus) * aboveReplacementBudget)),
+                                Math.round(totalBudget * MAX_PLAYER_BUDGET_PERCENT))
             };
         } else {
             const cost = totalDeficit === 0
