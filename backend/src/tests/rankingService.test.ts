@@ -239,7 +239,12 @@ describe('rankingService', () => {
         });
 
         it('higher ranked player gets higher cost', () => {
-            const result = computePlayerCost(scores, 50, mockLeagueNeeds(), 1);
+            const wideSpreadScores = [
+                { mlbPlayerId: 1, rank: 100, position: RosterPosition.CATCHER },
+                { mlbPlayerId: 2, rank: 1,   position: RosterPosition.CATCHER },
+                { mlbPlayerId: 3, rank: 50,  position: RosterPosition.PITCHER },
+            ];
+            const result = computePlayerCost(wideSpreadScores, 50, mockLeagueNeeds(), 1);
             const p1 = result.find(p => p.mlbPlayerId === 1)!;
             const p2 = result.find(p => p.mlbPlayerId === 2)!;
             expect(p1.cost).toBeGreaterThan(p2.cost);
