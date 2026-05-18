@@ -42,12 +42,12 @@ app.use(cors({
 app.use('/api/create-key', create);
 app.use('/api/login', login);
 app.use('/api/account', accountRoutes);
-// app.use('/api/', requireAuth);
-app.use('/api/public', requireAuth, publicRoutes);
-console.log("rankingRoutes loaded:", requireAuth, rankingRoutes);
-app.use('/api/ranking', requireAuth, rankingRoutes);
-app.use('/api/transactions', requireAuth, transactionRoutes); 
-app.use('/', requireAuth, frontendRoutes);
+app.use('/api/', requireAuth);
+app.use('/api/public', publicRoutes);
+console.log("rankingRoutes loaded:", rankingRoutes);
+app.use('/api/ranking', rankingRoutes);
+app.use('/api/transactions', transactionRoutes); 
+app.use('/', frontendRoutes);
 
 
 const PORT = process.env.PORT || 8000;
