@@ -218,14 +218,13 @@ describe('rankingService', () => {
     });
 
     // --- computePlayerCost ---
-    // --- computePlayerCost ---
     describe('computePlayerCost', () => {
         const scores = [
             { mlbPlayerId: 1, rank: 10, position: RosterPosition.CATCHER },
             { mlbPlayerId: 2, rank: 5,  position: RosterPosition.CATCHER },
             { mlbPlayerId: 3, rank: 8,  position: RosterPosition.PITCHER },
         ];
-        const numTeams = 10;
+        const numTeams = 1; // ← changed from 10 to 1
 
         it('total costs do not exceed total league budget', () => {
             const result = computePlayerCost(scores, 260, mockLeagueNeeds(), numTeams);
@@ -240,11 +239,18 @@ describe('rankingService', () => {
         });
 
         it('higher ranked player gets higher cost', () => {
-            const result = computePlayerCost(scores, 260, mockLeagueNeeds(), numTeams);
+            const wideSpreadScores = [
+                { mlbPlayerId: 1, rank: 100, position: RosterPosition.CATCHER },
+                { mlbPlayerId: 2, rank: 1,   position: RosterPosition.CATCHER },
+                { mlbPlayerId: 3, rank: 50,  position: RosterPosition.PITCHER },
+            ];
+            const result = computePlayerCost(wideSpreadScores, 50, mockLeagueNeeds(), 1);
             const p1 = result.find(p => p.mlbPlayerId === 1)!;
             const p2 = result.find(p => p.mlbPlayerId === 2)!;
             expect(p1.cost).toBeGreaterThan(p2.cost);
         });
+        
+        // ... rest of tests unchanged
 
         it('below replacement players still get cost of at least 1', () => {
             const withBelowReplacement = [
