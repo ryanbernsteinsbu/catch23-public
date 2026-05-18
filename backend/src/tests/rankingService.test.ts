@@ -218,30 +218,54 @@ describe('rankingService', () => {
     });
 
     // --- computePlayerCost ---
+    // --- computePlayerCost ---
     describe('computePlayerCost', () => {
         const scores = [
             { mlbPlayerId: 1, rank: 10, position: RosterPosition.CATCHER },
             { mlbPlayerId: 2, rank: 5,  position: RosterPosition.CATCHER },
             { mlbPlayerId: 3, rank: 8,  position: RosterPosition.PITCHER },
         ];
+        const numTeams = 10;
 
-        it('total costs do not exceed budget', () => {
-            const result = computePlayerCost(scores, 260, mockLeagueNeeds());
+        it('total costs do not exceed total league budget', () => {
+            const result = computePlayerCost(scores, 260, mockLeagueNeeds(), numTeams);
             const total = result.reduce((sum, p) => sum + p.cost, 0);
-            expect(total).toBeLessThanOrEqual(260);
+            expect(total).toBeLessThanOrEqual(260 * numTeams);
         });
 
         it('minimum cost is always 1', () => {
             const belowReplacement = [{ mlbPlayerId: 1, rank: -99, position: RosterPosition.CATCHER }];
-            const result = computePlayerCost(belowReplacement, 260, mockLeagueNeeds());
+            const result = computePlayerCost(belowReplacement, 260, mockLeagueNeeds(), numTeams);
             expect(result[0].cost).toBe(1);
         });
 
         it('higher ranked player gets higher cost', () => {
-            const result = computePlayerCost(scores, 260, mockLeagueNeeds());
+            const result = computePlayerCost(scores, 260, mockLeagueNeeds(), numTeams);
             const p1 = result.find(p => p.mlbPlayerId === 1)!;
             const p2 = result.find(p => p.mlbPlayerId === 2)!;
             expect(p1.cost).toBeGreaterThan(p2.cost);
+        });
+
+        it('below replacement players still get cost of at least 1', () => {
+            const withBelowReplacement = [
+                ...scores,
+                { mlbPlayerId: 4, rank: 0.1, position: RosterPosition.CATCHER }, // just above 0, below replacement
+            ];
+            const result = computePlayerCost(withBelowReplacement, 260, mockLeagueNeeds(), numTeams);
+            const p4 = result.find(p => p.mlbPlayerId === 4)!;
+            expect(p4.cost).toBeGreaterThanOrEqual(1);
+        });
+
+        it('below replacement players are priced proportionally to each other', () => {
+            const withBelowReplacement = [
+                ...scores,
+                { mlbPlayerId: 4, rank: 0.5, position: RosterPosition.CATCHER },
+                { mlbPlayerId: 5, rank: 0.1, position: RosterPosition.CATCHER },
+            ];
+            const result = computePlayerCost(withBelowReplacement, 260, mockLeagueNeeds(), numTeams);
+            const p4 = result.find(p => p.mlbPlayerId === 4)!;
+            const p5 = result.find(p => p.mlbPlayerId === 5)!;
+            expect(p4.cost).toBeGreaterThanOrEqual(p5.cost);
         });
     });
 
