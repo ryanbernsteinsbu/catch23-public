@@ -77,6 +77,8 @@ const mockPlayer = (overrides = {}) => ({
 
 beforeEach(() => jest.clearAllMocks());
 
+// ... all mocks stay exactly the same ...
+
 // --- POST /api/ranking/rank ---
 describe('POST /api/ranking/rank', () => {
     it('returns 200 with ranked players', async () => {
@@ -120,7 +122,12 @@ describe('POST /api/ranking/ranks/dynamic', () => {
         }
     };
 
-    it('returns 200 with ranked players for a valid league', async () => {
+    const mockTeams = [
+        { id: 1, players: [] },
+        { id: 2, players: [] }
+    ];
+
+    it('returns 200 with ranked players for a valid league (no teams)', async () => {
         mockedRepo.findAllPlayers.mockResolvedValue([mockPlayer()] as any);
 
         const response = await request(app)
@@ -132,6 +139,21 @@ describe('POST /api/ranking/ranks/dynamic', () => {
         expect(response.body[0]).toHaveProperty('mlbPlayerId');
         expect(response.body[0]).toHaveProperty('rank');
         expect(response.body[0]).toHaveProperty('cost');
+    });
+
+    it('returns 200 with ranked players when teams are present', async () => {
+        mockedRepo.findAllPlayers.mockResolvedValue([mockPlayer()] as any);
+
+        const response = await request(app)
+            .post('/api/ranking/ranks/dynamic')
+            .send({ ...mockLeagueBody, teams: mockTeams });
+
+        expect(response.status).toBe(200);
+        expect(Array.isArray(response.body)).toBe(true);
+        expect(response.body[0]).toHaveProperty('mlbPlayerId');
+        expect(response.body[0]).toHaveProperty('rank');
+        expect(response.body[0]).toHaveProperty('cost');
+        expect(response.body[0]).toHaveProperty('name');
     });
 
     it('returns 404 when repository throws', async () => {
@@ -153,10 +175,30 @@ describe('POST /api/ranking/ranks/dynamic', () => {
         const response = await request(app)
             .post('/api/ranking/ranks/dynamic')
             .send({ 
-                ...mockLeagueBody, 
-                teams: [],  // empty array instead of undefined
+                ...mockLeagueBody,
+                teams: mockTeams,  // use teams with actual length so numTeams > 0
                 playerSettings: { division: 'AL' } 
             });
+
+        expect(response.status).toBe(200);
+        const ids = response.body.map((p: any) => p.mlbPlayerId);
+        expect(ids).toContain(101);
+        expect(ids).not.toContain(102);
+    });
+
+    it('excludes already drafted players when teams have players', async () => {
+        const player1 = mockPlayer({ mlbPlayerId: 101 });
+        const player2 = mockPlayer({ id: 2, mlbPlayerId: 102 });
+        mockedRepo.findAllPlayers.mockResolvedValue([player1, player2] as any);
+
+        const teamsWithDraftedPlayer = [
+            { id: 1, players: [{ player_id: 102, rosterPosition: 'CATCHER' }] },
+            { id: 2, players: [] }
+        ];
+
+        const response = await request(app)
+            .post('/api/ranking/ranks/dynamic')
+            .send({ ...mockLeagueBody, teams: teamsWithDraftedPlayer });
 
         expect(response.status).toBe(200);
         const ids = response.body.map((p: any) => p.mlbPlayerId);
