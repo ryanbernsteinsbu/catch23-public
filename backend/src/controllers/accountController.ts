@@ -96,3 +96,18 @@ export const getLoggedInInfo = async(req: Request, res: Response) => {
         res.status(401).json({ error: "Invalid token" });
     }
 }
+
+export const deleteAccount = async (req: Request, res: Response) => {
+    try {
+        const token = req.headers["x-token"] as string;
+        const email = req.headers["x-email"] as string;
+        if (!token || !email) return res.status(400).json({ error: "Missing headers" });
+        jwt.verify(token, process.env.JWT_SECRET!);
+        const user = await findApiUserByEmail(email);
+        if (!user) return res.status(404).json({ error: "User not found" });
+        await user.destroy();
+        res.json({ message: "Account deleted" });
+    } catch {
+        res.status(401).json({ error: "Invalid token" });
+    }
+};
