@@ -45,7 +45,7 @@ export const DEFAULT_LEAGUE_NEEDS: Record<RosterPosition, number> = {
 //////////////////////
 export const getAllPlayerRanks = async(): Promise<{mlbPlayerId: number, rank: number, cost: number}[]> => {
     const players = await findAllPlayers();
-    return getPlayerRanksAndCost(260, players, DEFAULT_LEAGUE_NEEDS, DEFAULT_SCORING_SETTINGS);
+    return getPlayerRanksAndCost(260, players, DEFAULT_LEAGUE_NEEDS, DEFAULT_SCORING_SETTINGS, 10);
 }
 
 export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlayerId: number, rank: number, cost:number}[]> => {
@@ -70,7 +70,7 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
             [RosterPosition.PITCHER]: league.rosterSettings.numPitchers
         }
         
-        return getPlayerRanksAndCost(league.draftSettings.budget, divisionFiltered, league_needs, league.scoringSettings);
+        return getPlayerRanksAndCost(league.draftSettings.budget, divisionFiltered, league_needs, league.scoringSettings, 10);
     }
     
     const teamInformation = await getTeamInfo(league.teams);
@@ -84,7 +84,7 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
     }
     const leagueNeeds = getLeagueNeeds(allTeamNeeds)
 
-    const ranks = getPlayerRanksAndCost(league.draftSettings.budget, activePlayers, leagueNeeds, league.scoringSettings);
+    const ranks = getPlayerRanksAndCost(league.draftSettings.budget, activePlayers, leagueNeeds, league.scoringSettings, league.teams.length);
     
     const ranksWithNames = ranks.map(r => {
         const player = activePlayers.find(p => p.mlbPlayerId === r.mlbPlayerId);
@@ -100,7 +100,7 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
 ///////////////////////
 // MAJOR FUNCTIONS
 //////////////////////
-export const getPlayerRanksAndCost = (totalBudget: number = 260, players: Player[], leagueNeeds: Record<RosterPosition, number>, scoringSettings: ScoringSettings): {mlbPlayerId: number, rank: number, cost: number}[] => {
+export const getPlayerRanksAndCost = (totalBudget: number = 260, players: Player[], leagueNeeds: Record<RosterPosition, number>, scoringSettings: ScoringSettings, numTeams: number): {mlbPlayerId: number, rank: number, cost: number}[] => {
     const validPlayers = players.filter(p =>
         p.lastYearStats != null && Object.keys(p.lastYearStats).length > 0 &&
         p.threeYearAvg != null && Object.keys(p.threeYearAvg).length > 0 &&
@@ -109,17 +109,12 @@ export const getPlayerRanksAndCost = (totalBudget: number = 260, players: Player
 
     const leagueStats = getLeagueStats(validPlayers);
     const playerScores = computePlayerScores(validPlayers, leagueStats, scoringSettings, leagueNeeds)
-    const playerCost = computePlayerCost(playerScores, totalBudget, leagueNeeds)
+    const playerCost = computePlayerCost(playerScores, totalBudget, leagueNeeds, numTeams)
     return playerCost
 }
 
 export const computePlayerScores = (players: Player[], leagueStats: ReturnType<typeof getLeagueStats>, scoringSettings: ScoringSettings, leagueNeeds: Record<RosterPosition, number>): {mlbPlayerId: number, rank: number, position: RosterPosition}[] => {    
-    const rawScores = players.filter(players =>
-        players.lastYearStats != null && Object.keys(players.lastYearStats).length > 0 &&
-        players.threeYearAvg != null && Object.keys(players.threeYearAvg).length > 0 &&
-        players.projectedStats != null && Object.keys(players.projectedStats).length > 0
-        )
-        .map(player => {
+    const rawScores = players.map(player => {
         const playerStats = {
             lastYearStats: player.lastYearStats,
             threeYearAvg: player.threeYearAvg,
@@ -165,20 +160,25 @@ export const computePlayerScores = (players: Player[], leagueStats: ReturnType<t
     return rawScores.map(player => {
         const scarcityMults = player.scarcityPositions.map(pos => {
             const positionGroup = rawScores.filter(p => p.scarcityPositions.includes(pos));
-            return getScarcity(positionGroup, leagueNeeds[pos]);
+            return {pos, mult: getScarcity(positionGroup, leagueNeeds[pos])};
         });
-        const bestScarcity = player.scarcityPositions.length > 0
-            ? Math.max(...scarcityMults) : 1.0;
+        const bestScarcityPos = player.scarcityPositions.length > 0
+            ? scarcityMults.reduce((a, b) => a.mult > b.mult ? a : b).pos
+            : player.primaryPosition;
+
+        const bestScarcity = scarcityMults.length > 0
+            ? Math.max(...scarcityMults.map(s => s.mult))
+            : 1.0;
 
         return {
             mlbPlayerId: player.mlbPlayerId, // returning mlbPlayerId as before
             rank: player.rank * bestScarcity,
-            position: player.primaryPosition
+            position: bestScarcityPos
         };
     });
 }
 
-export const computePlayerCost = (playerScores: {mlbPlayerId: number, rank: number, position: RosterPosition}[], totalBudget: number, leagueNeeds: Record<RosterPosition, number>) => {
+export const computePlayerCost = (playerScores: {mlbPlayerId: number, rank: number, position: RosterPosition}[], totalBudget: number, leagueNeeds: Record<RosterPosition, number>, numTeams: number) => {
     const replacementScores: Record<RosterPosition, number> = {} as Record<RosterPosition, number>
     for(const position in leagueNeeds) {
         const rosterPosition = position as RosterPosition
@@ -199,16 +199,36 @@ export const computePlayerCost = (playerScores: {mlbPlayerId: number, rank: numb
         replacementScores[rosterPosition] = getReplacementPlayerScore(positionPlayers, leagueNeeds[rosterPosition])
     }
 
-    const surpluses = playerScores.map(p => Math.max(0, p.rank - (replacementScores[p.position] ?? 0)))
-    const totalSurplus = surpluses.reduce((sum, v) => sum + v, 0)
+    const totalLeagueBudget = totalBudget * numTeams;
+    const belowReplacementBudget = Math.round(totalLeagueBudget * 0.10);
+    const aboveReplacementBudget = totalLeagueBudget - belowReplacementBudget;
+
+    const surpluses = playerScores.map(p => Math.max(0, p.rank - (replacementScores[p.position] ?? 0)));
+    const totalSurplus = surpluses.reduce((sum, v) => sum + v, 0);
+
+    const deficits = playerScores.map((p, i) => surpluses[i] === 0 ? Math.max(0, p.rank) : 0);
+    const totalDeficit = deficits.reduce((sum, v) => sum + v, 0);
+
     if(totalSurplus === 0) return playerScores.map(p => ({...p, cost:1}));
     
-    return playerScores.map((player, i) => ({
-        mlbPlayerId: player.mlbPlayerId,
-        rank: player.rank,
-        cost: Math.max(1, Math.round((surpluses[i]/totalSurplus) * totalBudget)
-        )
-    }));
+    return playerScores.map((player, i) => {
+        if(surpluses[i] > 0) {
+            return {
+                mlbPlayerId: player.mlbPlayerId,
+                rank: player.rank,
+                cost: Math.max(1, Math.round((surpluses[i]/totalSurplus) * aboveReplacementBudget))
+            };
+        } else {
+            const cost = totalDeficit === 0
+                ? 1
+                : Math.max(1, Math.round((deficits[i] / totalDeficit) * belowReplacementBudget));
+            return {
+                mlbPlayerId: player.mlbPlayerId,
+                rank: player.rank,
+                cost
+            }
+        }  
+    });
 }
 
 ///////////////////////
