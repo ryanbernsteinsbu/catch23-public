@@ -9,6 +9,7 @@ import frontendRoutes from './routes/frontendRoutes';
 import Player from './models/player';
 import rankingRoutes from './routes/rankingRoutes';
 import transactionRoutes from './routes/transactionRoutes';
+import accountRoutes from './routes/accountRoutes';
 import { attachWSS, startPoller } from './services/transactionPoller';
 import { create, login } from './controllers/accountController';
 
@@ -40,6 +41,7 @@ app.use(cors({
 // Routes
 app.use('/api/create-key', create);
 app.use('/api/login', login);
+app.use('/api/account', accountRoutes);
 app.use('/api/', requireAuth);
 app.use('/api/public', publicRoutes);
 console.log("rankingRoutes loaded:", rankingRoutes);

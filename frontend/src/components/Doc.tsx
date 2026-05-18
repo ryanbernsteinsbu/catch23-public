@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import crypto from 'crypto';
 
 interface DocProps {
   email: string;
@@ -11,21 +10,51 @@ interface DocProps {
 export default function Doc({ email, token, onLogout }: DocProps) {
   const [usage, setUsage] = useState<number | null> (null);
   const [apiKey, setApiKey] = useState<string | null> (null);
+  const [keyVisible, setKeyVisible] = useState(false);
+  const [regenerating, setRegenerating] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
   useEffect(() => {
-    const apiKey = process.env.NEXT_PUBLIC_API_KEY;
-    
-    if(apiKey)
-      setApiKey(apiKey)
+    const fetchUserInfo = async () => {
+        try {
+            const r = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/user/logged-in`, {
+                headers: {
+                    "x-token": token,
+                    "x-email": email
+                }
+            });
+            const data = await r.json();
+            setApiKey(data.key);
+            setUsage(data.usage);
+        } catch {
+            setApiKey("Could not load API key");
+            setUsage(0);
+        }
+    };
 
-    // fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/user-info/${encodeURIComponent(email)}`, {
-    //   headers: { "x-email": email, "x-signature": token}})
-    //   .then((r) => r.json())
-    //   .then((data) => {setApiKey(data.key); setUsage(data.usage);})
-    //   .catch(() => {setApiKey("Cannot find API key"), setUsage(0)});
-  }, [apiKey]);
+    fetchUserInfo();
+  }, []);
+
+
+  const handleDelete = async() => {
+    setDeleting(true);
+    try {
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/account/delete`, {
+        method: "DELETE",
+        headers: { "x-token": token, "x-email": email }
+      })
+      onLogout();
+    } catch {
+      alert("Failed to delete account.");
+    } finally {
+      setDeleting(false);
+      setShowDeleteConfirm(false);
+    }
+  };
 
   const displayName = email.split("@")[0];
+  const maskedKey = apiKey ? `••••••••••••${apiKey.slice(-4)}`: "Loading..."
 
   return (
     <div className="doc-page">
@@ -34,7 +63,10 @@ export default function Doc({ email, token, onLogout }: DocProps) {
         <div>
           <p className="doc-section-label">API Key</p>
           <div className="doc-key-box">
-            <code>{apiKey ?? "Loading..."}</code>
+            <code>{keyVisible ? apiKey : maskedKey}</code>
+            <button className="copy-btn" onClick={() => setKeyVisible(v => !v)}>
+              {keyVisible ? "Hide" : "Show"}
+            </button>
             <button className="copy-btn" onClick={() => navigator.clipboard.writeText(apiKey ?? "")}>
               Copy
             </button>
@@ -47,6 +79,22 @@ export default function Doc({ email, token, onLogout }: DocProps) {
         </div>
 
         <button className="doc-logout" onClick={onLogout}>Log Out</button>
+
+        {!showDeleteConfirm ? (
+          <button className="doc-logout" onClick={() => setShowDeleteConfirm(true)}>
+            Delete Account
+          </button>
+        ) : (
+          <div className="doc-delete-confirm">
+            <p>Are you sure? This cannot be undone.</p>
+            <button className="copy-btn" onClick={handleDelete} disabled={deleting}>
+              {deleting ? "Deleting..." : "Yes, delete my account"}
+            </button>
+            <button className="copy-btn" onClick={() => setShowDeleteConfirm(false)}>
+              Cancel
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
