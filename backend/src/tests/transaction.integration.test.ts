@@ -21,8 +21,11 @@ jest.mock('../repositories/apiUserRepository', () => ({
 }));
 
 jest.mock('../controllers/accountController', () => ({
-    create: jest.fn((req: any, res: any) => res.status(200).json({})),
-    login:  jest.fn((req: any, res: any) => res.status(200).json({}))
+    create:           jest.fn((req: any, res: any) => res.status(200).json({})),
+    login:            jest.fn((req: any, res: any) => res.status(200).json({})),
+    getUserByEmail:   jest.fn((req: any, res: any) => res.status(200).json({})),
+    getLoggedInInfo:  jest.fn((req: any, res: any) => res.status(200).json({})),
+    deleteAccount:    jest.fn((req: any, res: any) => res.status(200).json({})),
 }));
 
 // Mock the poller so we control what getTransactionHistory returns
