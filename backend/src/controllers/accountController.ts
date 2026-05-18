@@ -83,9 +83,10 @@ export const getLoggedInInfo = async(req: Request, res: Response) => {
     try {
         const token = req.headers["x-token"] as string;
         const email = req.headers["x-email"] as string;
-
+        console.log(token);
+        console.log(email);
         if (!email) return res.status(400).json({ error: "Missing header email"});
-        if (!token) return res.status(400).json({ error: "Missing headers token"});
+        if (!token) return res.status(400).json({ error: "Missing header token"});
 
         jwt.verify(token, process.env.JWT_SECRET!);
 
