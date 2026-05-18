@@ -101,11 +101,24 @@ export const getAllUpdatedPlayerRanks = async(league: League): Promise<{mlbPlaye
 // MAJOR FUNCTIONS
 //////////////////////
 export const getPlayerRanksAndCost = (totalBudget: number = 260, players: Player[], leagueNeeds: Record<RosterPosition, number>, scoringSettings: ScoringSettings, numTeams: number): {mlbPlayerId: number, rank: number, cost: number}[] => {
-    const validPlayers = players.filter(p =>
-        p.lastYearStats != null && Object.keys(p.lastYearStats).length > 0 &&
-        p.threeYearAvg != null && Object.keys(p.threeYearAvg).length > 0 &&
-        p.projectedStats != null && Object.keys(p.projectedStats).length > 0
-    );
+    // Fallback: if a stat set is missing, use another available one
+    players.forEach(p => {
+        if (scoringSettings.useThreeYearAvg && (p.threeYearAvg == null || Object.keys(p.threeYearAvg).length === 0)) {
+            p.threeYearAvg = p.lastYearStats;
+        }
+        if (scoringSettings.useLastYear && (p.lastYearStats == null || Object.keys(p.lastYearStats).length === 0)) {
+            p.lastYearStats = p.threeYearAvg;
+        }
+        if (scoringSettings.useProjected && (p.projectedStats == null || Object.keys(p.projectedStats).length === 0)) {
+            p.projectedStats = p.threeYearAvg ?? p.lastYearStats;
+        }
+    });
+const validPlayers = players.filter(p => {
+    if (scoringSettings.useLastYear && (p.lastYearStats == null || Object.keys(p.lastYearStats).length === 0)) return false;
+    if (scoringSettings.useThreeYearAvg && (p.threeYearAvg == null || Object.keys(p.threeYearAvg).length === 0)) return false;
+    if (scoringSettings.useProjected && (p.projectedStats == null || Object.keys(p.projectedStats).length === 0)) return false;
+    return true;
+});
 
     const leagueStats = getLeagueStats(validPlayers);
     const playerScores = computePlayerScores(validPlayers, leagueStats, scoringSettings, leagueNeeds)
@@ -126,9 +139,11 @@ export const computePlayerScores = (players: Player[], leagueStats: ReturnType<t
             : getPitchingScore(playerStats, leagueStats.pitchers, scoringSettings);
         
         const activeWindows = (scoringSettings.useLastYear? 1 : 0) + (scoringSettings.useThreeYearAvg? 1 : 0) + (scoringSettings.useProjected? 1 : 0)
-        var rank = (score['lastYearStats'] * (scoringSettings.useLastYear? 1 : 0) + score['threeYearAvg'] * (scoringSettings.useThreeYearAvg? 1: 0) + score['projectedStats'] * (scoringSettings.useProjected? 1: 0))/activeWindows
-
-        // AGE ADJUSTMENT
+        var rank = ((score['lastYearStats'] ?? 0) * (scoringSettings.useLastYear? 1 : 0) + 
+                    (score['threeYearAvg'] ?? 0) * (scoringSettings.useThreeYearAvg? 1: 0) + 
+                    (score['projectedStats'] ?? 0) * (scoringSettings.useProjected? 1: 0)) / activeWindows
+        
+                    // AGE ADJUSTMENT
         if(player.age !=null && player.age<=22) rank *= 1.1;
         else if(player.age !=null && player.age > 22 && player.age<=25) rank *= 1.05;
         else if(player.age !=null && player.age > 31 && player.age<=35) rank *= 0.95;
@@ -366,23 +381,25 @@ export const getLeagueSummary = (players: Player[]): Record<string, Record<strin
     if (players.length === 0) return {};
 
     const statSets = ['lastYearStats', 'threeYearAvg', 'projectedStats'] as const;
-    const summary: Record<string, Record<string, {min: number, max: number, avg: number, sd: number}>> = {}; // e.g., lastYearStats: { G: {min: 10, max: 11, avg: 10.5}}
+    const summary: Record<string, Record<string, {min: number, max: number, avg: number, sd: number}>> = {};
 
     for(const statSet of statSets) {
-        const allStats = players.map(player => player[statSet]); // Get the data from the particular player stat
-        const statLabels = Object.keys(allStats[0])
+        const allStats = players.map(player => player[statSet]).filter(s => s != null && Object.keys(s).length > 0);
+        
+        if (allStats.length === 0) continue; // ← skip missing stat sets entirely
 
+        const statLabels = Object.keys(allStats[0]);
         summary[statSet] = {};
 
-        for(const statLabel of statLabels) { // Going through each individual stat
-            const values = allStats.map(s => Number(s[statLabel])).filter(v => v !== null && v !== undefined); // Getting the proper stat for each player (minus the ones that are null)
-            const avg = values.reduce((a,b) => a + b, 0)/ values.length;
+        for(const statLabel of statLabels) {
+            const values = allStats.map(s => Number(s[statLabel])).filter(v => !isNaN(v));
+            const avg = values.reduce((a,b) => a + b, 0) / values.length;
             const variance = values.reduce((sum, v) => sum + Math.pow(v - avg, 2), 0) / values.length;
 
             summary[statSet][statLabel] = {
                 min: Math.min(...values),
                 max: Math.max(...values),
-                avg: avg,
+                avg,
                 sd: Math.sqrt(variance)
             };
         }

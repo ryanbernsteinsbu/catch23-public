@@ -2,7 +2,7 @@ const crypto = require("crypto");
 const fs = require("fs");
 
 const apiKey = "62d3d460d0a024bb";
-const body = JSON.parse(fs.readFileSync(__dirname + "/preDraft.json", "utf8"));
+const body = JSON.parse(fs.readFileSync(__dirname + "/postDraft_pick50.json", "utf8"));
 const payload = JSON.stringify(body.league);
 
 const signature = crypto
